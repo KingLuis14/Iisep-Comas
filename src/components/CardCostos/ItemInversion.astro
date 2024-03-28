@@ -1,0 +1,43 @@
+---
+interface Props {
+    propiedad: string;
+    valor: string;
+    colorValor: string;
+}
+
+const { propiedad, valor , colorValor } = Astro.props;
+import { Icon } from "astro-icon/components";
+---
+
+<li class="Item">
+    <span class="Item__Icono">
+        <Icon name="CheckIcon" size={21} />
+    </span>
+   {propiedad}
+    <span class="Item__Valor">
+        {valor}
+    </span>
+</li>
+
+<style lang="scss" define:vars={{ colorValor }}>
+    .Item {
+        display: flex;
+        align-items: start;
+        gap: 0.7rem;
+
+        &__Icono {
+            margin-top: .11rem;
+            flex-shrink: 0;
+            color: var(--color-Secondary);
+            // background-color: rgb(246, 143, 143);
+            line-height: normal;
+        }
+
+        &__Valor{
+            color: white;
+            background-color: var(--colorValor);
+            padding-inline: .5rem;
+        }
+        
+    }
+</style>

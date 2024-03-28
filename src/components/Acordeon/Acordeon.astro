@@ -1,0 +1,117 @@
+---
+interface Props {
+    numModulo: number;
+    modulo: string;
+    temario: String[];
+}
+
+import ItemAcordeon from "./ItemAcordeon.astro";
+import { Icon } from "astro-icon/components";
+
+const { numModulo, modulo, temario } = Astro.props;
+---
+
+<article class="Acordeon">
+    <header class="Acordeon__Header" id="TemarioHeader">
+        Modulo {numModulo} : {modulo}
+        <span class="Acordeon__Boton">
+            <Icon name="ArrowIcon" class:list={[{rotate: numModulo === 1}]} size={21} />
+        </span>
+    </header>
+    <!-- <div class="Acordeon__Contenido" id="Temario"> -->
+    <div class:list={['Acordeon__Contenido', { isOpen: numModulo === 1 }]} id="Temario">
+        <div class="Contenido-Expandido">
+            <ul class="Acordeon__lista">
+                {
+                    temario.map((tema) => {
+                        return <ItemAcordeon tema={tema} />;
+                    })
+                }
+            </ul>
+        </div>
+    </div>
+</article>
+
+<style lang="scss">
+    .Acordeon {
+        display: grid;
+        border-bottom: 1px solid #636363;
+
+        &__Header {
+            padding: 1rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            gap: 0.5rem;
+            font-weight: 700;
+        }
+
+        &__Contenido {
+            display: grid;
+            will-change: grid-template-rows;
+            grid-template-rows: 0fr;
+            overflow: hidden;
+            transition: grid-template-rows 0.2s linear;
+
+            &.isOpen {
+                grid-template-rows: 1fr;
+            }
+
+            &.isOpen .Contenido-Expandido {
+                visibility: visible;
+            }
+        }
+
+        &__lista {
+            padding-inline: 1rem;
+            padding-bottom: 1rem;
+            display: grid;
+            grid-auto-rows: min-content;
+            gap: 0.5rem;
+        }
+
+        &__Boton{
+            display: flex;
+            align-items: center;
+            > svg {
+                transform: rotate(180deg);
+                transition: transform 0.2s linear;
+                pointer-events: none;
+
+                &.rotate {
+                    transform: rotate(0deg);
+                }
+            }
+        }
+    }
+
+    .Contenido-Expandido {
+        min-height: 0;
+        visibility: hidden;
+        transition: visibility 0.2s;
+    }
+</style>
+
+<script>
+    const SectionAcordeon = document.getElementById("Section-Acordeon");
+
+    SectionAcordeon.addEventListener("click", (e) => {
+        const element = e.target as HTMLElement;
+        const nextElement = element.nextElementSibling;
+
+        if (element.className === "Acordeon__Header") {
+            const Arrow = element.querySelector("span svg");
+            Arrow.classList.toggle("rotate");
+            nextElement.classList.toggle("isOpen");
+        }
+        if (element.className === "Acordeon__Boton") {
+            const padre = element.parentElement;
+            const Arrow = element.querySelector("svg");
+            const nextElement2 = padre.nextElementSibling;
+            Arrow.classList.toggle("rotate");
+            console.log(Arrow);
+            nextElement2.classList.toggle("isOpen");
+        }
+    });
+</script>

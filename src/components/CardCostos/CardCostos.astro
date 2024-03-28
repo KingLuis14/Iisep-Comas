@@ -1,0 +1,94 @@
+---
+import ItemAcordeon from "../Acordeon/ItemAcordeon.astro";
+import ItemInversion from "./ItemInversion.astro";
+
+interface Inversion {
+    Promo: string;
+    PriCuota: string;
+    Duracion: number;
+    Acreditacion: string;
+    Mensualidad: number;
+    AcreditacionCosto: number;
+}
+
+interface Props {
+    inversion: Inversion;
+    beneficios: string[];
+}
+
+
+
+const { inversion, beneficios } = Astro.props;
+const {Acreditacion , Duracion, Mensualidad, PriCuota, Promo, AcreditacionCosto} = inversion;
+
+
+// const { inversion } = ArrayCostos;
+---
+
+<article class="Card-Costo">
+    <header class="Card-Costo__Titulo">
+        <h2>{Promo}</h2>
+    </header>
+    <div class="Card-Costo__Inversion">
+        <h3 class="Card-Costo__SubTitulo">Inversión</h3>
+        <ul class="Card__lista">
+            <ItemInversion propiedad="Matricula :" valor={"Gratis"} colorValor="red"/>
+            <ItemInversion propiedad="Inscripción :" valor={"Gratis"} colorValor="red"/>
+            <ItemInversion propiedad="1° Cuota :" valor={PriCuota} colorValor="rgb(16, 180, 1)"/>
+            <ItemAcordeon tema={`Mensualidades (${Duracion}) : S/${Mensualidad}`}/>
+            <ItemAcordeon tema={`${Acreditacion} : S/${AcreditacionCosto}`}/>
+        </ul>
+    </div>
+    <footer class="Card-Costo__Beneficios">
+        <h3 class="Card-Costo__SubTitulo">Beneficios</h3>
+        <ul class="Card__lista">
+            <ItemAcordeon tema={"Sin Costo de Matrícula"}/>
+            <ItemAcordeon tema={"Sin costo de Inscripción"}/>
+            <ItemAcordeon tema={"Carnet de Asistencia"}/>
+            <ItemAcordeon tema={"Entregamos Libro físico cada mes"}/>
+            {
+                beneficios.map((beneficio) =>{
+                    return <ItemAcordeon tema={beneficio}/>
+                })
+            }
+            <ItemAcordeon tema={"Soporte educativo mediante WhatsApp"}/>
+            <ItemAcordeon tema={"Acceso a capacitaciones y a certificaciones"}/>
+        </ul>
+    </footer>
+</article>
+
+<style lang="scss" >
+    .Card-Costo {
+        --filas: 1;
+
+        flex-basis: calc((100% - (var(--filas) - 1) * 2rem) / var(--filas));
+        background-color: rgb(254, 254, 254);
+        box-shadow: 0 0 7px 4px rgb(237, 236, 236);
+        backdrop-filter: blur(10px);
+        // color: white;
+        display: grid;
+        gap: 1rem;
+        padding: 1rem;
+
+        &__Titulo {
+            text-align: center;
+        }
+
+        &__SubTitulo {
+            padding-block: 0.6rem;
+        }
+
+        @media (width > 768px) {
+            --filas: 2;
+        }
+        @media (width > 1024px) {
+            --filas: 3;
+        }
+    }
+
+    .Card__lista {
+        display: grid;
+        grid-auto-rows: min-content;
+        gap: 0.5rem;
+    }
+</style>

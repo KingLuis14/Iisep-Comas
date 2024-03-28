@@ -1,0 +1,83 @@
+---
+import DataCursos from "../../data/DataCursos.json";
+import Layout from "../../components/Layout.astro";
+import HeroImgCss from '../../components/HeroImgCss/HeroImgCss.astro';
+import Acordeon from '../../components/Acordeon/Acordeon.astro';
+import CardCostos from '../../components/CardCostos/CardCostos.astro';
+import CardUbicacion from '../../components/CardUbicacion/CardUbicacion.astro';
+
+export async function getStaticPaths() {
+
+    const {data} = DataCursos;
+    return data.map( (curso) => {
+        return {
+            params: { programa: curso.id },
+            props: curso
+        }
+    })
+}
+
+const {titulo, texto, imagen , precio , categoria,colorCategoria, malla, costos} = Astro.props;
+---
+
+<Layout titulo={titulo} descripction={texto}>
+    <HeroImgCss titulo={titulo} description={texto} imagen={imagen} categoria={categoria}/>
+    <section id="Section-Acordeon">
+        <div class="Acordeon-Container wrapper">
+            <h2 class="titleSection" style="grid-area:titulo;">Malla Curricular</h2>
+            <div style="grid-area:malla">
+                {
+                    function () {
+                    let Mallas = [];
+                    let num = 0;
+                        for (let modulo in malla){
+                                num++;   
+                                const { nombre: NomModulo , temario } = malla[modulo]; 
+                                Mallas.push(<Acordeon numModulo={num} modulo={NomModulo} temario={temario} />)   
+                            }  
+                        return Mallas
+                    }()  
+                }
+            </div>
+            <CardUbicacion />
+        </div>
+    </section>
+    <section>
+        <div class="wrapper">
+            <h2 class="titleSection">Costos</h2>
+            <div class="CardCosto-Container">
+                {
+                    costos.map( ({inversion , beneficios}) =>{
+                        return <CardCostos inversion={inversion} beneficios={beneficios} />
+                    })
+                }
+            
+            </div>
+        </div>
+    </section>
+</Layout>
+
+
+<style lang="scss">
+    .Acordeon-Container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas: "titulo"
+                             "malla"
+                             "ubicacion";
+
+        @media (width > 640px) {
+
+            grid-template-columns: 6fr 4fr;
+            grid-template-areas: "titulo titulo"
+                             "malla ubicacion";
+        }
+    }
+
+    .CardCosto-Container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+</style>

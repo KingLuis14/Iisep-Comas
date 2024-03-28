@@ -1,0 +1,32 @@
+---
+
+// interface Beneficios {
+//   icon: string;
+//   text: string;
+// }
+
+// interface Props {
+//   beneficio: Beneficios[];
+// }
+
+import Styles from "./styles.module.scss";
+const { array } =  Astro.props;
+
+import { Icon } from 'astro-icon/components';
+---
+
+<div class={ Styles.container}>
+
+    {
+        array.map( ({ icono , texto }) => {
+            return <article class={ Styles.contenido}>
+                        <span class={ Styles.Icon}>
+                            <Icon name={icono} size={35} />  
+                        </span>
+                        <p class={ Styles.parrafo}> { texto }</p>
+                    </article>
+        })
+    }
+    
+</div>
+

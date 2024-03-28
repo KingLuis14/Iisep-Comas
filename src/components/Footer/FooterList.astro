@@ -1,0 +1,47 @@
+---
+interface Props {
+    categoria: string;
+    itemsCategoria: [{nombre: string , url: string}]
+}
+
+const { categoria, itemsCategoria } = Astro.props;
+---
+
+<nav>
+    <h4>{ categoria }</h4>
+    <ul>
+        {
+            itemsCategoria.map( ({ nombre , url }) => {
+                return <li>
+                        <a href={"/programas-estudio/" + url }>{ nombre }</a>    
+                    </li>
+            })
+        }
+    </ul>
+</nav>
+
+<style lang="scss">
+    nav {
+        color: white;
+        display: grid;
+        grid-template-rows: min-content 1fr;
+        // background-color: yellowgreen;
+        gap: 0.8rem;
+    }
+
+    h4 {
+        line-height: normal;
+    }
+
+    ul{
+        display: grid;
+        align-content: start;
+        gap: .4rem;
+    }
+
+    a {
+        color: inherit;
+        opacity: 0.7;
+        font-size: var(--step--1);
+    }
+</style>

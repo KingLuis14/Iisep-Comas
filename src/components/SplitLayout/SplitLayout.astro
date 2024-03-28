@@ -1,0 +1,16 @@
+---
+    import Styles from "./SplitLayout.module.scss";
+
+    const { arrayInfo, index} = Astro.props;
+    const { title , description , img , imgDirection = "left" } = arrayInfo;
+---
+
+<article class:list={`${Styles.container} ${imgDirection === "rigth" && Styles.imgDirection}`} >
+    <div style="overflow: hidden ; border-radius: 1rem; grid-area: imagen;">
+        <img class={ Styles.img } src={ img } alt={ title } fetchpriority="low" decoding="async">
+    </div>
+    <div class={ Styles.contenido }>
+        <h3>{index + 1}. { title }</h3>
+        <p>{ description }</p>
+    </div>
+</article>

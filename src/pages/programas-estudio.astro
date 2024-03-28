@@ -1,0 +1,47 @@
+---
+import Layout from '../components/Layout.astro';
+
+//data
+// import DataCursos from "../data/InfoCursos.json";
+import Data from "../data/PageData.json";
+import DataCursos from "../data/DataCursos.json";
+import ItemCurso from '../components/CardCursos/ItemCurso.astro';
+const {data} = DataCursos;
+
+// const { "Carreras Técnicas":CarrerasTecnicas , "Especialidades Auxiliares":EspecialidadAuxiliar , "Especialidades Técnicas":EspecialidadTecnica , Talleres, Cursos } = DataCursos;
+const {nosotros:{titulo , description}} = Data;
+---
+
+<Layout titulo={ titulo } descripction={ description}>
+    <main>
+        <section>
+            <div class="wrapper">
+                <h2 class="titleSection">Programas de Estudio</h2>
+                <article class="Cursos-Container">
+                    {
+                        data.map( ({titulo, precio , texto , imagen , categoria , colorCategoria, id: url}) => {
+                            return <ItemCurso titulo={titulo} texto={texto} categoria={categoria} colorCategoria={colorCategoria} precio={precio} imagen={imagen} url={url}/>
+                        })
+                    }
+                    <!-- <CardCurso ArrayCursos={ CarrerasTecnicas}/> -->
+                </article>
+            </div>
+        </section>
+    </main>
+    
+</Layout>
+    
+<style lang="scss" >
+    .Cursos-Container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+
+        @media (width > 768px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (width > 1024px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+</style>

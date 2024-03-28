@@ -1,0 +1,64 @@
+{
+    "Gastronomia": [
+
+        {
+            "modulo": "Gestion Gastronomica",
+            "temario": [
+                "Técnicas culinarias",
+                "Bromatología y nutrición",
+                "Haccp - Manipulación de alimentos"
+            ]
+        },
+        {
+            "modulo": "Tecnicas Culinarias",
+            "temario": [
+                "Técnicas de vanguardia",
+                "Gestión de restaurantes - Costos",
+                "Pescados y Mariscos",
+                "Técnicas de comedor (etiqueta y protocolo)"
+            ]
+        },
+        {
+            "modulo": "Cocina Nacional",
+            "temario": [
+                "Cocina criolla",
+                "Cocina peruana del norte",
+                "Cocina peruana del centro",
+                "Cocina peruana del sur"
+            ]
+        },
+        {
+            "modulo": "Pasteleria y Reposteria",
+            "temario": [
+                "Pastelería Básica",
+                "Repostería Fina",
+                "Cocina peruana del centro"
+            ]
+        },
+        {
+            "modulo": "Buffet y Bebidas",
+            "temario": [
+                "Tallado y Buffet",
+                "Banquete y Buffet",
+                "Coctelería básica"
+            ]
+        },
+        {
+            "modulo": "Elaboracion de Alimentos",
+            "temario": [
+                "Elaboración de alimentos",
+                "Panadería",
+                "Chocolatería"
+            ]
+        },
+        {
+            "modulo": "Cocina Internacional",
+            "temario": [
+                "Cocina mediterránea",
+                "Cocina latinoamericana",
+                "Cocina Asiática",
+                "Cocina Novo andina - creativo"
+            ]
+        }
+    ]
+}

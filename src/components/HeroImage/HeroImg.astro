@@ -1,0 +1,140 @@
+<div class="blurred-img" >
+    <img
+        style="position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+            object-position: center; background-position: center; background-size: cover;
+            max-width: 100%; max-height: 100%;"
+        role="presentation"
+        fetchpriority="high"
+        class="Hero_Img"
+        src="/assets/logistica-iisep-promocion-BrrYncJF.webp"
+        srcset="/assets/logistica-iisep-promocion-new2.webp 600w, /assets/logistica-iisep-promocion-BrrYncJF.webp 900w"
+        decoding="async"
+        alt="iisep titulo"
+    />
+   
+    <article class="contenido" id="HeroContenido">
+        <div class="wrapper" style="display: grid; place-items: center;  gap: 1.5rem;">
+            <h1 class="superTitulo">IISEP</h1>
+            <p>La oportunidad de estudiar una carrera técnica y lograr tus objetivos.
+            Se un ganador y empieza a estudiar en IISEP
+            </p>
+            <a href="#" class="contenido__boton" >Inscribete</a>
+    </div>
+    </article>
+</div>
+
+<style lang="scss">
+
+    .blurred-img {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-areas: "contenido";
+        overflow: hidden;
+        position: relative;
+        height: calc(100vmin - var(--alto-header)); 
+        min-height: 70svh;
+        // background-color: orange;
+        
+        &::before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;            
+            will-change: opacity;
+            animation: pulse 1s infinite;
+            background-color: white;
+
+            @keyframes pulse {
+                0% {
+                    opacity: 0.1;
+                }
+                50% {
+                    opacity: 0.2;
+                }
+                100% {
+                    opacity: 0.1;
+                }
+            }
+        }
+
+        &.loaded::before {
+            animation: none;
+            content: none;
+        }
+    }
+
+    .Hero_Img{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAAAwBQCdASoUAA0APpE4l0eloyIhMAgAsBIJZACdMoGv/sUBZ2XyUZ5T5Ng2EkvY+BKkyAD+88OHQK3riX9Xt7VFK18h/m7m1g9Unx/ebZ309gm3V9eMNk+DFTlmPp/E5b/rUKwLp/7wFGw24x9sjQZ412lwtG9orgU/lmX2edMf7oiJhuP0QV76XKiRJ/btllxalIJy2KtZ9QaL3sasDz2R2QMoL1av287vXXyh/bVf7/2bgOGvIjejaFi/lSlK7rOglM0H3AWIEOyj58lH0CbuwDiAAA==');
+    }
+
+    .contenido {
+        grid-area: contenido;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
+        text-align: center;
+        color: white;
+        z-index: 10;
+        background-image: linear-gradient(
+            135deg,
+            rgba(39, 52, 231, .7) 0%,
+            rgba(46, 219, 30,.7) 100%
+        );
+
+        > * {
+            will-change: transform, opacity;
+            opacity: 0.1;
+            transform: translateY(50px);
+
+            @keyframes subir {
+                100% {
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+        } 
+
+        &__boton{
+            color: rgb(255, 255, 255);
+            border: 2px solid rgb(255, 255, 255);
+            padding: .5rem 1rem;
+            border-radius: 100vmax;
+        }
+
+
+    }
+
+    p{
+        @media (width > 768px) {
+            white-space: pre-line;
+        }
+    }
+    
+</style>
+
+<script>
+    const blurredImageDiv = document.querySelector(".blurred-img") as HTMLElement;
+    const HEROCONTENIDO = document.getElementById("HeroContenido") as HTMLElement;
+    const elements = HEROCONTENIDO.querySelectorAll<HTMLElement>("*");
+    const img = blurredImageDiv.querySelector("img") as HTMLImageElement;
+
+    function loaded() {
+        blurredImageDiv.classList.add("loaded");
+        elements.forEach( (ele ) =>  {
+            ele.style.animation = "subir .8s forwards";
+        })
+    }
+
+    if (img.complete) {
+        loaded();
+    } else {
+        img.addEventListener("load", loaded);
+    }
+
+</script>

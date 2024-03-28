@@ -1,0 +1,72 @@
+{
+    "Carreras Tecnicas": [
+        {
+            "nombre": "Gastronomia",
+            "url": "gastronomia"
+        },
+        {
+            "nombre": "Cosmetologia",
+            "url": "cosmetologia"
+        }
+    ],
+    "Especialidades Tecnicas": [
+        {
+            "nombre": "Computacion e Informatica",
+            "url": "computacion-informatica"
+        },
+        {
+            "nombre": "Logistica y Almacenes",
+            "url": "logistica-almacenes"
+        }
+    ],
+    "Especialidades Auxiliares": [
+        {
+            "nombre": "Administracion General",
+            "url": "administracion-general"
+        },
+        {
+            "nombre": "Cajero Bancario",
+            "url": "cajero-bancario"
+        },
+        {
+            "nombre": "Ingles",
+            "url": "ingles"
+        }
+    ],
+    "Cursos": [
+        {
+            "nombre": "Ensamblaje de Pcs",
+            "url": "ensamblaje-PCs"
+        },
+        {
+            "nombre": "Diseño Grafico",
+            "url": "diseño-grafico"
+        },
+        {
+            "nombre": "Ofimatica",
+            "url": "ofimatica"
+        },
+        {
+            "nombre": "Reposteria y Pasteleria",
+            "url": "reposteria-pasteleria"
+        },
+        {
+            "nombre": "Bartender",
+            "url": "bartender"
+        }
+    ],
+    "Talleres": [
+        {
+            "nombre": "Reparacion de Celulares",
+            "url": "reparacion-celulares"
+        },
+        {
+            "nombre": "Camaras de Seguridad",
+            "url": "camaras-seguridad"
+        },
+        {
+            "nombre": "Excel",
+            "url": "excel"
+        }
+    ]
+}

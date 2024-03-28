@@ -1,0 +1,79 @@
+---
+const { arrayImg } = Astro.props;
+---
+
+<style lang="scss">
+
+    ul {
+        width: max-content;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1rem; 
+        margin-top: clamp(2rem, 1.2727rem + 3.6364vw, 4rem);
+        
+    }
+
+    .blur{
+        height: 100%;
+
+
+        > img {
+
+            width: auto;
+            aspect-ratio: 1/1 auto;
+            transform: scale(1);
+            transition: transform .3s;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: .5rem;
+
+            &:hover{
+            transform: scale(1.05);
+            }
+        }
+    }
+
+    @keyframes moverInfinito {
+        to{ 
+            transform: translate( calc( -50% - .5rem));
+        }
+    }
+
+</style>
+
+<article>
+    <ul id="carruselTrack" style="height: 40vmin; min-height: 200px;">
+        {
+            arrayImg.map(({ original, borrosa}) => {
+                return <li class="blur"
+    
+                                >
+                                <img
+                                    decoding="async"
+                                    style={{ backgroundImage: `url(${borrosa})`}}
+                                    src={original}
+                                    alt="IISEP carreras"
+                                />
+                         </li>
+            })
+        }
+    </ul>
+</article>
+
+
+<script>
+    const carrusel = document.getElementById("carruselTrack");
+    const items = Array.from(carrusel.children);
+
+    items.forEach( item => {
+        const duplicatedItem = item.cloneNode(true) as HTMLElement;
+        // duplicatedItem.setAttribute("aria-hidden", true);
+        carrusel.appendChild(duplicatedItem);
+    })
+
+    window.addEventListener("DOMContentLoaded" , () =>{
+        carrusel.style.animation = "moverInfinito 14s forwards linear infinite";
+    })
+
+</script>

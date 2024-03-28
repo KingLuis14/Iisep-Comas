@@ -1,0 +1,1126 @@
+{
+    "Carreras Técnicas": {
+        "Gastronomia": {
+            "info": {
+                "titulo": "Gastronomia",
+                "texto": "Aprenderás desde las técnicas culinarias más innovadoras y la seguridad alimentaria, hasta explorar sabores nacionales e internacionales, pastelería creativa y la organización de eventos excepcionales. Adquiere habilidades versátiles para brillar en todas las áreas de la gastronomía",
+                "precio": "130",
+                "imagen": "https://img.freepik.com/foto-gratis/chef-colocando-hierba-comida-gourmet_23-2148516908.jpg?t=st=1711036464~exp=1711040064~hmac=91ed5170b1dbcae93a1d8b546cf4692008ab531ea9e7e44e22aeb27baa090837&w=740",
+                "categoria": "Carrera",
+                "colorCategoria": "green"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Gestion Gastronomica",
+                    "temario": [
+                        "Técnicas culinarias",
+                        "Bromatología y nutrición",
+                        "Haccp - Manipulación de alimentos"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "Tecnicas Culinarias",
+                    "temario": [
+                        "Técnicas de vanguardia",
+                        "Gestión de restaurantes - Costos",
+                        "Pescados y Mariscos",
+                        "Técnicas de comedor (etiqueta y protocolo)"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "Cocina Nacional",
+                    "temario": [
+                        "Cocina criolla",
+                        "Cocina peruana del norte",
+                        "Cocina peruana del centro",
+                        "Cocina peruana del sur"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "Pasteleria y Reposteria",
+                    "temario": [
+                        "Pastelería Básica",
+                        "Repostería Fina",
+                        "Decoración de tortas"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": "Buffet y Bebidas",
+                    "temario": [
+                        "Tallado y Buffet",
+                        "Banquete y Buffet",
+                        "Coctelería básica"
+                    ]
+                },
+                "modulo6": {
+                    "nombre": "Elaboracion de Alimentos",
+                    "temario": [
+                        "Elaboración de alimentos",
+                        "Panadería",
+                        "Chocolatería"
+                    ]
+                },
+                "modulo7": {
+                    "nombre": "Cocina Internacional",
+                    "temario": [
+                        "Cocina mediterránea",
+                        "Cocina latinoamericana",
+                        "Cocina Asiática",
+                        "Cocina Novo andina - creativo"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Cosmetologia": {
+            "info": {
+                "titulo": "Cosmetologia",
+                "texto": "Aprende desde manicure y pedicure hasta maquillaje, aprende técnicas de SPA, diseños innovadores y los secretos del cuidado capilar. Domina tratamientos faciales y corporales, así como peinados, cortes y tintes de última tendencia. ",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/vista-arriba-rejuvenecimiento-hermosa-mujer-disfrutando-procedimientos-cosmetologia-salon-belleza-dermatologia-manos-resplandores-azules-salud-terapia-botox_197531-2783.jpg?t=st=1711036529~exp=1711040129~hmac=c5edfe2a1648bf1d4dfe66649fc4a686d2b89df20915ccf8e0bb9d724ee5c311&w=740",
+                "categoria": "Carrera",
+                "colorCategoria": "green"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "MANICURE, PEDICURE Y MAQUILLAJE",
+                    "temario": [
+                        "Manicure Básica (Dia y Noche)",
+                        "Manicure Diseños de Salón (Punzón y Pincel)",
+                        "Pedicure Básica (Aplicación de Esmalte)",
+                        "Pedicure Spa (Parafina y Guantes Brasileros).",
+                        "Maquillaje de día, noche y Correctivo"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "TRATAMIENTO CAPILAR Y CORTE DE CABELLO",
+                    "temario": [
+                        "Tratamiento Capilar todo tipo de Cabello",
+                        "Tratamiento Capilar Caída de Cabello.",
+                        "Cortes Básicos con Tijeras (Damas y Caballeros)",
+                        "Costes de Cabello con Navaja, Clipper"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "PEINADOS",
+                    "temario": [
+                        "Técnicas de Peinados",
+                        "Trenzas Básicas y Modernas",
+                        "Peinados de Novia y 15 Años.",
+                        "Taller de Peinados"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "DECOLORACIÓN Y TINTURACIÓN CAPILAR",
+                    "temario": [
+                        "Decoloración Capilar (Alta, Mediana y Baja)",
+                        "Técnicas de Mechas Californianas, Halley",
+                        "Técnicas de Mechas de Fantasía",
+                        "Costes de Cabello con Navaja, Clipper"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": "TRATAMIENTO FACIAL Y CORPORAL",
+                    "temario": [
+                        "Limpieza Facial Básica.",
+                        "Tratamiento Facial Profundo (Seco, Graso y Mixto)",
+                        "Masajes Faciales",
+                        "Aplicación de Masajes Reductores Efectuando Diversas Técnicas"
+                    ]
+                },
+                "modulo6": {
+                    "nombre": "ONDULACIONES",
+                    "temario": [
+                        "Técnicas en Cabello Natural y Teñido",
+                        "Ondulación con Variantes (Coletas, Pirámides y Gemelos)",
+                        "Taller de cortes de cabello"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        }
+    },
+    "Especialidades Técnicas": {
+        "Computacion e Informatica": {
+            "info": {
+                "titulo": "Computacion e Informatica",
+                "texto": "Aprenderás las habilidades fundamentales de programación, administración de sistemas y seguridad informática, capacitándote para navegar con confianza en el mundo digital y destacarte en un campo en constante evolución.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/pantallas-computadora-grupo-jovenes-ropa-casual-que-trabajan-oficina-moderna_146671-16494.jpg?t=st=1711036626~exp=1711040226~hmac=5ff5c50de026e29b637ddd646744271f548f8526cc243ef0350c4c711948c72e&w=740",
+                "categoria": "Especialidad",
+                "colorCategoria": "blue"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Ofimatica",
+                    "temario": [
+                        "Sistemas Operativos",
+                        "Microsoft Word",
+                        "Microsoft Excel I",
+                        "Microsoft Excel II",
+                        "Microsoft Power Point",
+                        "Integración Office"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "PRESENTACIONES GRÁFICAS",
+                    "temario": [
+                        "Core Draw",
+                        "Adobe Ilustrador",
+                        "Adobe Photoshop",
+                        "Adobe Animate",
+                        "Adobe InDesign",
+                        "Adobe Dreamweaver",
+                        "CCS Hoja de estilos",
+                        "Taller de paginas web con WordPress"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "PROGRAMACIÓN PARA BASE DE DATOS Y HOJA DE CALCULO",
+                    "temario": [
+                        "Microsoft Access I",
+                        "Microsoft Access II",
+                        "MySQL",
+                        "Taller de Base datos SQL"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "LENGUAJE DE PROGRAMACIÓN",
+                    "temario": [
+                        "Python",
+                        "Java I",
+                        "Java II",
+                        "PHP"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": "OPERACIONES EN REDES DE CÓMPUTO",
+                    "temario": [
+                        "Ensamblaje de Pcs",
+                        "Instalación de Software",
+                        "Redes y Conectividad"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Logistica y Almacenes": {
+            "info": {
+                "titulo": "Logistica y Almacenes",
+                "texto": "Aprenderás las estrategias clave para una gestión eficiente de inventarios, transporte y distribución, preparándote para ser un profesional indispensable en la optimización de procesos logísticos y el flujo de productos.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/retrato-trabajador-almacen-exitoso-o-supervisor-brazos-cruzados-pie-gran-area-distribucion-almacenamiento_342744-1521.jpg?t=st=1711036693~exp=1711040293~hmac=74697ac91ec5f1e132b8a8a1e5b6ccbcac3148295fa996032a159c3bfa09d092&w=740",
+                "categoria": "Especialidad",
+                "colorCategoria": "blue"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Ofimatica",
+                    "temario": [
+                        "Microsoft Windows",
+                        "Microsoft Word",
+                        "Microsoft Power Point",
+                        "Microsoft Excel"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "ALMACENAMIENTO DE BIENES DE EXISTENCIA",
+                    "temario": [
+                        "Documentación Logística",
+                        "Contabilidad General",
+                        "Cadena de Abastecimiento y Lote Económico",
+                        "Costos y Presupuestos"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "CATALOGACION DE BIENES",
+                    "temario": [
+                        "Sistema de Información General",
+                        "Servicios de Atención al cliente",
+                        "Técnicas de Inventario",
+                        "Catalogación y Codigación en Almacenes"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "TOMA FISICA DE INVENTARIOS",
+                    "temario": [
+                        "Matemática Básica",
+                        "Administración de Inventarios",
+                        "Administración de Almacenes"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": "TRAMITE DOCUMENTARIO DE COMPRAS",
+                    "temario": [
+                        "Administración General",
+                        "Administración de Compras y Ventas",
+                        "Administración de Producción"
+                    ]
+                },
+                "modulo6": {
+                    "nombre": "TRANSPORTE DE BIENES E INSUMOS Y SERVICIOS DE ADUANAS",
+                    "temario": [
+                        "Servicio de Transporte",
+                        "Comercio Internacional",
+                        "Generación Logística"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        }
+    },
+    "Especialidades Auxiliares": {
+        "Administracion General": {
+            "info": {
+                "titulo": "Administracion General",
+                "texto": "Aprenderás sobre de planificación, organización y liderazgo empresarial, dotándote de las habilidades necesarias para impulsar el éxito y el crecimiento de cualquier organización.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/mujer-tiro-medio-trabajando-computadora-portatil_23-2149300643.jpg?t=st=1711036751~exp=1711040351~hmac=7b23209cacb9f495a675ff5e5a5c1efc9fa91f8348635ce34be4fc6ecac9df2f&w=740",
+                "categoria": "Especialidad",
+                "colorCategoria": "orange"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Ofimatica",
+                    "temario": [
+                        "Microsoft Windows",
+                        "Microsoft Word",
+                        "Microsoft Power Point",
+                        "Microsoft Excel"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "DOCUMENTACIÓN CONTABLE Y ADMINISTRATIVA",
+                    "temario": [
+                        "Documentación empresarial",
+                        "Legislación laboral",
+                        "Legislación Comercial y Tributaria"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "DINÁMICA CONTABLE",
+                    "temario": [
+                        "Matemática Financiera",
+                        "Matemática Financiera",
+                        "Contabilidad l",
+                        "Contabilidad ll",
+                        "Taller de contabilidad"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "CONTABILIDAD Y FINANZAS",
+                    "temario": [
+                        "Costos Técnicos",
+                        "Administración y gestión empresarial",
+                        "Contabilidad Gubernamental",
+                        "Administración Financiera"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": "MARKETING Y VENTAS",
+                    "temario": [
+                        "Administración de Recursos Humanos",
+                        "Marketing y Ventas",
+                        "Contabilidad Gerencial"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Cajero Bancario": {
+            "info": {
+                "titulo": "Cajero Bancario",
+                "texto": "Aprenderás las habilidades cruciales de manejo de transacciones financieras, atención al cliente y cumplimiento normativo, convirtiéndote en un activo valioso para instituciones financieras con tu capacidad para ofrecer un servicio excepcional y seguro.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/cajero-tienda-positivo-feliz-hablando-cliente-riendose-caja-tiro-medio-concepto-compras_74855-11828.jpg?t=st=1711036928~exp=1711040528~hmac=ab165edfbeab8133f55686045657420c2f4177d49a293aaf9ca70606e09dc117&w=740",
+                "categoria": "Especialidad",
+                "colorCategoria": "orange"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Ofimatica",
+                    "temario": [
+                        "Microsoft Windows",
+                        "Microsoft Word",
+                        "Microsoft Power Point",
+                        "Microsoft Excel"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "INTRODUCCION AL SISTEMA FINANCIERO",
+                    "temario": [
+                        "Productos y servicios en la gestión bancaria",
+                        "Matemática para la gestión",
+                        "Análisis y Operación y transacciones bancarias y financieras",
+                        "Calidad de servicios y atención al cliente"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "CONTABILIDAD Y GESTION BANCARIA",
+                    "temario": [
+                        "Operaciones y transacciones en la atención de ventanilla",
+                        "Bases legales para la gestión bancaria y financiera",
+                        "Contabilidad Empresarial",
+                        "Matemática Financiera para la gestión empresarial"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "ANALISIS Y COSTOS FINANCIEROS",
+                    "temario": [
+                        "Costos y Presupuestos para la gestión empresarial",
+                        "Análisis de estados financieros empresariales",
+                        "Estrategias de administración financiera",
+                        "Estrategias de cobranza y recuperación"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": " MARKETING BANCARIO Y FINANCIERO",
+                    "temario": [
+                        "Marketing Bancario y Financiero",
+                        "Control interno y auditoria bancaria y financiera",
+                        "Desarrollo de Productos y servicios bancarios y financieros"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Ingles": {
+            "info": {
+                "titulo": "Ingles",
+                "texto": "Aprenderás las habilidades comunicativas esenciales para prosperar en un mundo globalizado, potenciando tu confianza y apertura a oportunidades profesionales y personales a nivel internacional.",
+                "precio": "100",
+                "imagen": "https://img.freepik.com/foto-gratis/profesor-vista-lateral-mirando-ninos_23-2149455191.jpg?t=st=1711037097~exp=1711040697~hmac=00783d5605a51e5d873926522b30e10c73771940a0a3cf7cfe45a6b41c2045dc&w=740",
+                "categoria": "Especialidad",
+                "colorCategoria": "orange"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Ofimatica",
+                    "temario": [
+                        "Microsoft Windows",
+                        "Microsoft Word",
+                        "Microsoft Power Point",
+                        "Microsoft Excel"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "INTRODUCCION AL SISTEMA FINANCIERO",
+                    "temario": [
+                        "Productos y servicios en la gestión bancaria",
+                        "Matemática para la gestión",
+                        "Análisis y Operación y transacciones bancarias y financieras",
+                        "Calidad de servicios y atención al cliente"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "CONTABILIDAD Y GESTION BANCARIA",
+                    "temario": [
+                        "Operaciones y transacciones en la atención de ventanilla",
+                        "Bases legales para la gestión bancaria y financiera",
+                        "Contabilidad Empresarial",
+                        "Matemática Financiera para la gestión empresarial"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "ANALISIS Y COSTOS FINANCIEROS",
+                    "temario": [
+                        "Costos y Presupuestos para la gestión empresarial",
+                        "Análisis de estados financieros empresariales",
+                        "Estrategias de administración financiera",
+                        "Estrategias de cobranza y recuperación"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": " MARKETING BANCARIO Y FINANCIERO",
+                    "temario": [
+                        "Marketing Bancario y Financiero",
+                        "Control interno y auditoria bancaria y financiera",
+                        "Desarrollo de Productos y servicios bancarios y financieros"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        }
+    },
+    "Cursos": {
+        "Diseño Grafico": {
+            "info": {
+                "titulo": "Diseño Grafico",
+                "texto": "Aprenderás a crear contenido visual impactante utilizando herramientas digitales como Photoshop e Illustrator, desarrollando tu creatividad y habilidades para comunicar ideas de manera efectiva.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/concepto-estrategia-planificacion-estrategia-marketing_53876-42950.jpg?t=st=1711037370~exp=1711040970~hmac=363ae7d186cc5985e26f7c5e13a45bb8a0144735b6350bce292653d0fdd39315&w=740",
+                "categoria": "Curso",
+                "colorCategoria": "#ff450c"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "PRESENTACIONES GRÁFICAS",
+                    "temario": [
+                        "Core Draw",
+                        "Adobe Ilustrador",
+                        "Adobe Photoshop",
+                        "Adobe Animate",
+                        "Adobe InDesign",
+                        "Adobe Dreamweaver",
+                        "CCS Hoja de estilos",
+                        "Taller de paginas web con WordPress"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Ofimatica": {
+            "info": {
+                "titulo": "Ofimatica",
+                "texto": "Aprenderás a dominar las herramientas de software de oficina como Word, Excel y PowerPoint, mejorando tu eficiencia en tareas administrativas y comunicación profesional.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/empresarios-que-trabajan-finanzas-contabilidad-analizan-financi_74952-1411.jpg?t=st=1711037179~exp=1711040779~hmac=f0603208fb3f0f80ae43f590dac323a2add72ed8c0413b36635c95f0fcf75f39&w=740",
+                "categoria": "Curso",
+                "colorCategoria": "#ff450c"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Ofimatica",
+                    "temario": [
+                        "Sistemas Operativos",
+                        "Microsoft Word",
+                        "Microsoft Excel I",
+                        "Microsoft Excel II",
+                        "Microsoft Power Point",
+                        "Integración Office"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Ensamblaje de Pcs": {
+            "info": {
+                "titulo": "Ensamblaje de PCs",
+                "texto": "Aprenderás las habilidades necesarias para construir y configurar computadoras personalizadas, convirtiéndote en un experto en hardware informático y satisfaciendo las necesidades específicas de los usuarios.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/necesito-arreglar-joven-usando-destornillador-mirar-dentro-computadora-cpu-rota-antes-repararla-tienda_662251-115.jpg?t=st=1711037336~exp=1711040936~hmac=ee203c6ac73c652ad962df2791291da13bfab19b39b72bfee1738aff1ff3d637&w=740",
+                "categoria": "Curso",
+                "colorCategoria": "#ff450c"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Ofimatica",
+                    "temario": [
+                        "Microsoft Windows",
+                        "Microsoft Word",
+                        "Microsoft Power Point",
+                        "Microsoft Excel"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "INTRODUCCION AL SISTEMA FINANCIERO",
+                    "temario": [
+                        "Productos y servicios en la gestión bancaria",
+                        "Matemática para la gestión",
+                        "Análisis y Operación y transacciones bancarias y financieras",
+                        "Calidad de servicios y atención al cliente"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "CONTABILIDAD Y GESTION BANCARIA",
+                    "temario": [
+                        "Operaciones y transacciones en la atención de ventanilla",
+                        "Bases legales para la gestión bancaria y financiera",
+                        "Contabilidad Empresarial",
+                        "Matemática Financiera para la gestión empresarial"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "ANALISIS Y COSTOS FINANCIEROS",
+                    "temario": [
+                        "Costos y Presupuestos para la gestión empresarial",
+                        "Análisis de estados financieros empresariales",
+                        "Estrategias de administración financiera",
+                        "Estrategias de cobranza y recuperación"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": " MARKETING BANCARIO Y FINANCIERO",
+                    "temario": [
+                        "Marketing Bancario y Financiero",
+                        "Control interno y auditoria bancaria y financiera",
+                        "Desarrollo de Productos y servicios bancarios y financieros"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Reposteria y Pasteleria": {
+            "info": {
+                "titulo": "Reposteria y Pasteleria",
+                "texto": "Aprenderás las técnicas artesanales para crear delicias dulces, perfeccionando tus habilidades en decoración y presentación de postres que deleitarán a tus clientes.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/cerrar-cocinero-preparando-postre_23-2148972039.jpg?t=st=1711037530~exp=1711041130~hmac=0286fdc2ac49b73d063130b201562be8fcebaf991e6fba442dbefab75c771acc&w=826",
+                "categoria": "Curso",
+                "colorCategoria": "#ff450c"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Pasteleria y Reposteria",
+                    "temario": [
+                        "Pastelería Básica",
+                        "Repostería Fina",
+                        "Decoración de tortas"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Bartender": {
+            "info": {
+                "titulo": "Bartender",
+                "texto": "Aprenderás las habilidades de preparación de cócteles y servicio de bebidas, convirtiéndote en un profesional versátil capaz de crear experiencias memorables en el mundo de la hospitalidad.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/barman-brutal-elegante-camisa-delantal-hace-coctel-fondo-mostrador-bar_613910-20097.jpg?t=st=1711037568~exp=1711041168~hmac=6b058dc25b63cc285fb050fbb8c92789c55b10911a1766b0bfd32bc38ba0dabc&w=740",
+                "categoria": "Curso",
+                "colorCategoria": "#ff450c"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Buffet y Bebidas",
+                    "temario": [
+                        "Cocteleria Basica",
+                        "Banquete y Buffet",
+                        "Coctelería Avanzada"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        }
+    },
+    "Talleres": {
+        "Reparacion de Celulares": {
+            "info": {
+                "titulo": "Reparacion de Celulares",
+                "texto": "Aprenderás a diagnosticar y solucionar problemas comunes en dispositivos móviles, convirtiéndote en un técnico experto en la era digital.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/master-utiliza-herramientas-especiales-desmontar-dispositivos-electronicos-cuidado-pinzas-destornillador_346278-1780.jpg?t=st=1711037642~exp=1711041242~hmac=6f56a3a4da21f56871cde99e8866586f64a48ee98052853efb85dfc8e24c6110&w=740",
+                "categoria": "Taller",
+                "colorCategoria": "#e057ff"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "ELECTRONICA Y MICROELECTRONICA",
+                    "temario": [
+                        "Introducción a la electrónica  y microelectrónica en equipos móviles",
+                        "Tecnología de componentes SMD y BGA en placas (PBC)",
+                        "Magnitudes eléctricas, simbologías y equivalencias",
+                        "Multímetro y sus aplicaciones",
+                        "Desmontaje y montaje de equipos móviles",
+                        "Descarte de avería en periféricos(speaker, micrófonos, audio, etc.)",
+                        "Herramientas de diagnostico (fuente de voltaje, multímetro, etc.)"
+                        
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "MICROSOLDADURA Y SOPORTE COORECTIVO EN EQUIPOS MOVILES",
+                    "temario": [
+                        "Protocolos de seguridad en Micro soldadura",
+                        "Técnicas de soldadura con estación de calor y cautín",
+                        "Aplicación de Jumper correctivo",
+                        "Remplazo de componentes sintéticos (pulsadores ON – OFF/volumen/porta sim/porta memoria/conector de carga, etc.)"
+                        
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "PROTOCOLOS DE REPARACION DE AVERIAS",
+                    "temario": [
+                        "Protocolos de reparación de averías diversas",
+                        "Practicas de reparación de averías de audio",
+                        "Practicas de reparación de averías de carga",
+                        "Practicas de reparación de averías de encendido",
+                        "Practicas de reparación de averías por alto consumo y calentamiento",
+                        "Practicas de reparación de averías de iluminación y pantallas",
+                        "Técnica de Reballing de chipset BGA (uso de plantillas o esténcil e insumos)" 
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "CONCEPTOS FINALES",
+                    "temario": [
+                        "Perfil del emprendedor",
+                        "Canales de negocio en reparación de celular",
+                        "Generación del plan de negocio",
+                        "Canales y medios de pago"
+                        
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Excel": {
+            "info": {
+                "titulo": "Excel",
+                "texto": "Aprenderás a dominar las funciones y herramientas avanzadas de esta poderosa aplicación de hojas de cálculo, mejorando tu eficiencia en análisis de datos y toma de decisiones en entornos profesionales.",
+                "precio": "120",
+                "imagen": "https://www.ilen.edu.pe/wp-content/uploads/2022/05/1366_2000.jpg",
+                "categoria": "Taller",
+                "colorCategoria": "#e057ff"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Ofimatica",
+                    "temario": [
+                        "Microsoft Windows",
+                        "Microsoft Word",
+                        "Microsoft Power Point",
+                        "Microsoft Excel"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "Ofimatica2",
+                    "temario": [
+                        "Microsoft Windows",
+                        "Microsoft Word",
+                        "Microsoft Power Point",
+                        "Microsoft Excel"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        },
+        "Camaras de Seguridad": {
+            "info": {
+                "titulo": "Camaras de Seguridad",
+                "texto": "Aprenderás las técnicas para diseñar e implementar sistemas de vigilancia efectivos, contribuyendo a la seguridad y protección de espacios comerciales y residenciales.",
+                "precio": "120",
+                "imagen": "https://img.freepik.com/foto-gratis/tecnologia-seguridad-cctv-icono-candado-remezcla-digital_53876-104935.jpg?t=st=1711037749~exp=1711041349~hmac=a5f9d5412f9062631a86b42a3db809f14db0a82c74cb5df57186c85cd9ff5562&w=740",
+                "categoria": "Taller",
+                "colorCategoria": "#e057ff"
+            },
+            "malla": {
+                "modulo1": {
+                    "nombre": "Ofimatica",
+                    "temario": [
+                        "Microsoft Windows",
+                        "Microsoft Word",
+                        "Microsoft Power Point",
+                        "Microsoft Excel"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "INTRODUCCION AL SISTEMA FINANCIERO",
+                    "temario": [
+                        "Productos y servicios en la gestión bancaria",
+                        "Matemática para la gestión",
+                        "Análisis y Operación y transacciones bancarias y financieras",
+                        "Calidad de servicios y atención al cliente"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "CONTABILIDAD Y GESTION BANCARIA",
+                    "temario": [
+                        "Operaciones y transacciones en la atención de ventanilla",
+                        "Bases legales para la gestión bancaria y financiera",
+                        "Contabilidad Empresarial",
+                        "Matemática Financiera para la gestión empresarial"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "ANALISIS Y COSTOS FINANCIEROS",
+                    "temario": [
+                        "Costos y Presupuestos para la gestión empresarial",
+                        "Análisis de estados financieros empresariales",
+                        "Estrategias de administración financiera",
+                        "Estrategias de cobranza y recuperación"
+                    ]
+                }
+            },
+            "galeria": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "costos": {
+                "inversion": [
+                    "Matrícula: ¡Gratis!",
+                    "Inscripción: ¡Gratis!",
+                    "1° Cuota: S/??",
+                    "Mensualidades (23) : S/.130",
+                    "Titulo del MINEDU: S/.600"
+                ],
+                "beneficios": [
+                    "Sin costo de Matricula",
+                    "Sin costo de Inscripción",
+                    "Carnet de asistencia.",
+                    "Entregamos Libro físico cada mes",
+                    "Soporte educativo mediante WhatsApp",
+                    "Cocina moderna",
+                    "Insumos básico",
+                    "Acceso a capacitaciones y a certificaciones"
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "Carreras Técnicas": [
+        {
+            "titulo": "Gastronomia",
+            "texto": "Aprenderás desde las técnicas culinarias más innovadoras y la seguridad alimentaria, hasta explorar sabores nacionales e internacionales, pastelería creativa y la organización de eventos excepcionales. Adquiere habilidades versátiles para brillar en todas las áreas de la gastronomía",
+            "precio": "130",
+            "imagen": "https://img.freepik.com/foto-gratis/chef-colocando-hierba-comida-gourmet_23-2148516908.jpg?t=st=1711036464~exp=1711040064~hmac=91ed5170b1dbcae93a1d8b546cf4692008ab531ea9e7e44e22aeb27baa090837&w=740",
+            "categoria": "Carrera",
+            "colorCategoria": "green"
+        },
+        {
+            "titulo": "Cosmetologia",
+            "texto": "Aprende desde manicure y pedicure hasta maquillaje, aprende técnicas de SPA, diseños innovadores y los secretos del cuidado capilar. Domina tratamientos faciales y corporales, así como peinados, cortes y tintes de última tendencia. ",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/vista-arriba-rejuvenecimiento-hermosa-mujer-disfrutando-procedimientos-cosmetologia-salon-belleza-dermatologia-manos-resplandores-azules-salud-terapia-botox_197531-2783.jpg?t=st=1711036529~exp=1711040129~hmac=c5edfe2a1648bf1d4dfe66649fc4a686d2b89df20915ccf8e0bb9d724ee5c311&w=740",
+            "categoria": "Carrera",
+            "colorCategoria": "green"
+        }
+    ],
+
+    "Especialidades Técnicas": [
+        {
+            "titulo": "Computacion e Informatica",
+            "texto": "Aprenderás las habilidades fundamentales de programación, administración de sistemas y seguridad informática, capacitándote para navegar con confianza en el mundo digital y destacarte en un campo en constante evolución.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/pantallas-computadora-grupo-jovenes-ropa-casual-que-trabajan-oficina-moderna_146671-16494.jpg?t=st=1711036626~exp=1711040226~hmac=5ff5c50de026e29b637ddd646744271f548f8526cc243ef0350c4c711948c72e&w=740",
+            "categoria": "Especialidad",
+            "colorCategoria": "#1e6eff"
+        },
+        {
+            "titulo": "Logistica y Almacenes",
+            "texto": "Aprenderás las estrategias clave para una gestión eficiente de inventarios, transporte y distribución, preparándote para ser un profesional indispensable en la optimización de procesos logísticos y el flujo de productos.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/retrato-trabajador-almacen-exitoso-o-supervisor-brazos-cruzados-pie-gran-area-distribucion-almacenamiento_342744-1521.jpg?t=st=1711036693~exp=1711040293~hmac=74697ac91ec5f1e132b8a8a1e5b6ccbcac3148295fa996032a159c3bfa09d092&w=740",
+            "categoria": "Especialidad",
+            "colorCategoria": "#1e6eff"
+        }
+    ],
+
+    "Especialidades Axiliares": [
+        {
+            "titulo": "Administracion General",
+            "texto": "Aprenderás sobre de planificación, organización y liderazgo empresarial, dotándote de las habilidades necesarias para impulsar el éxito y el crecimiento de cualquier organización.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/mujer-tiro-medio-trabajando-computadora-portatil_23-2149300643.jpg?t=st=1711036751~exp=1711040351~hmac=7b23209cacb9f495a675ff5e5a5c1efc9fa91f8348635ce34be4fc6ecac9df2f&w=740",
+            "categoria": "Especialidad",
+            "colorCategoria": "orange"
+        },
+        {
+            "titulo": "Cajero Bancario",
+            "texto": "Aprenderás las habilidades cruciales de manejo de transacciones financieras, atención al cliente y cumplimiento normativo, convirtiéndote en un activo valioso para instituciones financieras con tu capacidad para ofrecer un servicio excepcional y seguro.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/cajero-tienda-positivo-feliz-hablando-cliente-riendose-caja-tiro-medio-concepto-compras_74855-11828.jpg?t=st=1711036928~exp=1711040528~hmac=ab165edfbeab8133f55686045657420c2f4177d49a293aaf9ca70606e09dc117&w=740",
+            "categoria": "Especialidad",
+            "colorCategoria": "orange"
+        },
+        {
+            "titulo": "Ingles",
+            "texto": "Aprenderás las habilidades comunicativas esenciales para prosperar en un mundo globalizado, potenciando tu confianza y apertura a oportunidades profesionales y personales a nivel internacional.",
+            "precio": "100",
+            "imagen": "https://img.freepik.com/foto-gratis/profesor-vista-lateral-mirando-ninos_23-2149455191.jpg?t=st=1711037097~exp=1711040697~hmac=00783d5605a51e5d873926522b30e10c73771940a0a3cf7cfe45a6b41c2045dc&w=740",
+            "categoria": "Especialidad",
+            "colorCategoria": "orange"
+        }
+    ],
+
+    "Cursos": [
+        {
+            "titulo": "Ofimatica",
+            "texto": "Aprenderás a dominar las herramientas de software de oficina como Word, Excel y PowerPoint, mejorando tu eficiencia en tareas administrativas y comunicación profesional.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/empresarios-que-trabajan-finanzas-contabilidad-analizan-financi_74952-1411.jpg?t=st=1711037179~exp=1711040779~hmac=f0603208fb3f0f80ae43f590dac323a2add72ed8c0413b36635c95f0fcf75f39&w=740",
+            "categoria": "Curso",
+            "colorCategoria": "#ff450c"
+        },
+        {
+            "titulo": "Ensamblaje de PCs",
+            "texto": "Aprenderás las habilidades necesarias para construir y configurar computadoras personalizadas, convirtiéndote en un experto en hardware informático y satisfaciendo las necesidades específicas de los usuarios.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/necesito-arreglar-joven-usando-destornillador-mirar-dentro-computadora-cpu-rota-antes-repararla-tienda_662251-115.jpg?t=st=1711037336~exp=1711040936~hmac=ee203c6ac73c652ad962df2791291da13bfab19b39b72bfee1738aff1ff3d637&w=740",
+            "categoria": "Curso",
+            "colorCategoria": "#ff450c"
+        },
+        {
+            "titulo": "Diseño Grafico",
+            "texto": "Aprenderás a crear contenido visual impactante utilizando herramientas digitales como Photoshop e Illustrator, desarrollando tu creatividad y habilidades para comunicar ideas de manera efectiva.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/concepto-estrategia-planificacion-estrategia-marketing_53876-42950.jpg?t=st=1711037370~exp=1711040970~hmac=363ae7d186cc5985e26f7c5e13a45bb8a0144735b6350bce292653d0fdd39315&w=740",
+            "categoria": "Curso",
+            "colorCategoria": "#ff450c"
+        },
+        {
+            "titulo": "Reposteria y Pasteleria",
+            "texto": "Aprenderás las técnicas artesanales para crear delicias dulces, perfeccionando tus habilidades en decoración y presentación de postres que deleitarán a tus clientes.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/cerrar-cocinero-preparando-postre_23-2148972039.jpg?t=st=1711037530~exp=1711041130~hmac=0286fdc2ac49b73d063130b201562be8fcebaf991e6fba442dbefab75c771acc&w=826",
+            "categoria": "Curso",
+            "colorCategoria": "#ff450c"
+        },
+        {
+            "titulo": "Bartender",
+            "texto": "Aprenderás las habilidades de preparación de cócteles y servicio de bebidas, convirtiéndote en un profesional versátil capaz de crear experiencias memorables en el mundo de la hospitalidad.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/barman-brutal-elegante-camisa-delantal-hace-coctel-fondo-mostrador-bar_613910-20097.jpg?t=st=1711037568~exp=1711041168~hmac=6b058dc25b63cc285fb050fbb8c92789c55b10911a1766b0bfd32bc38ba0dabc&w=740",
+            "categoria": "Curso",
+            "colorCategoria": "#ff450c"
+        }
+    ],
+
+    "Talleres": [
+        {
+            "titulo": "Reparacion de Celulares",
+            "texto": "Aprenderás a diagnosticar y solucionar problemas comunes en dispositivos móviles, convirtiéndote en un técnico experto en la era digital.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/master-utiliza-herramientas-especiales-desmontar-dispositivos-electronicos-cuidado-pinzas-destornillador_346278-1780.jpg?t=st=1711037642~exp=1711041242~hmac=6f56a3a4da21f56871cde99e8866586f64a48ee98052853efb85dfc8e24c6110&w=740",
+            "categoria": "Taller",
+            "colorCategoria": "#e057ff"
+        },
+        {
+            "titulo": "Barberia",
+            "texto": "Aprenderás las habilidades tradicionales de corte de cabello y cuidado de barba, destacando en un mercado en crecimiento donde la atención al detalle y el estilo son fundamentales.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/joven-peluqueria-corte-pelo_1303-26254.jpg?t=st=1711037692~exp=1711041292~hmac=c1739a946653b1b370447964b1ede0e6afdce908d3ebc5e54efc3abedb0e458f&w=740",
+            "categoria": "Taller",
+            "colorCategoria": "#e057ff"
+        },
+        {
+            "titulo": "Camaras de Seguridad",
+            "texto": "Aprenderás las técnicas para diseñar e implementar sistemas de vigilancia efectivos, contribuyendo a la seguridad y protección de espacios comerciales y residenciales.",
+            "precio": "120",
+            "imagen": "https://img.freepik.com/foto-gratis/tecnologia-seguridad-cctv-icono-candado-remezcla-digital_53876-104935.jpg?t=st=1711037749~exp=1711041349~hmac=a5f9d5412f9062631a86b42a3db809f14db0a82c74cb5df57186c85cd9ff5562&w=740",
+            "categoria": "Taller",
+            "colorCategoria": "#e057ff"
+        },
+        {
+            "titulo": "Excel",
+            "texto": "Aprenderás a dominar las funciones y herramientas avanzadas de esta poderosa aplicación de hojas de cálculo, mejorando tu eficiencia en análisis de datos y toma de decisiones en entornos profesionales.",
+            "precio": "120",
+            "imagen": "https://www.ilen.edu.pe/wp-content/uploads/2022/05/1366_2000.jpg",
+            "categoria": "Taller",
+            "colorCategoria": "#e057ff"
+        }
+    ]
+}

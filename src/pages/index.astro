@@ -1,0 +1,57 @@
+---
+import Layout from '../components/Layout.astro';
+import CardBeneficio from '../components/CardBeneficio/ItemBeneficio.astro';
+import HeroImg from '../components/HeroImage/HeroImg.astro';
+import SplitLayout from '../components/SplitLayout/SplitLayout.astro';
+import CarruselInfinito from '../components/CarruselInfinito/CarruselInfinito.astro';
+
+
+//data
+import Data from "../data/PageData.json";
+import {Beneficios} from "../data/Beneficio.js";
+import AboutUs from "../data/AboutUs.json";
+import ImgCarrusel from "../data/Imagenes.json";
+import Banner from '../components/Banner/Banner.astro';
+const {home:{titulo , description}} = Data;
+---
+
+<Layout titulo={titulo} descripction={ description }>
+	
+	<Banner />
+	<main>
+		<section style="overflow-x: hidden;">
+			<header class="wrapper" style="text-align: center; gap: 1rem">
+				<h2 class="titleSection">Programas de Estudio</h2>
+				<p>Estudia Carreras, Especialidades, Cursos y Talleres con certificacion oficial en IISEP.</p>
+			</header>
+			<CarruselInfinito arrayImg={ ImgCarrusel }/>
+			<div class="wrapper" style="justify-content: center; margin-top: clamp(2rem, 1.2727rem + 3.6364vw, 4rem);">
+				<a href="/programas-estudio" style="display: block;
+				background-color: var(--color-Secondary);
+				color: white;
+				border-radius: 100vh;
+				width: max-content;
+				padding: 0.4rem 1rem;">Todos los Cursos</a>
+			</div>
+		</section>
+		<section class="degradado">
+			<div class="wrapper">
+				<h2 class="titleSection" style="color: white;">
+				Beneficios</h2>
+				<CardBeneficio array = { Beneficios }/>
+				
+			</div>
+		</section>
+	</main>
+	<section> 
+		<div class="wrapper">
+			<h2 class="titleSection">¿Por que IISEP?</h2>
+			{
+				AboutUs.map( (what , i) => {
+					return <SplitLayout arrayInfo={ what} index={ i }/>
+				})
+			}
+		</div>
+	</section>
+	
+</Layout>

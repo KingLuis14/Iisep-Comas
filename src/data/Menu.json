@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "item": "Nosotros",
+            "url": "/nosotros"
+        },
+        {
+            "item": "Programas de Estudio",
+            "url": "/programas-estudio"
+        },
+        {
+            "item": "Contacto",
+            "url": "/contacto"
+        }
+    ]
+        
+    
+    
+}

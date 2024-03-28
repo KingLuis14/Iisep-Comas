@@ -1,0 +1,15 @@
+{
+    "home": {
+        "titulo": "Home",
+        "description": "Somos un instituto que brindamos Carreras Tecnicas, Especialidades Tecnicas, cursos y talleres a nombre del MINEDU. Conoce mas sobre nuestro plan de estudio."
+    },
+
+    "nosotros": {
+        "titulo": "Nosotros",
+        "description": "Brindamos carreras, cursos, especialidades y talleres que brindamos a nombre del MINEDU"
+    },
+    "gastronomia": {
+        "titulo": "Nosotros",
+        "description": "Brindamos carreras, cursos, especialidades y talleres que brindamos a nombre del MINEDU"
+    }
+}

@@ -1,0 +1,70 @@
+<div class="HeroImgContainer" >
+     <article class="contenido">
+        <div class="wrapper" style="gap: 1.5rem;" >
+            <h1 class="superTitulo">INSTITUTO IISEP</h1>
+            <p>La oportunidad de estudiar una carrera técnica y lograr tus objetivos.
+            Se un ganador y empieza a estudiar en IISEP
+            </p>
+            <a href="#" class="contenido__boton" >Inscribete</a>
+        </div>
+    </article>
+</div>
+
+<style lang="scss">
+
+    .HeroImgContainer {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr;
+        grid-template-areas: "contenido";
+        overflow: hidden;
+        position: relative;
+        height: calc(100vmin - var(--alto-header)); 
+        min-height: 70svh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url("/assets/logistica-iisep-promocion-BrrYncJF.webp"), url('data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAAAwBQCdASoUAA0APpE4l0eloyIhMAgAsBIJZACdMoGv/sUBZ2XyUZ5T5Ng2EkvY+BKkyAD+88OHQK3riX9Xt7VFK18h/m7m1g9Unx/ebZ309gm3V9eMNk+DFTlmPp/E5b/rUKwLp/7wFGw24x9sjQZ412lwtG9orgU/lmX2edMf7oiJhuP0QV76XKiRJ/btllxalIJy2KtZ9QaL3sasDz2R2QMoL1av287vXXyh/bVf7/2bgOGvIjejaFi/lSlK7rOglM0H3AWIEOyj58lH0CbuwDiAAA==') ;
+        
+    }
+
+    .contenido {
+        grid-area: contenido;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.4rem;
+        text-align: center;
+        color: white;
+        
+        background-image: linear-gradient(
+            135deg,
+            rgba(15, 15, 255, 0.66) 0%,
+            rgba(25, 25, 255, 0.66) 100%
+        );
+
+
+        &__boton{
+            color: rgb(255, 255, 255);
+            justify-self: center;
+            // border: 2px solid rgb(255, 255, 255);
+            padding: .5rem 1rem;
+            border-radius: 100vmax;
+            background-color: var(--color-Secondary);
+            
+        }
+
+
+    }
+
+    p{
+        @media (width > 768px) {
+            white-space: pre-line;
+        }
+    }
+    
+</style>
+
+
+

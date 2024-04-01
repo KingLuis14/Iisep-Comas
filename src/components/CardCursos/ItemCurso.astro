@@ -7,14 +7,32 @@ interface Props {
     categoria: string;
     colorCategoria: string;
     url: string;
+    index: number;
 }
-const { titulo, texto, precio, imagen, categoria, colorCategoria, url } =
-    Astro.props;
+
+// interface Props {
+//     index: number;
+//     curso: Curso
+// }
+
+// const { curso, index } = Astro.props;
+
+const { titulo, texto, precio, imagen, categoria, colorCategoria, url , index} = Astro.props;
+// const { titulo, texto, precio, imagen, categoria, colorCategoria, url } = curso;
 ---
 
 <div class=`Card` data-categoria={categoria}>
-    <a href={`/programas-estudio/${url}`} style="overflow: hidden; display: block;">
-        <img class="Card__imagen" src={imagen} alt="" />
+    <a
+        href={`/programas-estudio/${url}`}
+        style="overflow: hidden; display: block;"
+    >
+        <img
+            loading={index > 5 ? 'lazy' : 'eager'}
+            decoding="async"
+            class="Card__imagen"
+            src={imagen}
+            alt={`${titulo} - IISEP`}
+        />
     </a>
     <div class="Card__Contenido">
         <a href={`/programas-estudio/${url}`} class="Card__titulo">
@@ -29,7 +47,6 @@ const { titulo, texto, precio, imagen, categoria, colorCategoria, url } =
 
 <style lang="scss" define:vars={{ colorCategoria }}>
     .Card {
-        
         background-color: rgb(255, 255, 255);
         display: grid;
         gap: 1rem;
@@ -41,7 +58,7 @@ const { titulo, texto, precio, imagen, categoria, colorCategoria, url } =
         &__imagen {
             aspect-ratio: 16/9;
             transform: scale(1.05);
-            transition: transform .6s;
+            transition: transform 0.6s;
 
             &:hover {
                 transform: scale(1.2);
@@ -112,7 +129,7 @@ const { titulo, texto, precio, imagen, categoria, colorCategoria, url } =
         color: white;
         width: max-content;
         padding: 0.4rem 1rem;
-        border-radius: .4rem;
+        border-radius: 0.4rem;
     }
 
     .Card__tach {

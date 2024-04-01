@@ -9,10 +9,13 @@ import CarruselInfinito from '../components/CarruselInfinito/CarruselInfinito.as
 //data
 import Data from "../data/PageData.json";
 import {Beneficios} from "../data/Beneficio.js";
-import AboutUs from "../data/AboutUs.json";
+import AboutUs from "../data/WhatIIsep.json";
 import ImgCarrusel from "../data/Imagenes.json";
 import Banner from '../components/Banner/Banner.astro';
 const {home:{titulo , description}} = Data;
+
+
+const newArrayImg = [...ImgCarrusel, ...ImgCarrusel];
 ---
 
 <Layout titulo={titulo} descripction={ description }>
@@ -24,7 +27,7 @@ const {home:{titulo , description}} = Data;
 				<h2 class="titleSection">Programas de Estudio</h2>
 				<p>Estudia Carreras, Especialidades, Cursos y Talleres con certificacion oficial en IISEP.</p>
 			</header>
-			<CarruselInfinito arrayImg={ ImgCarrusel }/>
+			<CarruselInfinito arrayImg={ newArrayImg }/>
 			<div class="wrapper" style="justify-content: center; margin-top: clamp(2rem, 1.2727rem + 3.6364vw, 4rem);">
 				<a href="/programas-estudio" style="display: block;
 				background-color: var(--color-Secondary);

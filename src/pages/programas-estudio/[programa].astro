@@ -1,10 +1,12 @@
 ---
 import DataCursos from "../../data/DataCursos.json";
 import Layout from "../../components/Layout.astro";
-import HeroImgCss from '../../components/HeroImgCss/HeroImgCss.astro';
+import HeroImgCss from '../../components/HeroImgCss/BannerPrograma.astro';
 import Acordeon from '../../components/Acordeon/Acordeon.astro';
 import CardCostos from '../../components/CardCostos/CardCostos.astro';
 import CardUbicacion from '../../components/CardUbicacion/CardUbicacion.astro';
+import AcordeonKevin from "../../components/Acordeon/AcordeonKevin.astro";
+import LayoutPrograma from "../../components/Layout/LayoutPrograma.astro";
 
 export async function getStaticPaths() {
 
@@ -17,11 +19,17 @@ export async function getStaticPaths() {
     })
 }
 
-const {titulo, texto, imagen , precio , categoria,colorCategoria, malla, costos} = Astro.props;
+const {titulo, texto, imagen , categoria, malla, costos , imagenes} = Astro.props;
 ---
 
-<Layout titulo={titulo} descripction={texto}>
-    <HeroImgCss titulo={titulo} description={texto} imagen={imagen} categoria={categoria}/>
+<LayoutPrograma 
+        tituloPage={titulo} 
+        descripctionPage={texto} 
+        bannerTitulo={titulo} 
+        bannerDescription={texto} 
+        bannerImagenes={imagenes}
+        bannerCategoria={categoria}
+        >
     <section id="Section-Acordeon">
         <div class="Acordeon-Container wrapper">
             <h2 class="titleSection" style="grid-area:titulo;">Malla Curricular</h2>
@@ -33,7 +41,7 @@ const {titulo, texto, imagen , precio , categoria,colorCategoria, malla, costos}
                         for (let modulo in malla){
                                 num++;   
                                 const { nombre: NomModulo , temario } = malla[modulo]; 
-                                Mallas.push(<Acordeon numModulo={num} modulo={NomModulo} temario={temario} />)   
+                                Mallas.push(<Acordeon numModulo={num} modulo={NomModulo} temario={temario} />)    
                             }  
                         return Mallas
                     }()  
@@ -48,14 +56,14 @@ const {titulo, texto, imagen , precio , categoria,colorCategoria, malla, costos}
             <div class="CardCosto-Container">
                 {
                     costos.map( ({inversion , beneficios}) =>{
-                        return <CardCostos inversion={inversion} beneficios={beneficios} />
+                        return <CardCostos inversion={inversion} beneficios={beneficios} categoria={categoria}, programaEstudio={titulo}/>
                     })
                 }
             
             </div>
         </div>
     </section>
-</Layout>
+</LayoutPrograma>
 
 
 <style lang="scss">

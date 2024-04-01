@@ -1,8 +1,23 @@
 ---
-import Banner from '../components/Banner/Banner.astro';
-import Layout from '../components/Layout.astro';
+import AcordeonKevin from "../components/Acordeon/AcordeonKevin.astro";
+import Banner from "../components/Banner/Banner.astro";
+import Formulario from "../components/Formulario/Formulario.astro";
+import Layout from "../components/Layout.astro";
+import SplitLayout from "../components/SplitLayout/SplitLayout.astro";
+import AboutUs from "../data/AboutUs.json";
 ---
 
-<Layout titulo='Nosotros' descripction='sobre de'>
+<Layout titulo="Nosotros" descripction="sobre de">
     <Banner />
+    <section>
+        <div class="wrapper">
+            <h2 class="titleSection">Nosotros</h2>
+			{
+				AboutUs.map( (item , i) => {
+					return <SplitLayout arrayInfo={ item} index={ i }/>
+				})
+			}
+        </div>
+    </section>
+    
 </Layout>

@@ -13,7 +13,12 @@ const {ArrayItems} = Astro.props;
 <header>
     <nav class="navbar wrapper">
         <a class="navbar__logo" href="/">
-            <img  src="/assets/IISEP_LOGO.webp" alt="iisep logo" />
+            <img 
+                fetchpriority="high" 
+                decoding="async" 
+                src="/assets/IISEP_LOGO.webp" 
+                alt="iisep logo"  
+                loading="eager"  />
         </a>
         <ul class="menu" id="main-menu">
 

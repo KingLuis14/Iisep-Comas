@@ -3,15 +3,17 @@ interface Props {
     propiedad: string;
     valor: string;
     colorValor: string;
+    colorIcono : string;
+    class?: string
 }
 
-const { propiedad, valor , colorValor } = Astro.props;
+const { propiedad, valor , colorValor , colorIcono, class: className, ...rest } = Astro.props;
 import { Icon } from "astro-icon/components";
 ---
 
-<li class="Item">
+<li class=`Item ${className}` {...rest}>
     <span class="Item__Icono">
-        <Icon name="CheckIcon" size={21} />
+        <Icon name="CheckIcon" size={21} class="SvgCheck"/>
     </span>
    {propiedad}
     <span class="Item__Valor">
@@ -19,7 +21,7 @@ import { Icon } from "astro-icon/components";
     </span>
 </li>
 
-<style lang="scss" define:vars={{ colorValor }}>
+<style lang="scss" define:vars={{ colorValor, colorIcono }}>
     .Item {
         display: flex;
         align-items: start;
@@ -28,8 +30,8 @@ import { Icon } from "astro-icon/components";
         &__Icono {
             margin-top: .11rem;
             flex-shrink: 0;
-            color: var(--color-Secondary);
-            // background-color: rgb(246, 143, 143);
+            color: var(--colorIcono);
+            position: relative;
             line-height: normal;
         }
 
@@ -39,5 +41,9 @@ import { Icon } from "astro-icon/components";
             padding-inline: .5rem;
         }
         
+    }
+
+    .SvgCheck {
+        position: relative;
     }
 </style>

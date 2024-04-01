@@ -6,6 +6,11 @@
             "texto": "Aprenderás desde las técnicas culinarias más innovadoras y la seguridad alimentaria, hasta explorar sabores nacionales e internacionales, pastelería creativa y la organización de eventos excepcionales. Adquiere habilidades versátiles para brillar en todas las áreas de la gastronomía",
             "precio": "130",
             "imagen": "https://img.freepik.com/foto-gratis/chef-colocando-hierba-comida-gourmet_23-2148516908.jpg?t=st=1711036464~exp=1711040064~hmac=91ed5170b1dbcae93a1d8b546cf4692008ab531ea9e7e44e22aeb27baa090837&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRh4BAABXRUJQVlA4TBEBAAAvCcABAEfiKpIkxeqBPfg7g6f7JDAzvdc2GEWSpGh69tDKqTj/PvZ1zDDEuI0kRbOMEV78DC+m2d75DxDt8mpaNsPcK+fVK6//V5xCCAgCx/+4wf7yso+cAXD4JQX4MJhVRFlzBrD00C60ikMiC0Cl6YaCKAvKlpUgmhlJSNUwjy57acDPf9fm4cgoyn85PcToxBq4D8b6tgGslBwfY/hK5RpuYkCzNisU7PslevU50IFE9Ccv4M+QaVLkwfG08r4Ruig9PTgIAIBsZtu2zdvun+khIvqfTf+DQYjshm1bsxiKMBUvPT+UINIEzim33VdWS0VbNmuaZ4njBt5c2JZuRqEfG9O4v5yu58f9+AL+3wcA",
+                "lcpi" : "/assets/gastronomia-small-lcpi.webp",
+                "original" : "/assets/gastronomia.webp"
+            },
             "categoria": "Carrera Técnica",
             "colorCategoria": "rgb(18, 193, 2)",
             "malla": {
@@ -114,6 +119,11 @@
             "texto": "Aprende desde manicure y pedicure hasta maquillaje, aprende técnicas de SPA, diseños innovadores y los secretos del cuidado capilar. Domina tratamientos faciales y corporales, así como peinados, cortes y tintes de última tendencia. ",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/vista-arriba-rejuvenecimiento-hermosa-mujer-disfrutando-procedimientos-cosmetologia-salon-belleza-dermatologia-manos-resplandores-azules-salud-terapia-botox_197531-2783.jpg?t=st=1711036529~exp=1711040129~hmac=c5edfe2a1648bf1d4dfe66649fc4a686d2b89df20915ccf8e0bb9d724ee5c311&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRv4AAABXRUJQVlA4TPEAAAAvCUABAN/BNrJtJfcjkROSef/9UACZOzxrg20kSU5ev4tJFoRB/klganH3apd1JMlKnuLyTR5ERsTu7s7OfyCK49Z4/xudI7G7h4xRZePD9qQg3KcIcDotI4YxrDwLv/uRfDBMIQv3zi3thNjKGkzf6YApLqH1hbvfftnBzEoQlB6Gyy+gA4ignTE8XlJIl6y4ivwZhofcb5MJ4yJy4a4wcvilr2U+EtHMwKn82osnoT2YfvFVawAMAwAsmh2ybdt2Ef0PLBC8TDGKJHKaTrOQVNFvuI/j2YFvmX1dZElX5e+3zU10TWXcpuExjMt63mAHAA==",
+                "lcpi" : "/assets/cosmetologia-small-lcpi.webp",
+                "original" : "/assets/cosmetologia.webp"
+            },
             "categoria": "Carrera Técnica",
             "colorCategoria": "rgb(18, 193, 2)",
             "malla": {
@@ -217,6 +227,11 @@
             "texto": "Aprenderás las habilidades fundamentales de programación, administración de sistemas y seguridad informática, capacitándote para navegar con confianza en el mundo digital y destacarte en un campo en constante evolución.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/pantallas-computadora-grupo-jovenes-ropa-casual-que-trabajan-oficina-moderna_146671-16494.jpg?t=st=1711036626~exp=1711040226~hmac=5ff5c50de026e29b637ddd646744271f548f8526cc243ef0350c4c711948c72e&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRuIAAABXRUJQVlA4TNUAAAAvCQABAI/BOJJsJbvvK+5RUORfJPRvOCdPg1EkSYp6mffodQbI9RljD4xsAgBMMneHCFSgfwg+Lgq4O/MfQ1suC44vodxPOFAq7FEUPwoXYSmi+eeHpSnikfs3CuVIcyymB3JDKwT6I99L/45+OL6MtwTi6hWniHsJFKWICJ4ExCkIQMigyEpVyI1d5dovqGpT39oxmz7vWnYdeYWscfpfWE99UwDDAADKJrObbZsR/Y82PoxO/Z2qYayWNcvDpp67ybMOeZKgRxF/P3lhUEDB/vN2yw0A",
+                "lcpi" : "/assets/computacion-small-lcpi.webp",
+                "original" : "/assets/computacion.webp"
+            },
             "categoria": "Especialidad Técnica",
             "colorCategoria": "blue",
             "malla": {
@@ -314,6 +329,11 @@
             "texto": "Aprenderás las estrategias clave para una gestión eficiente de inventarios, transporte y distribución, preparándote para ser un profesional indispensable en la optimización de procesos logísticos y el flujo de productos.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/retrato-trabajador-almacen-exitoso-o-supervisor-brazos-cruzados-pie-gran-area-distribucion-almacenamiento_342744-1521.jpg?t=st=1711036693~exp=1711040293~hmac=74697ac91ec5f1e132b8a8a1e5b6ccbcac3148295fa996032a159c3bfa09d092&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
+                "lcpi" : "/assets/administracion-small-lcpi.webp",
+                "original" : "/assets/administracion.webp"
+            },
             "categoria": "Especialidad Técnica",
             "colorCategoria": "blue",
             "malla": {
@@ -412,6 +432,11 @@
             "texto": "Aprenderás sobre de planificación, organización y liderazgo empresarial, dotándote de las habilidades necesarias para impulsar el éxito y el crecimiento de cualquier organización.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/mujer-tiro-medio-trabajando-computadora-portatil_23-2149300643.jpg?t=st=1711036751~exp=1711040351~hmac=7b23209cacb9f495a675ff5e5a5c1efc9fa91f8348635ce34be4fc6ecac9df2f&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
+                "lcpi" : "/assets/administracion-small-lcpi.webp",
+                "original" : "/assets/administracion.webp"
+            },
             "categoria": "Especialidad Auxiliar",
             "colorCategoria": "orange",
             "malla": {
@@ -503,6 +528,11 @@
             "texto": "Aprenderás las habilidades cruciales de manejo de transacciones financieras, atención al cliente y cumplimiento normativo, convirtiéndote en un activo valioso para instituciones financieras con tu capacidad para ofrecer un servicio excepcional y seguro.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/cajero-tienda-positivo-feliz-hablando-cliente-riendose-caja-tiro-medio-concepto-compras_74855-11828.jpg?t=st=1711036928~exp=1711040528~hmac=ab165edfbeab8133f55686045657420c2f4177d49a293aaf9ca70606e09dc117&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRh4BAABXRUJQVlA4TBIBAAAvCYABAC/CILJtJRd3d+oQmyROA3d9NRzEtq0q99z73d0/cUhKDcIQwF2eMI4kW8nzLzhkQCZETUJ25vqN+Q9sofbcpUfBXD2xGoWzwxojNzPezwS3ABWyHfwpMeDRJxBDpQFR5PAWcCZiBTGSAegEktjwDpEE8SSIFSA4+bFUgYUEAkY/AGwClUChl3+syWZividEYZxSh8eIBQdk48cQurmg2PmUkTRQggZq9pqf8ibWEMmbRbk/ddmn/z6uH3pupDeX4/vK+FAcNvnuAQcBAJBteLZt28bNiP5Hmlvmcu28PtzqYcwiJ4jtS9J8b5MoaWrBGTrBl65Mz9CLxFEQgDGfer4ZVmgV5PO4V+t+Hr8/",
+                "lcpi" : "/assets/cajero-bancario-small-lcpi.webp",
+                "original" : "/assets/cajero-bancario.webp"
+            },
             "categoria": "Especialidad Auxiliar",
             "colorCategoria": "orange",
             "malla": {
@@ -594,6 +624,11 @@
             "texto": "Aprenderás las habilidades comunicativas esenciales para prosperar en un mundo globalizado, potenciando tu confianza y apertura a oportunidades profesionales y personales a nivel internacional.",
             "precio": "100",
             "imagen": "https://img.freepik.com/foto-gratis/profesor-vista-lateral-mirando-ninos_23-2149455191.jpg?t=st=1711037097~exp=1711040697~hmac=00783d5605a51e5d873926522b30e10c73771940a0a3cf7cfe45a6b41c2045dc&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
+                "lcpi" : "/assets/administracion-small-lcpi.webp",
+                "original" : "/assets/administracion.webp"
+            },
             "categoria": "Especialidad Auxiliar",
             "colorCategoria": "orange",
             "malla": {
@@ -685,6 +720,11 @@
             "texto": "Aprenderás a crear contenido visual impactante utilizando herramientas digitales como Photoshop e Illustrator, desarrollando tu creatividad y habilidades para comunicar ideas de manera efectiva.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/concepto-estrategia-planificacion-estrategia-marketing_53876-42950.jpg?t=st=1711037370~exp=1711040970~hmac=363ae7d186cc5985e26f7c5e13a45bb8a0144735b6350bce292653d0fdd39315&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
+                "lcpi" : "/assets/administracion-small-lcpi.webp",
+                "original" : "/assets/administracion.webp"
+            },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
             "malla": {
@@ -747,6 +787,11 @@
             "texto": "Aprenderás a dominar las herramientas de software de oficina como Word, Excel y PowerPoint, mejorando tu eficiencia en tareas administrativas y comunicación profesional.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/empresarios-que-trabajan-finanzas-contabilidad-analizan-financi_74952-1411.jpg?t=st=1711037179~exp=1711040779~hmac=f0603208fb3f0f80ae43f590dac323a2add72ed8c0413b36635c95f0fcf75f39&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRkYBAABXRUJQVlA4TDoBAAAvCcABAH/COJJtUxfvfXunwH785ta4Lw22kW0ruV9xl5CYHojovwYvgMj55jiSbaW6F3eHnTuERcrsyIDvrk/mP6pumLel0AMYOixliYo/AaGpjD0EhHoBDF7EJiKPI2ewGZAUMeWsiOJAhPizHSNUh1A9QLHQ6BDpiMKQcKwNBCICUCuMUoDlfkfYTCdO4xBw3hJ60PNQn7i5rEjsG2kBWrSrN7llx2VSN7OpC3M+UL/6YyLjP678osRiyUZzHLXTRquP5/obd189zBwigdeVjgvBS5akFCRogV0zrzmK9YSZCnxgQwSCeC4NHAYAQKbx2bZtZtsuov+xnC9Ubbrd0fhz5Xx/D8+uj7fz9fP+p3lbZS/BsDb9BCKSO0PJ6xkLkLofNWaIYCN+HChifNlzRXk6DEHJhQcdCg==",
+                "lcpi" : "/assets/ofimatica-small-lcpi.webp",
+                "original" : "/assets/ofimatica.webp"
+            },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
             "malla": {
@@ -807,6 +852,11 @@
             "texto": "Aprenderás las habilidades necesarias para construir y configurar computadoras personalizadas, convirtiéndote en un experto en hardware informático y satisfaciendo las necesidades específicas de los usuarios.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/necesito-arreglar-joven-usando-destornillador-mirar-dentro-computadora-cpu-rota-antes-repararla-tienda_662251-115.jpg?t=st=1711037336~exp=1711040936~hmac=ee203c6ac73c652ad962df2791291da13bfab19b39b72bfee1738aff1ff3d637&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRjoBAABXRUJQVlA4TC0BAAAvCcABAH/CJpJkVZ8ZMvKv5mv4MWYMxzYYR5Lc5ORdCOSfCnHAk6fnnCTGAQAYyTafvZq+LRrobM5/jN932iE4bvIHyrnzZIAV0AyI5yP3TsUdgU7tt5FxRMNz0XA152DmjQF2TYxjmopN5IHE0xHryKgRBKalDEq+tH7f0MJRlsAx2rQiGBI8TsB9tALs2ZZRlMK+8yHn54LFRASZfhGkSPQytX85sItsQ33C9S0NHveEl7V8GG7sZMWz2olSyq1KViK4kf0t8Eu91FClxAaxNTbKNM8M5TGsP/SOqxYcBgBApvHZtm1m2y6i/3E9P0fj4eRtmEcAfFwgBBY2t9O9Ouy3TL2zlJDtHJWz9anIr1e05s6kl9z0OBH8Bn6elMsFhXn/b5oVcfRB5y0JAA==",
+                "lcpi" : "/assets/ensamblaje-pcs-small-lcpi.webp",
+                "original" : "/assets/ensamblaje-pcs.webp"
+            },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
             "malla": {
@@ -900,6 +950,11 @@
             "texto": "Aprenderás las técnicas artesanales para crear delicias dulces, perfeccionando tus habilidades en decoración y presentación de postres que deleitarán a tus clientes.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/cerrar-cocinero-preparando-postre_23-2148972039.jpg?t=st=1711037530~exp=1711041130~hmac=0286fdc2ac49b73d063130b201562be8fcebaf991e6fba442dbefab75c771acc&w=826",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRgQBAABXRUJQVlA4TPcAAAAvCUABANfBNpIkNfskZpapoJS/y8ychutItpXo3ou7uxMAnxTxEwQBkIE7u4wiSVI0tHvMv/NyEs6/BWbm+Q8AhA+cBNAxlRg3q41Q9lJZJWHv0j4TrhGt2bUUy4oEw89JQsgHCRwQECOD/hIFwHcbvkP7L23/JivdnNrgguW9NVwfThtheMCbbp4xjhBkH4fciTFEBGz0h+gjrndl6QnKIdDv//9++L3cTSWb4G4/eiQUlT0arlYxFPIuRxkABgEAlo1Ot23bZkT/g5UjpxmSY/8YSorN0KrTHwO3P7dlnS4CON64u3FuaaRo+hOong3FNy+rrPAFAA==",
+                "lcpi" : "/assets/pasteleria-reposteria-small-lcpi.webp",
+                "original" : "/assets/pasteleria-reposteria.webp"
+            },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
             "malla": {
@@ -957,6 +1012,11 @@
             "texto": "Aprenderás las habilidades de preparación de cócteles y servicio de bebidas, convirtiéndote en un profesional versátil capaz de crear experiencias memorables en el mundo de la hospitalidad.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/barman-brutal-elegante-camisa-delantal-hace-coctel-fondo-mostrador-bar_613910-20097.jpg?t=st=1711037568~exp=1711041168~hmac=6b058dc25b63cc285fb050fbb8c92789c55b10911a1766b0bfd32bc38ba0dabc&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRk4BAABXRUJQVlA4TEIBAAAvCcABAH/CKAAAM+fZyLAK6v93gD1tqwbjSLKV1MPdJQCunEiMREnE3eWt28i21eb/B2IugKEQZapfkSH0OBYzzH94eRqxhNMHkAUIcgPx+LrCgyXUyLSRZJ1kubCywioTvgdVL5vyoLIGCR50Ayxc/gtAn8ns+Ez0ACgioaKEP3R/gOPVrRw+dyUIBgCdTYdTdGkm2DggSjYkSkgVCAF8Ppiiew3C2S9CFYrvv+ca0RVt3Jl/zb/v6AHOsFfet+lZ/MtIROkdBAbikk05W3ITKDrbtP1AaTd+mqh08UUD3YueF6ve+bYTwKGqe/dOfGOmZBU4DACATOOzbdvMtl1E/4PUVUYy8qJK6sZhbTNr05839GU+Lt3d4P7nhPnsejouun4/mp636w06Pkys5/JC4IgS3h6itqJhKArer88Xo0AA",
+                "lcpi" : "/assets/bartender-small-lcpi.webp",
+                "original" : "/assets/bartender.webp"
+            },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
             "malla": {
@@ -1012,6 +1072,11 @@
             "texto": "Aprenderás a diagnosticar y solucionar problemas comunes en dispositivos móviles, convirtiéndote en un técnico experto en la era digital.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/master-utiliza-herramientas-especiales-desmontar-dispositivos-electronicos-cuidado-pinzas-destornillador_346278-1780.jpg?t=st=1711037642~exp=1711041242~hmac=6f56a3a4da21f56871cde99e8866586f64a48ee98052853efb85dfc8e24c6110&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRjwBAABXRUJQVlA4TC8BAAAvCcABAH/CKJIkRT2zzL9Tcf6F8Otc7DHZYBBJkpPL5KgCHcjEGjo+/4Pb2raV6L3/BIfMHZqg/xhCqmDcfeY/ABBc0o2195txA7cSiT/mDNmfuZloigCIVkJA2NBZSToRlSeRXz46k9w4N3G0Dz85GmNmMJgsHAh9qApxrAyy39AjhikHio1vfiopR50DRdnBAQYs4P8vrCoGF5Dc8EMz8g0IRgDfm8FfHU/9uOqLnTaO/yDIB2jH2+gjg8Gm5IXoD/jDiPARQkQohALJ7P/F6lZv+zhcbH5nyzDpnqv1WsBhAABkGp9t22a27SL6H6/nftN+ysn03Zxu98euK+YzcnE8X+Ovno8R9nBxuL+QVTC4WgNSCvl9tJQT0xrwzPanUKLhhp49xAgaxVUtGNUA",
+                "lcpi" : "/assets/reparacion-celulares-small-lcpi.webp",
+                "original" : "/assets/reparacion-celulares.webp"
+            },
             "categoria": "Taller",
             "colorCategoria": "#e057ff",
             "malla": {
@@ -1101,6 +1166,11 @@
             "texto": "Aprenderás a dominar las funciones y herramientas avanzadas de esta poderosa aplicación de hojas de cálculo, mejorando tu eficiencia en análisis de datos y toma de decisiones en entornos profesionales.",
             "precio": "120",
             "imagen": "https://www.ilen.edu.pe/wp-content/uploads/2022/05/1366_2000.jpg",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRjQBAABXRUJQVlA4TCgBAAAvCcABAGfCILJtJfe9L7g76clAF3K4aw3GkeQ4Wem8h/zzIABy4c3Pg+Q2tm2lev5wJySl/4hiXCpwvt575z8A9ldizZwBhq1lREPAMJpHQfnIMgK6npPfd9pUiEKAZAgjZgIBRD8PAeP5ohgjjUG58wEvx4wiOO7w8Z/BklbyGfICgJEUJER5yceswSJW41HuEsMKEntigGjL4fzYEFCsmUb7vcT8JuKLQmIJyq+l7fuqDZKkEQuvk5ICTHOAqzEJu3z8Uy4XJmmKgtSfrXZd8TFolka+Md2+gcMAAMs2ntq2bc62EdH/kJQuTPrX6ZOt/XkZDM/Hcblq2sn7MN1vXZvyfpvbdZw5l3MkA7H+IgL0Z2OChGkeu++KhW4awKoAyFONwVFOBQ==",
+                "lcpi" : "/assets/excel-small-lcpi.webp",
+                "original" : "/assets/excel.webp"
+            },
             "categoria": "Taller",
             "colorCategoria": "#e057ff",
             "malla": {
@@ -1166,6 +1236,11 @@
             "texto": "Aprenderás las técnicas para diseñar e implementar sistemas de vigilancia efectivos, contribuyendo a la seguridad y protección de espacios comerciales y residenciales.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/tecnologia-seguridad-cctv-icono-candado-remezcla-digital_53876-104935.jpg?t=st=1711037749~exp=1711041349~hmac=a5f9d5412f9062631a86b42a3db809f14db0a82c74cb5df57186c85cd9ff5562&w=740",
+            "imagenes" : {
+                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
+                "lcpi" : "/assets/administracion-small-lcpi.webp",
+                "original" : "/assets/administracion.webp"
+            },
             "categoria": "Taller",
             "colorCategoria": "#e057ff",
             "malla": {

@@ -1,14 +1,10 @@
 ---
 import Layout from '../components/Layout.astro';
 
-//data
-// import DataCursos from "../data/InfoCursos.json";
 import Data from "../data/PageData.json";
 import DataCursos from "../data/DataCursos.json";
 import ItemCurso from '../components/CardCursos/ItemCurso.astro';
 const {data} = DataCursos;
-
-// const { "Carreras Técnicas":CarrerasTecnicas , "Especialidades Auxiliares":EspecialidadAuxiliar , "Especialidades Técnicas":EspecialidadTecnica , Talleres, Cursos } = DataCursos;
 const {nosotros:{titulo , description}} = Data;
 ---
 
@@ -19,8 +15,8 @@ const {nosotros:{titulo , description}} = Data;
                 <h2 class="titleSection">Programas de Estudio</h2>
                 <article class="Cursos-Container">
                     {
-                        data.map( ({titulo, precio , texto , imagen , categoria , colorCategoria, id: url}) => {
-                            return <ItemCurso titulo={titulo} texto={texto} categoria={categoria} colorCategoria={colorCategoria} precio={precio} imagen={imagen} url={url}/>
+                        data.map( ({titulo, precio , texto , imagen , categoria , colorCategoria, id: url},index) => {
+                            return <ItemCurso titulo={titulo} texto={texto} categoria={categoria} colorCategoria={colorCategoria} precio={precio} imagen={imagen} url={url} index={index}/>
                         })
                     }
                     <!-- <CardCurso ArrayCursos={ CarrerasTecnicas}/> -->

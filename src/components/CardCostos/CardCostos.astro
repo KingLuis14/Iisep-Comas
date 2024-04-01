@@ -1,5 +1,6 @@
 ---
 import ItemAcordeon from "../Acordeon/ItemAcordeon.astro";
+import Boton from "../Boton/Boton.astro";
 import ItemInversion from "./ItemInversion.astro";
 
 interface Inversion {
@@ -14,47 +15,54 @@ interface Inversion {
 interface Props {
     inversion: Inversion;
     beneficios: string[];
+    categoria : string;
+    programaEstudio: string;
 }
 
 
 
-const { inversion, beneficios } = Astro.props;
+const { inversion, beneficios, categoria, programaEstudio } = Astro.props;
 const {Acreditacion , Duracion, Mensualidad, PriCuota, Promo, AcreditacionCosto} = inversion;
 
+const colorIcono = Promo === "Individual" ? "white" : "white";
 
 // const { inversion } = ArrayCostos;
+
+const textCategoria = categoria.includes("Carrera") || categoria.includes("Especialidad") ? "la " + categoria : "el " + categoria;
+
 ---
 
-<article class="Card-Costo">
+<article class:list={['Card-Costo',{Modoblue: Promo === "Individual" ? true : false}, {Mododark: Promo === "Grupal" ? true : false}]}>
     <header class="Card-Costo__Titulo">
         <h2>{Promo}</h2>
     </header>
     <div class="Card-Costo__Inversion">
         <h3 class="Card-Costo__SubTitulo">Inversión</h3>
         <ul class="Card__lista">
-            <ItemInversion propiedad="Matricula :" valor={"Gratis"} colorValor="red"/>
-            <ItemInversion propiedad="Inscripción :" valor={"Gratis"} colorValor="red"/>
-            <ItemInversion propiedad="1° Cuota :" valor={PriCuota} colorValor="rgb(16, 180, 1)"/>
-            <ItemAcordeon tema={`Mensualidades (${Duracion}) : S/${Mensualidad}`}/>
-            <ItemAcordeon tema={`${Acreditacion} : S/${AcreditacionCosto}`}/>
+            <ItemInversion propiedad="Matricula :" valor={"Gratis"} colorValor="#fd053f"  colorIcono={colorIcono}/>
+            <ItemInversion propiedad="Inscripción :" valor={"Gratis"} colorValor="#fd053f" colorIcono={colorIcono}/>
+            <ItemInversion propiedad="1° Cuota :" valor={PriCuota} colorValor="rgb(16, 180, 1)" colorIcono={colorIcono}/>
+            <ItemAcordeon tema={`Mensualidades (${Duracion}) : S/${Mensualidad}`} colorIcono={colorIcono} />
+            <ItemAcordeon tema={`${Acreditacion} : S/${AcreditacionCosto}`} colorIcono={colorIcono}/>
         </ul>
     </div>
-    <footer class="Card-Costo__Beneficios">
+    <div class="Card-Costo__Beneficios">
         <h3 class="Card-Costo__SubTitulo">Beneficios</h3>
         <ul class="Card__lista">
-            <ItemAcordeon tema={"Sin Costo de Matrícula"}/>
-            <ItemAcordeon tema={"Sin costo de Inscripción"}/>
-            <ItemAcordeon tema={"Carnet de Asistencia"}/>
-            <ItemAcordeon tema={"Entregamos Libro físico cada mes"}/>
+            <ItemAcordeon tema={"Sin Costo de Matrícula"} colorIcono={colorIcono}/>
+            <ItemAcordeon tema={"Sin costo de Inscripción"} colorIcono={colorIcono}/>
+            <ItemAcordeon tema={"Carnet de Asistencia"} colorIcono={colorIcono}/>
+            <ItemAcordeon tema={"Entregamos Libro físico cada mes"} colorIcono={colorIcono}/>
             {
                 beneficios.map((beneficio) =>{
-                    return <ItemAcordeon tema={beneficio}/>
+                    return <ItemAcordeon tema={beneficio} colorIcono={colorIcono}/>
                 })
             }
-            <ItemAcordeon tema={"Soporte educativo mediante WhatsApp"}/>
-            <ItemAcordeon tema={"Acceso a capacitaciones y a certificaciones"}/>
+            <ItemAcordeon tema={"Soporte educativo mediante WhatsApp"} colorIcono={colorIcono}/>
+            <ItemAcordeon tema={"Acceso a capacitaciones y a certificaciones"} colorIcono={colorIcono}/>
         </ul>
-    </footer>
+    </div>
+    <Boton texto="Solicitar" href=`hola buenas, deseo mas informacion sobre los horarios y el descuento en la primera cuota del plan ${Promo} para ${textCategoria} de ${programaEstudio}`, target="_blank"/>
 </article>
 
 <style lang="scss" >
@@ -62,20 +70,42 @@ const {Acreditacion , Duracion, Mensualidad, PriCuota, Promo, AcreditacionCosto}
         --filas: 1;
 
         flex-basis: calc((100% - (var(--filas) - 1) * 2rem) / var(--filas));
-        background-color: rgb(254, 254, 254);
-        box-shadow: 0 0 7px 4px rgb(237, 236, 236);
-        backdrop-filter: blur(10px);
-        // color: white;
         display: grid;
-        gap: 1rem;
+        gap: 1.7rem;
         padding: 1rem;
+        box-shadow: 0 0 7px 4px rgb(237, 236, 236);
+
+        border-radius: 1rem;
+
+        &.Modoblue{
+            background-color:#4851f5;
+            color: white;
+        }
+
+        &.Mododark{
+            background-color: #212731;
+            color: white;
+        }
 
         &__Titulo {
             text-align: center;
+            
+            > h2 {
+                font-weight: 800;
+            }
         }
 
         &__SubTitulo {
-            padding-block: 0.6rem;
+            padding-bottom: 1rem;
+            font-weight: 700;
+            // background-color: orange;
+        }
+
+        > a {
+            justify-self: center;
+            width: 90%;
+            background-color: #fd053f;
+            text-align: center;
         }
 
         @media (width > 768px) {
@@ -90,5 +120,14 @@ const {Acreditacion , Duracion, Mensualidad, PriCuota, Promo, AcreditacionCosto}
         display: grid;
         grid-auto-rows: min-content;
         gap: 0.5rem;
+
+        > li {
+            color: rgb(224, 224, 224);
+        }
     }
+
+    .Card-Costo__Beneficios{
+        // background-color: crimson;
+    }
+
 </style>

@@ -1,33 +1,33 @@
 ---
 interface Props {
-    tema: String;
+    tema: string;
+    colorIcono : string;
+    class?: string
 }
 
-const { tema } = Astro.props;
+const { tema ,colorIcono , class: className, ...rest} = Astro.props;
 import { Icon } from "astro-icon/components";
 ---
 
-<li>
+<li class=`${className}` {...rest} >
     <span>
         <Icon name="CheckIcon" size={21} />
     </span>
-    <p>{tema}</p>
+    <p >{tema}</p>
 </li>
 
-<style lang="scss">
+<style lang="scss" define:vars={{ colorIcono }}>
     li {
         display: flex;
         align-items: start;
         gap: 0.7rem;
 
         > span {
-            margin-top: .11rem;
+            margin-top: 0.07rem;
             flex-shrink: 0;
-            color: var(--color-Secondary);
+            color: var(--colorIcono);
             line-height: normal;
-        }
-        > p {
-            flex-grow: 1;
+            height: min-content;
         }
     }
 </style>

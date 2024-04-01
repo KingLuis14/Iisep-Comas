@@ -1,19 +1,14 @@
 [
     {
-        "title":  "Ganas Experiencia",
-        "description": "En los primeros años de la universidad, las materias están relacionadas a cursos generales, sin embargo, en IISEP llevarás cursos de especialidad desde el primer ciclo académico.",
-        "img": "/assets/edicion-video-CMnfwx0o.webp"
+        "title":  "Mision",
+        "description": "Somos una Institución Educativa Técnico Productiva Privada formadora de profesionales técnicos, con una organización de trabajo en equipo, con prestigio local y que brinda una formación técnica productiva organizada en módulos educativos vinculados a la demanda del mercado laboral.",
+        "img": "/assets/titulo.webp"
     },
     {
-        "title":  "Docentes Expertos",
-        "description": "Contamos con un staff de docentes altamente calificados, que se encargarán de brindarte la mejor experiencia educativa en nuestra institución.",
-        "img": "/assets/teacher-B-rgpyTD.webp",
+        "title":  "Vision",
+        "description": "Queremos ser un Centro de Educación Técnico Productiva de prestigio, destacado a nivel local y nacional. Buscamos la excelencia educativa en formación técnica profesional, con talleres modernos, tecnología de punta, docentes altamente calificados y un enfoque en la inserción laboral con visión empresarial y responsabilidad social.",
+        "img": "/assets/gastronomia-buffet.webp",
         "imgDirection": "rigth"
-    },
-    {
-        "title":  "Ahorras Tiempo",
-        "description": "Con IISEP, olvídate de cinco años de universidad. Estudia Carreras Técnicas en solo 2 años, con certificación oficial del Ministerio de Educación.",
-        "img": "/assets/logistica-iisep-promocion-new2.webp"
     }
     
 ]

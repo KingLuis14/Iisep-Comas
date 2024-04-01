@@ -2,7 +2,7 @@
 interface Props {
     numModulo: number;
     modulo: string;
-    temario: String[];
+    temario: string[];
 }
 
 import ItemAcordeon from "./ItemAcordeon.astro";
@@ -12,19 +12,30 @@ const { numModulo, modulo, temario } = Astro.props;
 ---
 
 <article class="Acordeon">
-    <header class="Acordeon__Header" id="TemarioHeader">
+    <button class="Acordeon__Header" id="TemarioHeader">
         Modulo {numModulo} : {modulo}
         <span class="Acordeon__Boton">
-            <Icon name="ArrowIcon" class:list={[{rotate: numModulo === 1}]} size={21} />
+            <Icon
+                name="ArrowIcon"
+                class:list={[{ rotate: numModulo === 1 }]}
+                size={21}
+            />
         </span>
-    </header>
-    <!-- <div class="Acordeon__Contenido" id="Temario"> -->
-    <div class:list={['Acordeon__Contenido', { isOpen: numModulo === 1 }]} id="Temario">
-        <div class="Contenido-Expandido">
+    </button>
+    <div
+        class:list={["Acordeon__Contenido", { isOpen: numModulo === 1 }]}
+        id="Temario"
+    >
+        <div style="overflow: hidden;">
             <ul class="Acordeon__lista">
                 {
                     temario.map((tema) => {
-                        return <ItemAcordeon tema={tema} />;
+                        return (
+                            <ItemAcordeon
+                                tema={tema}
+                                colorIcono="rgb(18, 193, 2)"
+                            />
+                        );
                     })
                 }
             </ul>
@@ -41,25 +52,24 @@ const { numModulo, modulo, temario } = Astro.props;
             padding: 1rem;
             cursor: pointer;
             display: flex;
+            text-align: start;
             justify-content: space-between;
             align-items: start;
+            font-size: var(--step-0);
             gap: 0.5rem;
             font-weight: 700;
+            border: none;
+            background-color: transparent;
         }
 
         &__Contenido {
             display: grid;
             will-change: grid-template-rows;
             grid-template-rows: 0fr;
-            overflow: hidden;
-            transition: grid-template-rows 0.2s linear;
+            transition: grid-template-rows 0.2s ease-out;
 
             &.isOpen {
                 grid-template-rows: 1fr;
-            }
-
-            &.isOpen .Contenido-Expandido {
-                visibility: visible;
             }
         }
 
@@ -71,13 +81,13 @@ const { numModulo, modulo, temario } = Astro.props;
             gap: 0.5rem;
         }
 
-        &__Boton{
+        &__Boton {
             display: flex;
             align-items: center;
+            pointer-events: none;
             > svg {
                 transform: rotate(180deg);
                 transition: transform 0.2s linear;
-                pointer-events: none;
 
                 &.rotate {
                     transform: rotate(0deg);
@@ -85,33 +95,33 @@ const { numModulo, modulo, temario } = Astro.props;
             }
         }
     }
-
-    .Contenido-Expandido {
-        min-height: 0;
-        visibility: hidden;
-        transition: visibility 0.2s;
-    }
 </style>
 
 <script>
     const SectionAcordeon = document.getElementById("Section-Acordeon");
 
     SectionAcordeon.addEventListener("click", (e) => {
-        const element = e.target as HTMLElement;
-        const nextElement = element.nextElementSibling;
+        const header = (e.target as HTMLElement).closest(".Acordeon__Header");
+        if (!header) return; // Si el clic no fue en el encabezado, salimos
 
-        if (element.className === "Acordeon__Header") {
-            const Arrow = element.querySelector("span svg");
-            Arrow.classList.toggle("rotate");
-            nextElement.classList.toggle("isOpen");
+        const contenido = header.nextElementSibling as HTMLElement;
+
+        // Toggle de clase isOpen en el contenido del acordeón
+        contenido.classList.toggle("isOpen");
+        // contenido.style.willChange = 'auto';
+
+        // Toggle de rotación del icono
+        const arrow = header.querySelector("span svg");
+        if (arrow) {
+            arrow.classList.toggle("rotate");
         }
-        if (element.className === "Acordeon__Boton") {
-            const padre = element.parentElement;
-            const Arrow = element.querySelector("svg");
-            const nextElement2 = padre.nextElementSibling;
-            Arrow.classList.toggle("rotate");
-            console.log(Arrow);
-            nextElement2.classList.toggle("isOpen");
-        }
+
+        contenido.addEventListener(
+            "transitionend",
+            () => {
+                contenido.style.willChange = "auto";
+            },
+            { once: true },
+        );
     });
 </script>

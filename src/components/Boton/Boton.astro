@@ -1,0 +1,33 @@
+---
+type target = "_self" | "_blank";
+
+interface Props {
+    texto: string;
+    href: string;
+    target: target;
+    class?: string;
+}
+
+const { texto, href, target, class: className = "", ...rest } = Astro.props;
+
+const mensajeCodificado = href.replace(/ /g, '%20');
+
+
+
+// console.log(mensajeCodificado);
+
+
+---
+
+<a href={`https://wa.me/51904209403?text=${mensajeCodificado}`} target={target} class=`Boton ${className}` {...rest}>
+    {texto}
+</a>
+
+<style>
+    .Boton {
+        color: rgb(255, 255, 255);
+        padding: 0.5rem 1rem;
+        border-radius: 100vmax;
+        background-color: var(--color-Secondary);
+    }
+</style>

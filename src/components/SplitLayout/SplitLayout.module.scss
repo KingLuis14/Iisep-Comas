@@ -1,5 +1,5 @@
 .container {
-    width: min(100%, 800px);
+    width: min(100%, 850px);
     margin-inline: auto;
     display: grid;
     justify-content: center;
@@ -46,7 +46,8 @@
 .img {
     justify-self: center;
     transform: scale(1);
-    transition: transform .7s;
+    filter: saturate(.7);
+    transition: transform .7s , saturate .7s;
     aspect-ratio: 16/9;
 
     @media (min-width: 640px) {
@@ -56,5 +57,6 @@
 
     &:hover {
         transform: scale(1.15);
+        filter: saturate(1);
     }
 }

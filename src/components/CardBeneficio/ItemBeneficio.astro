@@ -1,32 +1,59 @@
 ---
-
-// interface Beneficios {
-//   icon: string;
-//   text: string;
-// }
-
-// interface Props {
-//   beneficio: Beneficios[];
-// }
-
-import Styles from "./styles.module.scss";
-const { array } =  Astro.props;
-
-import { Icon } from 'astro-icon/components';
+const { array } = Astro.props;
+import { Icon } from "astro-icon/components";
 ---
 
-<div class={ Styles.container}>
-
+<div class="container">
     {
-        array.map( ({ icono , texto }) => {
-            return <article class={ Styles.contenido}>
-                        <span class={ Styles.Icon}>
-                            <Icon name={icono} size={35} />  
-                        </span>
-                        <p class={ Styles.parrafo}> { texto }</p>
-                    </article>
+        array.map(({ icono, texto }) => {
+            return (
+                <article class="contenido">
+                    <span class="Icon">
+                        <Icon name={icono} size={35} />
+                    </span>
+                    <p class="parrafo"> {texto}</p>
+                </article>
+            );
         })
     }
-    
 </div>
 
+<style lang="scss">
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        width: min(90%, 700px);
+        margin-inline: auto;
+    }
+
+    .contenido {
+        flex-basis: 40%;
+        min-width: 130px;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        color: #fff;
+
+        @media screen and (width > 640px) {
+            flex-basis: 30%;
+        }
+    }
+
+    .Icon {
+        background-color: rgb(255, 255, 255);
+        color: black;
+        padding: 0.7rem;
+        border-radius: 50%;
+        display: grid;
+    }
+
+    .parrafo {
+        text-align: center;
+        white-space: pre-line;
+        color: #dadada;
+    }
+</style>

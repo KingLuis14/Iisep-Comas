@@ -1,85 +1,66 @@
 ---
-import type { Code, Debug } from 'astro:components';
-
 interface Props {
-    arrayImg : {original: string, borrosa: string}[]
+    arrayImg: { original: string; borrosa: string }[];
 }
 
 const { arrayImg } = Astro.props;
 ---
 
-<style lang="scss">
-
-    ul {
-        width: max-content;
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 1rem; 
-        margin-top: clamp(2rem, 1.2727rem + 3.6364vw, 4rem);
-        
-    }
-
-    .blur{
-        height: 100%;
-
-
-        > img {
-
-            width: auto;
-            aspect-ratio: 1/1 auto;
-            transform: scale(1);
-            transition: transform .3s;
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
-            border-radius: .5rem;
-
-            &:hover{
-            transform: scale(1.05);
-            }
-        }
-    }
-
-    @keyframes moverInfinito {
-        to{ 
-            transform: translate( calc( -50% - .5rem));
-        }
-    }
-
-</style>
-
 <article>
-    <ul id="carruselTrack" style="height: 40vmin; min-height: 200px;">
+    <ul class="Carrusel" id="carruselTrack">
         {
-            arrayImg.map(({ original, borrosa},index) => {
-                
-                return <li class="blur">
-                                <img
-                                    loading={index > 6 ? 'lazy' : 'eager'}
-                                    decoding="async"
-                                    style={{ backgroundImage: `${borrosa}`}}
-                                    src={original}
-                                    alt="IISEP carreras"
-                                />
-                         </li>
+            arrayImg.map(({ original, borrosa }) => {
+                return (
+                    <li class="Carrusel__Lista">
+                        <img
+                            class="Carrusel__Img"
+                            src={original}
+                            style={{ backgroundImage: `url(${borrosa})` }}
+                            alt="IISEP carreras"
+                        />
+                    </li>
+                );
             })
         }
     </ul>
 </article>
 
+<style lang="scss">
+    .Carrusel {
+        height: 40vmin;
+        min-height: 200px;
+        width: max-content;
+        display: flex;
+        gap: 1rem;
+        margin-top: var(--section-padding);
+    }
+
+    .Carrusel__Lista {
+        height: 100%;
+    }
+
+    .Carrusel__Img {
+        width: auto;
+        aspect-ratio: 1/1 auto;
+        transform: scale(1);
+        transition: transform 0.3s;
+        border-radius: 0.5rem;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    @keyframes moverInfinito {
+        to {
+            transform: translate(calc(-50% - 0.5rem));
+        }
+    }
+</style>
 
 <script>
-    const carrusel = document.getElementById("carruselTrack");
-    const items = Array.from(carrusel.children);
-
-    // items.forEach( item => {
-    //     const duplicatedItem = item.cloneNode(true) as HTMLElement;
-    //     // duplicatedItem.setAttribute("aria-hidden", true);
-    //     carrusel.appendChild(duplicatedItem);
-    // })
-
-    window.addEventListener("DOMContentLoaded" , () =>{
+    document.addEventListener("astro:page-load", () => {
+        const carrusel = document.getElementById("carruselTrack");
         carrusel.style.animation = "moverInfinito 14s forwards linear infinite";
-    })
-
+    });
 </script>

@@ -2,11 +2,13 @@
     {
         "title":  "Mision",
         "description": "Somos una Institución Educativa Técnico Productiva Privada formadora de profesionales técnicos, con una organización de trabajo en equipo, con prestigio local y que brinda una formación técnica productiva organizada en módulos educativos vinculados a la demanda del mercado laboral.",
+        "base64": "data:image/webp;base64,UklGRrQAAABXRUJQVlA4TKgAAAAvBwABAC+hoI0k5eiZwcD7l4g2mAYAmGTu1gQSic7/77hXh3EbSYqWGY/hd7r806PeleY/AJBSEscRfTmtxlAB7vtB8nD9DS7jPc2MA8ISAE09zqx/dFx81QUK+3t9xm0MiRf2536A3c7sm1gGSDilNKadQoZCDd2R0kBaEsLpcwMGkiQZDs7a1tkX0f+Y/+251tun5fzeY49WagCjHKJMcAykjDb1mgM=",
         "img": "/assets/titulo.webp"
     },
     {
         "title":  "Vision",
         "description": "Queremos ser un Centro de Educación Técnico Productiva de prestigio, destacado a nivel local y nacional. Buscamos la excelencia educativa en formación técnica profesional, con talleres modernos, tecnología de punta, docentes altamente calificados y un enfoque en la inserción laboral con visión empresarial y responsabilidad social.",
+        "base64": "data:image/webp;base64,UklGRs4AAABXRUJQVlA4TMIAAAAvB0ABAH/BKpJkJxvuyBlc4F8ARvhDRbShOJKk5ASHp0dA/j9Sc9hGkuTktf5HmeRB/kUmhIB7cv5jh2fdxNKjiXZludkCKjWubIsX+EIuSOMFqxcFZpGYUDI5L35lUCJiSFI68iKxwEuSjBcCXOc5SsHiZyZxC6/5w3+UnvU9UTkEMwzOCU6Ss9TDMV4XfKqLzvMDwwAAiyZnI9t2Ef2PKksTo1VwnPe11bEb+n3spoiFc/u//iGUf7bIBYCobJZVYg==",
         "img": "/assets/gastronomia-buffet.webp",
         "imgDirection": "rigth"
     }

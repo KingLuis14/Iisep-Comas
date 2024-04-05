@@ -19,14 +19,10 @@ interface Props {
     programaEstudio: string;
 }
 
-
-
 const { inversion, beneficios, categoria, programaEstudio } = Astro.props;
 const {Acreditacion , Duracion, Mensualidad, PriCuota, Promo, AcreditacionCosto} = inversion;
 
-const colorIcono = Promo === "Individual" ? "white" : "white";
-
-// const { inversion } = ArrayCostos;
+const colorIcono = "white";
 
 const textCategoria = categoria.includes("Carrera") || categoria.includes("Especialidad") ? "la " + categoria : "el " + categoria;
 
@@ -39,8 +35,8 @@ const textCategoria = categoria.includes("Carrera") || categoria.includes("Espec
     <div class="Card-Costo__Inversion">
         <h3 class="Card-Costo__SubTitulo">Inversión</h3>
         <ul class="Card__lista">
-            <ItemInversion propiedad="Matricula :" valor={"Gratis"} colorValor="#fd053f"  colorIcono={colorIcono}/>
-            <ItemInversion propiedad="Inscripción :" valor={"Gratis"} colorValor="#fd053f" colorIcono={colorIcono}/>
+            <ItemInversion propiedad="Matricula :" valor={"Gratis"} colorValor="#e61c4b"  colorIcono={colorIcono}/>
+            <ItemInversion propiedad="Inscripción :" valor={"Gratis"} colorValor="#e61c4b" colorIcono={colorIcono}/>
             <ItemInversion propiedad="1° Cuota :" valor={PriCuota} colorValor="rgb(16, 180, 1)" colorIcono={colorIcono}/>
             <ItemAcordeon tema={`Mensualidades (${Duracion}) : S/${Mensualidad}`} colorIcono={colorIcono} />
             <ItemAcordeon tema={`${Acreditacion} : S/${AcreditacionCosto}`} colorIcono={colorIcono}/>
@@ -62,7 +58,7 @@ const textCategoria = categoria.includes("Carrera") || categoria.includes("Espec
             <ItemAcordeon tema={"Acceso a capacitaciones y a certificaciones"} colorIcono={colorIcono}/>
         </ul>
     </div>
-    <Boton texto="Solicitar" href=`hola buenas, deseo mas informacion sobre los horarios y el descuento en la primera cuota del plan ${Promo} para ${textCategoria} de ${programaEstudio}`, target="_blank"/>
+    <Boton texto="Solicitar" href=`hola buenas, deseo mas informacion sobre los horarios y el descuento en la primera cuota del plan ${Promo} para ${textCategoria} de ${programaEstudio}` target="_blank"/>
 </article>
 
 <style lang="scss" >
@@ -73,12 +69,11 @@ const textCategoria = categoria.includes("Carrera") || categoria.includes("Espec
         display: grid;
         gap: 1.7rem;
         padding: 1rem;
-        box-shadow: 0 0 7px 4px rgb(237, 236, 236);
-
+        box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.333);
         border-radius: 1rem;
 
         &.Modoblue{
-            background-color:#4851f5;
+            background-color:#25239a;
             color: white;
         }
 
@@ -98,13 +93,12 @@ const textCategoria = categoria.includes("Carrera") || categoria.includes("Espec
         &__SubTitulo {
             padding-bottom: 1rem;
             font-weight: 700;
-            // background-color: orange;
         }
 
         > a {
             justify-self: center;
             width: 90%;
-            background-color: #fd053f;
+            background-color: #e61c4b;
             text-align: center;
         }
 
@@ -124,10 +118,6 @@ const textCategoria = categoria.includes("Carrera") || categoria.includes("Espec
         > li {
             color: rgb(224, 224, 224);
         }
-    }
-
-    .Card-Costo__Beneficios{
-        // background-color: crimson;
     }
 
 </style>

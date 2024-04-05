@@ -1,8 +1,16 @@
 ---
 import { Icon } from "astro-icon/components";
+
+const href = "Hola, puede brindarme informacion sobre los programas de estudio del instituto IISEP";
+
+const mensajeCodificado = href.replace(/ /g, '%20');
+
 ---
 
-<a href="https://wa.me/51904209403?text=I'm%20interested%20in%20your%20car%20for%20sale" target="_blank" class="Container">
+<a href={`https://wa.me/51904209403?text=${mensajeCodificado}`} 
+     target="_blank" class="Container"
+     aria-label="boton para abrir el whatsapp"
+     >
     <span>
         <Icon name="WhatsAppIcon" size={40} />
     </span>
@@ -34,7 +42,6 @@ import { Icon } from "astro-icon/components";
             font-weight: 700;
             animation: Show 25s 10s linear infinite;
 
-           
             @keyframes Show {
                 2%,
                 23% {
@@ -47,14 +54,11 @@ import { Icon } from "astro-icon/components";
                     opacity: 0;
                 }
             }
-
-      
         }
     }
 
     span {
         position: absolute;
-
         top: 50%;
         left: 50%;
         background-color: rgb(56, 203, 78);
@@ -91,10 +95,8 @@ import { Icon } from "astro-icon/components";
                 26%,
                 100% {
                     transform: scale(0);
-                    
                 }
             }
-
         }
 
         @keyframes WhatsApp {

@@ -1,16 +1,89 @@
 ---
-    import Styles from "./SplitLayout.module.scss";
-
-    const { arrayInfo, index} = Astro.props;
-    const { title , description , img , imgDirection = "left" } = arrayInfo;
+const { arrayInfo, index } = Astro.props;
+const { title, description, img, base64,  imgDirection = "left" } = arrayInfo;
 ---
 
-<article class:list={`${Styles.container} ${imgDirection === "rigth" && Styles.imgDirection}`} >
+<article class:list={`container ${imgDirection === "rigth" && "imgDirection"}`}>
     <div style="overflow: hidden ; border-radius: 1rem; grid-area: imagen;">
-        <img class={ Styles.img } src={ img } alt={ title } fetchpriority="low" decoding="async">
+        <img 
+            class="Split__Imagen" 
+            data-srcx={img} 
+            style={`background-image: url(${base64})`}
+            alt={`${title} - IISEP`} />
     </div>
-    <div class={ Styles.contenido }>
-        <h3>{index + 1}. { title }</h3>
-        <p>{ description }</p>
+    <div class="contenido">
+        <h3>{index + 1}. {title}</h3>
+        <p>{description}</p>
     </div>
 </article>
+
+<style lang="scss">
+    .container {
+        width: min(100%, 850px);
+        margin-inline: auto;
+        display: grid;
+        justify-content: center;
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "contenido"
+            "imagen";
+        content-visibility: auto;
+
+        @media (width > 640px) {
+            grid-template-columns: 1fr 1fr;
+            grid-template-areas: "contenido imagen";
+
+            &.imgDirection {
+                grid-template-areas: "imagen contenido";
+            }
+        }
+    }
+
+    .contenido {
+        grid-area: contenido;
+        display: grid;
+        align-content: center;
+        text-align: left;
+        gap: 1rem;
+    }
+
+    .Split__Imagen {
+        content-visibility: auto;
+        filter: saturate(0.8);
+        transition:
+            transform 0.7s,
+            filter 0.7s;
+        aspect-ratio: 16/9;
+
+        @media (min-width: 640px) {
+            aspect-ratio: 1/1;
+        }
+
+        &:hover {
+            transform: scale(1.15);
+            filter: saturate(1);
+        }
+    }
+</style>
+
+<script>
+    document.addEventListener("astro:page-load", function () {
+        const images = document.querySelectorAll(".Split__Imagen");
+
+        const imgOptions = {};
+        const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+            entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+
+                const img = entry.target as HTMLImageElement;
+                img.src = img.getAttribute("data-srcx");
+                imgObserver.unobserve(entry.target);
+            });
+        }, imgOptions);
+
+        images.forEach((img) => {
+            imgObserver.observe(img);
+        });
+    });
+</script>

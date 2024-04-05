@@ -1,17 +1,31 @@
 ---
-import AcordeonKevin from "../components/Acordeon/AcordeonKevin.astro";
 import Banner from "../components/Banner/Banner.astro";
-import Formulario from "../components/Formulario/Formulario.astro";
 import Layout from "../components/Layout.astro";
 import SplitLayout from "../components/SplitLayout/SplitLayout.astro";
+import VideoYoutube from "../components/VideoYoutube/VideoYoutube.astro";
 import AboutUs from "../data/AboutUs.json";
+
+import Data from "../data/PageData.json";
+const {nosotros:{titulo , description, imagenesBanner}} = Data;
+
+const { largeLcpi, smallLcpi} = imagenesBanner;
+
 ---
 
-<Layout titulo="Nosotros" descripction="sobre de">
-    <Banner />
+<Layout titulo={titulo} descripction={description}>
+    <link slot="preload" fetchpriority="high" rel="preload" as="image" href=`${smallLcpi}` media="(max-width: 640px)" type="image/webp"/>
+	<link slot="preload" fetchpriority="high" rel="preload" as="image" href=`${largeLcpi}` media="(min-width: 641px)" type="image/webp"/>
+
+	<Banner 
+		titulo={titulo} 
+		description={description}
+		textButton={"Inscribete"}
+		{...imagenesBanner}
+	/>
+    
     <section>
         <div class="wrapper">
-            <h2 class="titleSection">Nosotros</h2>
+            <h2 class="titleSection title1">Nosotros</h2>
 			{
 				AboutUs.map( (item , i) => {
 					return <SplitLayout arrayInfo={ item} index={ i }/>
@@ -19,5 +33,11 @@ import AboutUs from "../data/AboutUs.json";
 			}
         </div>
     </section>
-    
+    <section>
+		<div class="wrapper">
+			<h2 class="titleSection title1">Conferencias</h2>
+			<VideoYoutube videoId="BqUsf9S_phQ" videoTitle="Conferencia de Gastronomia IISEP Comas"/>
+			<VideoYoutube videoId="8mybit1pObw" videoTitle="Conferencia de Cosmetologia IISEP Comas"/>
+		</div>
+	</section>
 </Layout>

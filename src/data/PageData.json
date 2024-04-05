@@ -1,15 +1,35 @@
 {
     "home": {
         "titulo": "Home",
-        "description": "Somos un instituto que brindamos Carreras Tecnicas, Especialidades Tecnicas, cursos y talleres a nombre del MINEDU. Conoce mas sobre nuestro plan de estudio."
+        "description": "Somos un instituto que brindamos Carreras Tecnicas, Especialidades Tecnicas, cursos y talleres a nombre del MINEDU. Conoce mas sobre nuestro plan de estudio.",
+        "imagenesBanner": {
+            "base64": "data:image/webp;base64,UklGRnYBAABXRUJQVlA4TGkBAAAvCUACAN/iqrZtVdnPBfc8BKA7g18L4C5Xzt413AYAmzaSw1huT+jEeG1vY6YwJ5Lj2rZT5cYz+zhMrXKKoBAaYOTu8iSZ/xDXAiAUCYGoIhWBGAiYFCTGwkAthMKEkUmWhCHVAILLf6wUiC1kRLIyYZgOUSH6qLIq/uEDIsgleHLGRoHBNEUksbSy1CgACu0pdMU1BdfclIFRFIFhiwPivZ/QiKTZc6ykfgVsk4iSHhlpUHhW80mK3lixdLzDHsHZ1Vs4eGsuzwwh+tkABWAGlaiuT+dfstZf3rSyMERlGhE+fhGZ9vuy1k86EgbVaz+CD+lZjc39iJOl7fiJDKvD3LLaO+5m4ECSJNNWNM+29W3btu0f0f+gWbAas8Nz91L7rcXgv71Mj+v7bTn8bq6nfaVY/rUno/PnXUrEernx/NG0V/VqIV+LSwBp3zMZTkYxXDd4BARNoQgn6wKIKgmQ6XRDQSoZDUcAAA==",
+            "smallLcpi": "/assets/logistica-almacenes-small-lcpi.webp",
+            "small": "/assets/logistica-almacenes-large.webp",
+            "largeLcpi": "/assets/logistica-almacenes-large-lcpi.webp",
+            "large": "/assets/logistica-almacenes-large.webp"
+        }
     },
-
     "nosotros": {
         "titulo": "Nosotros",
-        "description": "Brindamos carreras, cursos, especialidades y talleres que brindamos a nombre del MINEDU"
+        "description": "Mas sobre el instituto IISEP",
+        "imagenesBanner": {
+            "base64": "data:image/webp;base64,UklGRtoAAABXRUJQVlA4TM4AAAAvB0ABAH/BoJEkRccMDz7ev4/Xwcxjg20jSYp0zPAxff7eh/HWMR/jSLKV7He9/bsA+QdDCBCAu89/tF99S5P3wAduf6PO29ni5fhvEIerPr79+c/nOx8cuDaQxfD9EkARnDpW7wcvHMAi7n27ykc2STDHD5iHdt7De0dQqy8eeN5107gDR8fuBMw5D2a2Sua9j0JyxdFfPaIjGM3bSDYAwwAAiyZnI9t2Ef2PJDZa2UwiAAXDlARF3qfOR0O7TnN9b+cVVu8/dvvCm+c7Sg==",
+            "smallLcpi": "/assets/conferencia-small-lcpi.webp",
+            "small": "/assets/conferencia.webp",
+            "largeLcpi": "/assets/conferencia-large-lcpi.webp",
+            "large": "/assets/conferencia.webp"
+        }
     },
-    "gastronomia": {
-        "titulo": "Nosotros",
-        "description": "Brindamos carreras, cursos, especialidades y talleres que brindamos a nombre del MINEDU"
+    "programasEstudio": {
+        "titulo": "Programas de Estudio",
+        "description": "Brindamos carreras, cursos, especialidades y talleres que brindamos a nombre del MINEDU",
+        "imagenesBanner": {
+            "base64": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4TMUAAAAvB0ABAH/BKJIkRb1Mrk7+mbgvM2PbUBvJVvL/xzN6oP8qKIVQMzemAQAmmTtO4v8TeIhGn/v8R+7fRfjdneBurtepn+FEYhfqZT1s8AkI4v9EwIS6edYgTLOcCHU6PiB7BewUYEAAe5Anu77yAUQuJTH8TDAcMtiRMQ19/gkY1uyy+NEzzWJ8cA0vIIZJlk8vcZnblfYGhgEAFk3ORrbtIvofebvGWEuTVds8jbZPqEt3T7oj+NnHUX0tIQSRas7nLUUx3AA=",
+            "smallLcpi": "/assets/conferencia-cosmetologia-small-lcpi.webp",
+            "small": "/assets/conferencia-cosmetologia.webp",
+            "largeLcpi": "/assets/conferencia-cosmetologia-large-lcpi.webp",
+            "large": "/assets/conferencia-cosmetologia.webp"
+        }
     }
 }

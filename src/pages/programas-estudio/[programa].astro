@@ -1,12 +1,10 @@
 ---
 import DataCursos from "../../data/DataCursos.json";
 import Layout from "../../components/Layout.astro";
-import HeroImgCss from '../../components/HeroImgCss/BannerPrograma.astro';
 import Acordeon from '../../components/Acordeon/Acordeon.astro';
 import CardCostos from '../../components/CardCostos/CardCostos.astro';
 import CardUbicacion from '../../components/CardUbicacion/CardUbicacion.astro';
-import AcordeonKevin from "../../components/Acordeon/AcordeonKevin.astro";
-import LayoutPrograma from "../../components/Layout/LayoutPrograma.astro";
+import BannerPrograma from "../../components/HeroImgCss/BannerPrograma.astro";
 
 export async function getStaticPaths() {
 
@@ -19,17 +17,21 @@ export async function getStaticPaths() {
     })
 }
 
-const {titulo, texto, imagen , categoria, malla, costos , imagenes} = Astro.props;
+const {titulo, texto , categoria, malla, costos , imagenes} = Astro.props;
+
+const {base64, lcpi , original} = imagenes;
 ---
 
-<LayoutPrograma 
-        tituloPage={titulo} 
-        descripctionPage={texto} 
-        bannerTitulo={titulo} 
-        bannerDescription={texto} 
-        bannerImagenes={imagenes}
-        bannerCategoria={categoria}
-        >
+<Layout titulo={titulo} descripction={texto} >
+	<link slot="preload" fetchpriority="high" rel="preload" as="image" href=`${lcpi}` type="image/webp"/>
+    <BannerPrograma 
+        titulo={titulo} 
+        description={texto} 
+        categoria={categoria}
+        base64={base64}
+        lcpi={lcpi}
+        original={original}
+    />
     <section id="Section-Acordeon">
         <div class="Acordeon-Container wrapper">
             <h2 class="titleSection" style="grid-area:titulo;">Malla Curricular</h2>
@@ -63,7 +65,7 @@ const {titulo, texto, imagen , categoria, malla, costos , imagenes} = Astro.prop
             </div>
         </div>
     </section>
-</LayoutPrograma>
+</Layout>
 
 
 <style lang="scss">

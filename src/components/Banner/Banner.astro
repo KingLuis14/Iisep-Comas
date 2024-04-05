@@ -1,11 +1,32 @@
-<div class="HeroImgContainer" >
-     <article class="contenido">
+---
+interface Props {
+    titulo : string;
+    description: string;
+    textButton: string;
+    base64: string;
+    smallLcpi: string;
+    small : string;
+    largeLcpi: string;
+    large: string;
+}
+
+const {titulo, description, textButton, smallLcpi, small, largeLcpi, large, base64} = Astro.props;
+---
+
+<div 
+    class="HeroImgContainer"
+    style={`--base64: url(${base64});
+            --small-lcpi: url(${smallLcpi});
+            --small: url(${small});
+            --large-lcpi: url(${largeLcpi});
+            --large: url(${large});`} 
+    >
+    <article class="contenido">
         <div class="wrapper" style="gap: 1.5rem;" >
-            <h1 class="superTitulo">INSTITUTO IISEP</h1>
-            <p>La oportunidad de estudiar una carrera técnica y lograr tus objetivos.
-            Se un ganador y empieza a estudiar en IISEP
+            <h1 class="superTitulo">{ titulo }</h1>
+            <p>{description}
             </p>
-            <a href="#" class="contenido__boton" >Inscribete</a>
+            <a href="#" class="contenido__boton" >{ textButton }</a>
         </div>
     </article>
 </div>
@@ -13,28 +34,28 @@
 <style lang="scss">
 
     .HeroImgContainer {
-        display: grid;
-        width: 100%;
-        grid-template-columns: 1fr;
-        grid-template-areas: "contenido";
-        overflow: hidden;
-        position: relative;
+        --Ibase64 : var(--base64);
+        --lcpi : var(--small-lcpi);
+        --original : var(--small);
         height: calc(100vmin - var(--alto-header)); 
         min-height: 70svh;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-image: url("/assets/logistica-iisep-promocion-BrrYncJF.webp"), url('data:image/webp;base64,UklGRuAAAABXRUJQVlA4INQAAAAwBQCdASoUAA0APpE4l0eloyIhMAgAsBIJZACdMoGv/sUBZ2XyUZ5T5Ng2EkvY+BKkyAD+88OHQK3riX9Xt7VFK18h/m7m1g9Unx/ebZ309gm3V9eMNk+DFTlmPp/E5b/rUKwLp/7wFGw24x9sjQZ412lwtG9orgU/lmX2edMf7oiJhuP0QV76XKiRJ/btllxalIJy2KtZ9QaL3sasDz2R2QMoL1av287vXXyh/bVf7/2bgOGvIjejaFi/lSlK7rOglM0H3AWIEOyj58lH0CbuwDiAAA==') ;
+        background-image: var(--original), var(--lcpi), var(--Ibase64) ;
+
+        @media (min-width: 640px) {
+            --lcpi : var(--large-lcpi);
+            --original : var(--large);
+        }
         
     }
 
     .contenido {
-        grid-area: contenido;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        gap: 1.4rem;
+        height: 100%;
         text-align: center;
         color: white;
         
@@ -44,18 +65,13 @@
             rgba(25, 25, 255, 0.66) 100%
         );
 
-
         &__boton{
             color: rgb(255, 255, 255);
             justify-self: center;
-            // border: 2px solid rgb(255, 255, 255);
             padding: .5rem 1rem;
-            border-radius: 100vmax;
+            border-radius: 100vh;
             background-color: var(--color-Secondary);
-            
         }
-
-
     }
 
     p{

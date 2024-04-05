@@ -5,7 +5,7 @@
             "titulo": "Gastronomia",
             "texto": "Aprenderás desde las técnicas culinarias más innovadoras y la seguridad alimentaria, hasta explorar sabores nacionales e internacionales, pastelería creativa y la organización de eventos excepcionales. Adquiere habilidades versátiles para brillar en todas las áreas de la gastronomía",
             "precio": "130",
-            "imagen": "https://img.freepik.com/foto-gratis/chef-colocando-hierba-comida-gourmet_23-2148516908.jpg?t=st=1711036464~exp=1711040064~hmac=91ed5170b1dbcae93a1d8b546cf4692008ab531ea9e7e44e22aeb27baa090837&w=740",
+            "imagen": "/assets/gastronomia.webp",
             "imagenes" : {
                 "base64" : "data:image/webp;base64,UklGRh4BAABXRUJQVlA4TBEBAAAvCcABAEfiKpIkxeqBPfg7g6f7JDAzvdc2GEWSpGh69tDKqTj/PvZ1zDDEuI0kRbOMEV78DC+m2d75DxDt8mpaNsPcK+fVK6//V5xCCAgCx/+4wf7yso+cAXD4JQX4MJhVRFlzBrD00C60ikMiC0Cl6YaCKAvKlpUgmhlJSNUwjy57acDPf9fm4cgoyn85PcToxBq4D8b6tgGslBwfY/hK5RpuYkCzNisU7PslevU50IFE9Ccv4M+QaVLkwfG08r4Ruig9PTgIAIBsZtu2zdvun+khIvqfTf+DQYjshm1bsxiKMBUvPT+UINIEzim33VdWS0VbNmuaZ4njBt5c2JZuRqEfG9O4v5yu58f9+AL+3wcA",
                 "lcpi" : "/assets/gastronomia-small-lcpi.webp",
@@ -118,7 +118,7 @@
             "titulo": "Cosmetologia",
             "texto": "Aprende desde manicure y pedicure hasta maquillaje, aprende técnicas de SPA, diseños innovadores y los secretos del cuidado capilar. Domina tratamientos faciales y corporales, así como peinados, cortes y tintes de última tendencia. ",
             "precio": "120",
-            "imagen": "https://img.freepik.com/foto-gratis/vista-arriba-rejuvenecimiento-hermosa-mujer-disfrutando-procedimientos-cosmetologia-salon-belleza-dermatologia-manos-resplandores-azules-salud-terapia-botox_197531-2783.jpg?t=st=1711036529~exp=1711040129~hmac=c5edfe2a1648bf1d4dfe66649fc4a686d2b89df20915ccf8e0bb9d724ee5c311&w=740",
+            "imagen": "/assets/cosmetologia.webp",
             "imagenes" : {
                 "base64" : "data:image/webp;base64,UklGRv4AAABXRUJQVlA4TPEAAAAvCUABAN/BNrJtJfcjkROSef/9UACZOzxrg20kSU5ev4tJFoRB/klganH3apd1JMlKnuLyTR5ERsTu7s7OfyCK49Z4/xudI7G7h4xRZePD9qQg3KcIcDotI4YxrDwLv/uRfDBMIQv3zi3thNjKGkzf6YApLqH1hbvfftnBzEoQlB6Gyy+gA4ignTE8XlJIl6y4ivwZhofcb5MJ4yJy4a4wcvilr2U+EtHMwKn82osnoT2YfvFVawAMAwAsmh2ybdt2Ef0PLBC8TDGKJHKaTrOQVNFvuI/j2YFvmX1dZElX5e+3zU10TWXcpuExjMt63mAHAA==",
                 "lcpi" : "/assets/cosmetologia-small-lcpi.webp",
@@ -226,7 +226,7 @@
             "titulo": "Computacion e Informatica",
             "texto": "Aprenderás las habilidades fundamentales de programación, administración de sistemas y seguridad informática, capacitándote para navegar con confianza en el mundo digital y destacarte en un campo en constante evolución.",
             "precio": "120",
-            "imagen": "https://img.freepik.com/foto-gratis/pantallas-computadora-grupo-jovenes-ropa-casual-que-trabajan-oficina-moderna_146671-16494.jpg?t=st=1711036626~exp=1711040226~hmac=5ff5c50de026e29b637ddd646744271f548f8526cc243ef0350c4c711948c72e&w=740",
+            "imagen": "/assets/computacion.webp",
             "imagenes" : {
                 "base64" : "data:image/webp;base64,UklGRuIAAABXRUJQVlA4TNUAAAAvCQABAI/BOJJsJbvvK+5RUORfJPRvOCdPg1EkSYp6mffodQbI9RljD4xsAgBMMneHCFSgfwg+Lgq4O/MfQ1suC44vodxPOFAq7FEUPwoXYSmi+eeHpSnikfs3CuVIcyymB3JDKwT6I99L/45+OL6MtwTi6hWniHsJFKWICJ4ExCkIQMigyEpVyI1d5dovqGpT39oxmz7vWnYdeYWscfpfWE99UwDDAADKJrObbZsR/Y82PoxO/Z2qYayWNcvDpp67ybMOeZKgRxF/P3lhUEDB/vN2yw0A",
                 "lcpi" : "/assets/computacion-small-lcpi.webp",
@@ -330,9 +330,9 @@
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/retrato-trabajador-almacen-exitoso-o-supervisor-brazos-cruzados-pie-gran-area-distribucion-almacenamiento_342744-1521.jpg?t=st=1711036693~exp=1711040293~hmac=74697ac91ec5f1e132b8a8a1e5b6ccbcac3148295fa996032a159c3bfa09d092&w=740",
             "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
-                "lcpi" : "/assets/administracion-small-lcpi.webp",
-                "original" : "/assets/administracion.webp"
+                "base64" : "data:image/webp;base64,UklGRnYBAABXRUJQVlA4TGkBAAAvCUACAN/iqrZtVdnPBfc8BKA7g18L4C5Xzt413AYAmzaSw1huT+jEeG1vY6YwJ5Lj2rZT5cYz+zhMrXKKoBAaYOTu8iSZ/xDXAiAUCYGoIhWBGAiYFCTGwkAthMKEkUmWhCHVAILLf6wUiC1kRLIyYZgOUSH6qLIq/uEDIsgleHLGRoHBNEUksbSy1CgACu0pdMU1BdfclIFRFIFhiwPivZ/QiKTZc6ykfgVsk4iSHhlpUHhW80mK3lixdLzDHsHZ1Vs4eGsuzwwh+tkABWAGlaiuT+dfstZf3rSyMERlGhE+fhGZ9vuy1k86EgbVaz+CD+lZjc39iJOl7fiJDKvD3LLaO+5m4ECSJNNWNM+29W3btu0f0f+gWbAas8Nz91L7rcXgv71Mj+v7bTn8bq6nfaVY/rUno/PnXUrEernx/NG0V/VqIV+LSwBp3zMZTkYxXDd4BARNoQgn6wKIKgmQ6XRDQSoZDUcAAA==",
+                "lcpi" : "/assets/logistica-almacenes-small-lcpi.webp",
+                "original" : "/assets/logistica-almacenes-large.webp"
             },
             "categoria": "Especialidad Técnica",
             "colorCategoria": "blue",
@@ -721,9 +721,9 @@
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/concepto-estrategia-planificacion-estrategia-marketing_53876-42950.jpg?t=st=1711037370~exp=1711040970~hmac=363ae7d186cc5985e26f7c5e13a45bb8a0144735b6350bce292653d0fdd39315&w=740",
             "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
-                "lcpi" : "/assets/administracion-small-lcpi.webp",
-                "original" : "/assets/administracion.webp"
+                "base64" : "data:image/webp;base64,UklGRjwBAABXRUJQVlA4TC8BAAAvCcABAH/CNpJdJ0/S974EUmL674gMIie14SAA2LQJJ2M6GCAb9y+GGeMwkmRV+e/ku7vglg8REDNpuDvcm/8A9K5RAB9INFFTZkeo/1gA/4gl0zTID5CdQDdeF8sXqlsk/hRCBkg+JgGgCHwqxBrRn/09QszzB+RF4cvw7zn/XBfk2SOjZbInqMb4xkKMn7ywFMB9905l374xIzfaFwnhRIkpfn277yh9Q2MJ8EcEgN/IAH2shTAwfRB6+EP0JlL7QnHk/mPESoyUNzZ7i73XttUSkqX6KZmyb1e8oWN3A4cBAJBpfLZtm9m2i+h/NP/68f6cOD6YLJ73cnQ8Ly/r2+s6PewH/UpS4jTpcll1UNIWtNaaZ1uCDk2R/Y2ZCgMBw0eiWeHh0JdyYX23GQIA",
+                "lcpi" : "/assets/diseño-grafico-small-lcpi.webp",
+                "original" : "/assets/diseño-grafico.webp"
             },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",

@@ -2,18 +2,21 @@
     {
         "title":  "Ganas Experiencia",
         "description": "En los primeros años de la universidad, las materias están relacionadas a cursos generales, sin embargo, en IISEP llevarás cursos de especialidad desde el primer ciclo académico.",
-        "img": "/assets/edicion-video-CMnfwx0o.webp"
+        "base64" : "data:image/webp;base64,UklGRjwBAABXRUJQVlA4TC8BAAAvCcABAH/CNpJdJ0/S974EUmL674gMIie14SAA2LQJJ2M6GCAb9y+GGeMwkmRV+e/ku7vglg8REDNpuDvcm/8A9K5RAB9INFFTZkeo/1gA/4gl0zTID5CdQDdeF8sXqlsk/hRCBkg+JgGgCHwqxBrRn/09QszzB+RF4cvw7zn/XBfk2SOjZbInqMb4xkKMn7ywFMB9905l374xIzfaFwnhRIkpfn277yh9Q2MJ8EcEgN/IAH2shTAwfRB6+EP0JlL7QnHk/mPESoyUNzZ7i73XttUSkqX6KZmyb1e8oWN3A4cBAJBpfLZtm9m2i+h/NP/68f6cOD6YLJ73cnQ8Ly/r2+s6PewH/UpS4jTpcll1UNIWtNaaZ1uCDk2R/Y2ZCgMBw0eiWeHh0JdyYX23GQIA",
+        "img": "/assets/diseño-grafico.webp"
     },
     {
         "title":  "Docentes Expertos",
         "description": "Contamos con un staff de docentes altamente calificados, que se encargarán de brindarte la mejor experiencia educativa en nuestra institución.",
+        "base64": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4TG4AAAAvB8AAAAXTAACT3DRrLnVod2tE5wPLPMEDdBqd1xQ2kpTGsHcF1LaRpBx//P33Rymz1P84z2xWXmFvZ17YX3gf/B9gIdRHcoJkoTtyAt8AD2L+qvWrwfn54zsoeSCsMrTZXHaysM7Z/+KBdvK37A==",
         "img": "/assets/teacher-B-rgpyTD.webp",
         "imgDirection": "rigth"
     },
     {
         "title":  "Ahorras Tiempo",
         "description": "Con IISEP, olvídate de cinco años de universidad. Estudia Carreras Técnicas en solo 2 años, con certificación oficial del Ministerio de Educación.",
-        "img": "/assets/logistica-iisep-promocion-new2.webp"
+        "base64" : "data:image/webp;base64,UklGRnYBAABXRUJQVlA4TGkBAAAvCUACAN/iqrZtVdnPBfc8BKA7g18L4C5Xzt413AYAmzaSw1huT+jEeG1vY6YwJ5Lj2rZT5cYz+zhMrXKKoBAaYOTu8iSZ/xDXAiAUCYGoIhWBGAiYFCTGwkAthMKEkUmWhCHVAILLf6wUiC1kRLIyYZgOUSH6qLIq/uEDIsgleHLGRoHBNEUksbSy1CgACu0pdMU1BdfclIFRFIFhiwPivZ/QiKTZc6ykfgVsk4iSHhlpUHhW80mK3lixdLzDHsHZ1Vs4eGsuzwwh+tkABWAGlaiuT+dfstZf3rSyMERlGhE+fhGZ9vuy1k86EgbVaz+CD+lZjc39iJOl7fiJDKvD3LLaO+5m4ECSJNNWNM+29W3btu0f0f+gWbAas8Nz91L7rcXgv71Mj+v7bTn8bq6nfaVY/rUno/PnXUrEernx/NG0V/VqIV+LSwBp3zMZTkYxXDd4BARNoQgn6wKIKgmQ6XRDQSoZDUcAAA==",
+        "img": "/assets/logistica-almacenes-large.webp"
     }
     
 ]

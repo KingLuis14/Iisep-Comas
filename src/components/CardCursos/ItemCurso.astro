@@ -3,49 +3,72 @@ interface Props {
     titulo: string;
     texto: string;
     precio: string;
-    imagen: string;
+    imagenes: { base64: string; lcpi: string; original: string };
     categoria: string;
     colorCategoria: string;
     url: string;
     index: number;
 }
 
-// interface Props {
-//     index: number;
-//     curso: Curso
-// }
+const {
+    titulo,
+    texto,
+    precio,
+    imagenes,
+    categoria,
+    colorCategoria,
+    url,
+    index,
+} = Astro.props;
 
-// const { curso, index } = Astro.props;
-
-const { titulo, texto, precio, imagen, categoria, colorCategoria, url , index} = Astro.props;
-// const { titulo, texto, precio, imagen, categoria, colorCategoria, url } = curso;
+const { base64, original } = imagenes;
 ---
 
-<div class=`Card` data-categoria={categoria}>
+<div
+    class=`Card`
+    data-categoria={categoria}
+    style=`--colorCategoria : ${colorCategoria}`
+>
     <a
         href={`/programas-estudio/${url}`}
         style="overflow: hidden; display: block;"
     >
+    {
+        index === 0 ?
+
         <img
-            loading={index > 5 ? 'lazy' : 'eager'}
-            decoding="async"
-            class="Card__imagen"
-            src={imagen}
+            class='Card__imagen1'
+            src={original}
+            style={`background-image: url(${base64})`}
             alt={`${titulo} - IISEP`}
         />
+
+        :
+        <img
+            class='Card__imagen'
+            data-srcx={original}
+            style={`background-image: url(${base64})`}
+            alt={`${titulo} - IISEP`}
+        />
+
+    }
+        
     </a>
     <div class="Card__Contenido">
         <a href={`/programas-estudio/${url}`} class="Card__titulo">
             <h3>{titulo}</h3>
         </a>
         <p class="Card__texto">{texto}</p>
-        <h3 class="Card__precio">S/{precio} <span> /mes</span></h3>
+        <h3 class="Card__precio">
+            S/{precio}
+            <span class="small"> /mes</span>
+        </h3>
         <del class="Card__tach">S/{parseInt(precio) * 2}</del>
         <h3 class="Card__descuento">50%</h3>
     </div>
 </div>
 
-<style lang="scss" define:vars={{ colorCategoria }}>
+<style lang="scss">
     .Card {
         background-color: rgb(255, 255, 255);
         display: grid;
@@ -54,8 +77,11 @@ const { titulo, texto, precio, imagen, categoria, colorCategoria, url , index} =
         overflow-x: hidden;
         border-radius: 1rem;
         box-shadow: 0 0 5px 2px rgb(237, 236, 236);
+        content-visibility: auto;
 
-        &__imagen {
+        &__imagen,
+        &__imagen1 {
+            
             aspect-ratio: 16/9;
             transform: scale(1.05);
             transition: transform 0.6s;
@@ -84,7 +110,6 @@ const { titulo, texto, precio, imagen, categoria, colorCategoria, url , index} =
         padding-inline: 1rem;
         padding-bottom: 1rem;
         align-content: baseline;
-        // background: yellowgreen;
         display: grid;
         grid-template-columns: auto auto 1fr;
         grid-template-areas:
@@ -100,7 +125,6 @@ const { titulo, texto, precio, imagen, categoria, colorCategoria, url , index} =
     }
     .Card__texto {
         grid-area: Texto;
-        // background-color: orangered;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 4;
@@ -109,17 +133,9 @@ const { titulo, texto, precio, imagen, categoria, colorCategoria, url , index} =
     .Card__precio {
         grid-area: Precio;
         align-self: center;
-        // background-color: orange;
         display: flex;
         align-items: baseline;
         gap: 0.2rem;
-
-        > span {
-            font-size: var(--step--1);
-            //  background-color: orangered;
-            //  padding-bottom: .4rem;
-            // line-height: normal;
-        }
     }
     .Card__descuento {
         grid-area: Boton;
@@ -134,14 +150,37 @@ const { titulo, texto, precio, imagen, categoria, colorCategoria, url , index} =
 
     .Card__tach {
         grid-area: Tach;
-        line-height: normal;
         align-self: center;
-
         opacity: 0.7;
-        font-weight: 500;
-        // background-color: rgb(77, 255, 0);
-        display: grid;
-
-        place-items: center;
+        line-height: normal;
     }
 </style>
+
+<script>
+    document.addEventListener("astro:page-load", function () {
+        // Obtener todas las imágenes con la clase 'lazy-img'
+
+        
+
+        const images =
+            document.querySelectorAll<HTMLImageElement>(".Card__imagen");
+
+        const imgOptions = {
+            rootMargin: `0px 0px 300px 0px`,
+        };
+        const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+            entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+
+                const img = entry.target as HTMLImageElement;
+                img.src = img.getAttribute("data-srcx");
+                console.log("imagen cargada", img.getAttribute("data-srcx"));
+                imgObserver.unobserve(entry.target);
+            });
+        }, imgOptions);
+
+        images.forEach((img) => {
+            imgObserver.observe(img);
+        });
+    });
+</script>

@@ -12,20 +12,17 @@ const { numModulo, modulo, temario } = Astro.props;
 ---
 
 <article class="Acordeon">
-    <button class="Acordeon__Header" id="TemarioHeader">
+    <button class="Acordeon__Header">
         Modulo {numModulo} : {modulo}
         <span class="Acordeon__Boton">
             <Icon
                 name="ArrowIcon"
-                class:list={[{ rotate: numModulo === 1 }]}
+                class:list={["Acordeon__Icono", { rotate: numModulo === 1 }]}
                 size={21}
             />
         </span>
     </button>
-    <div
-        class:list={["Acordeon__Contenido", { isOpen: numModulo === 1 }]}
-        id="Temario"
-    >
+    <div class:list={["Acordeon__Contenido", { isOpen: numModulo === 1 }]}>
         <div style="overflow: hidden;">
             <ul class="Acordeon__lista">
                 {
@@ -77,51 +74,51 @@ const { numModulo, modulo, temario } = Astro.props;
             padding-inline: 1rem;
             padding-bottom: 1rem;
             display: grid;
-            grid-auto-rows: min-content;
             gap: 0.5rem;
         }
 
-        &__Boton {
-            display: flex;
-            align-items: center;
-            pointer-events: none;
-            > svg {
-                transform: rotate(180deg);
-                transition: transform 0.2s linear;
 
-                &.rotate {
-                    transform: rotate(0deg);
-                }
+        &__Icono {
+            transform: rotate(180deg);
+            transition: transform 0.2s linear;
+
+            &.rotate {
+                transform: rotate(0deg);
             }
         }
     }
 </style>
 
 <script>
-    const SectionAcordeon = document.getElementById("Section-Acordeon");
+    document.addEventListener("astro:page-load", () => {
+        const SectionAcordeon = document.getElementById("Section-Acordeon");
 
-    SectionAcordeon.addEventListener("click", (e) => {
-        const header = (e.target as HTMLElement).closest(".Acordeon__Header");
-        if (!header) return; // Si el clic no fue en el encabezado, salimos
+        const ACORDEON = (e) => {
+            const header = (e.target as HTMLElement).closest(
+                ".Acordeon__Header",
+            );
+            if (!header) return;
 
-        const contenido = header.nextElementSibling as HTMLElement;
+            const contenido = header.nextElementSibling as HTMLElement;
+            contenido.classList.toggle("isOpen");
 
-        // Toggle de clase isOpen en el contenido del acordeón
-        contenido.classList.toggle("isOpen");
-        // contenido.style.willChange = 'auto';
+            const arrow = header.querySelector(".Acordeon__Icono");
 
-        // Toggle de rotación del icono
-        const arrow = header.querySelector("span svg");
-        if (arrow) {
-            arrow.classList.toggle("rotate");
-        }
+            if (arrow) {
+                arrow.classList.toggle("rotate");
+            }
 
-        contenido.addEventListener(
-            "transitionend",
-            () => {
-                contenido.style.willChange = "auto";
-            },
-            { once: true },
-        );
+            contenido.addEventListener(
+                "transitionend",
+                () => {
+                    contenido.style.willChange = "auto";
+                },
+                { once: true },
+            );
+        };
+
+        SectionAcordeon.addEventListener("click", (e) => {
+            ACORDEON(e);
+        });
     });
 </script>

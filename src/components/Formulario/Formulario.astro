@@ -1,3 +1,12 @@
+---
+interface Props {
+    itemsProgramas: string[];
+}
+
+const {itemsProgramas} = Astro.props;
+---
+
+
 <form action="">
     <label for="nombre">Nombre</label>
     <input name="nombre" id="nombre" required />
@@ -6,21 +15,13 @@
     <label for="email">Correo</label>
     <input name="email" type="email" id="email" required />
     <label for="programasLabel">Seleccione el programa de estudio</label>
-    <input autocomplete="off" list="programas" id="programasLabel" name="browsers" />
-    <datalist id="programas">
-        <option value="computacion"></option>
-        <option value="logistica"></option>
-        <option value="barberia"></option>
-        <option value="computacion"></option>
-        <option value="logistica"></option>
-        <option value="barberia"></option>
-        <option value="computacion"></option>
-        <option value="logistica"></option>
-        <option value="barberia"></option>
-        <option value="computacion"></option>
-        <option value="logistica"></option>
-        <option value="barberia"></option>
-    </datalist>
+    <select name="" id="programas">
+        {
+            itemsProgramas.map( ( programa  ) => {
+                return <option value={programa}>{programa}</option>
+            })
+        }
+    </select>
     <label for="observacion">Alguna observacion</label>
     <textarea name="observacion" id="observacion"></textarea>
     <button>Solicitar Informacion</button>

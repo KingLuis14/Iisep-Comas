@@ -1,6 +1,7 @@
 ---
 import Formulario from "../components/Formulario/Formulario.astro";
 import Layout from "../components/Layout.astro";
+import DataFooter from "../data/Footer.json";
 
 
 ---
@@ -9,7 +10,17 @@ import Layout from "../components/Layout.astro";
     <section>
         <div class="wrapper" style="place-items: center;">
             <h2>Ponte en Contacto</h2>
-            <Formulario />
+            {
+                function () {
+                    let Programa = [];
+                    for( const programa in DataFooter){
+                         DataFooter[programa].map(({nombre}) => {
+                            Programa.push( nombre );
+                         }) 
+                    }
+                    return <Formulario  itemsProgramas={Programa}/>;
+                }()
+            }
         </div>
     </section>
 </Layout>

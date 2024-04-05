@@ -12,11 +12,6 @@ const { texto, href, target, class: className = "", ...rest } = Astro.props;
 
 const mensajeCodificado = href.replace(/ /g, '%20');
 
-
-
-// console.log(mensajeCodificado);
-
-
 ---
 
 <a href={`https://wa.me/51904209403?text=${mensajeCodificado}`} target={target} class=`Boton ${className}` {...rest}>

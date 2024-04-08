@@ -6,10 +6,10 @@
             "texto": "Aprenderás desde las técnicas culinarias más innovadoras y la seguridad alimentaria, hasta explorar sabores nacionales e internacionales, pastelería creativa y la organización de eventos excepcionales. Adquiere habilidades versátiles para brillar en todas las áreas de la gastronomía",
             "precio": "130",
             "imagen": "/assets/gastronomia.webp",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRh4BAABXRUJQVlA4TBEBAAAvCcABAEfiKpIkxeqBPfg7g6f7JDAzvdc2GEWSpGh69tDKqTj/PvZ1zDDEuI0kRbOMEV78DC+m2d75DxDt8mpaNsPcK+fVK6//V5xCCAgCx/+4wf7yso+cAXD4JQX4MJhVRFlzBrD00C60ikMiC0Cl6YaCKAvKlpUgmhlJSNUwjy57acDPf9fm4cgoyn85PcToxBq4D8b6tgGslBwfY/hK5RpuYkCzNisU7PslevU50IFE9Ccv4M+QaVLkwfG08r4Ruig9PTgIAIBsZtu2zdvun+khIvqfTf+DQYjshm1bsxiKMBUvPT+UINIEzim33VdWS0VbNmuaZ4njBt5c2JZuRqEfG9O4v5yu58f9+AL+3wcA",
-                "lcpi" : "/assets/gastronomia-small-lcpi.webp",
-                "original" : "/assets/gastronomia.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRh4BAABXRUJQVlA4TBEBAAAvCcABAEfiKpIkxeqBPfg7g6f7JDAzvdc2GEWSpGh69tDKqTj/PvZ1zDDEuI0kRbOMEV78DC+m2d75DxDt8mpaNsPcK+fVK6//V5xCCAgCx/+4wf7yso+cAXD4JQX4MJhVRFlzBrD00C60ikMiC0Cl6YaCKAvKlpUgmhlJSNUwjy57acDPf9fm4cgoyn85PcToxBq4D8b6tgGslBwfY/hK5RpuYkCzNisU7PslevU50IFE9Ccv4M+QaVLkwfG08r4Ruig9PTgIAIBsZtu2zdvun+khIvqfTf+DQYjshm1bsxiKMBUvPT+UINIEzim33VdWS0VbNmuaZ4njBt5c2JZuRqEfG9O4v5yu58f9+AL+3wcA",
+                "lcpi": "/assets/gastronomia-small-lcpi.webp",
+                "original": "/assets/gastronomia.webp"
             },
             "categoria": "Carrera Técnica",
             "colorCategoria": "rgb(18, 193, 2)",
@@ -74,21 +74,13 @@
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 23,
-                        "Acreditacion" : "Titulo del MINEDU",
+                        "Duracion": 23,
+                        "Acreditacion": "Titulo del MINEDU",
                         "Mensualidad": 130,
                         "AcreditacionCosto": 600
                     },
@@ -101,8 +93,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 23,
-                        "Acreditacion" : "Titulo del MINEDU",
+                        "Duracion": 23,
+                        "Acreditacion": "Titulo del MINEDU",
                         "Mensualidad": 130,
                         "AcreditacionCosto": 600
                     },
@@ -119,10 +111,10 @@
             "texto": "Aprende desde manicure y pedicure hasta maquillaje, aprende técnicas de SPA, diseños innovadores y los secretos del cuidado capilar. Domina tratamientos faciales y corporales, así como peinados, cortes y tintes de última tendencia. ",
             "precio": "120",
             "imagen": "/assets/cosmetologia.webp",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRv4AAABXRUJQVlA4TPEAAAAvCUABAN/BNrJtJfcjkROSef/9UACZOzxrg20kSU5ev4tJFoRB/klganH3apd1JMlKnuLyTR5ERsTu7s7OfyCK49Z4/xudI7G7h4xRZePD9qQg3KcIcDotI4YxrDwLv/uRfDBMIQv3zi3thNjKGkzf6YApLqH1hbvfftnBzEoQlB6Gyy+gA4ignTE8XlJIl6y4ivwZhofcb5MJ4yJy4a4wcvilr2U+EtHMwKn82osnoT2YfvFVawAMAwAsmh2ybdt2Ef0PLBC8TDGKJHKaTrOQVNFvuI/j2YFvmX1dZElX5e+3zU10TWXcpuExjMt63mAHAA==",
-                "lcpi" : "/assets/cosmetologia-small-lcpi.webp",
-                "original" : "/assets/cosmetologia.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRv4AAABXRUJQVlA4TPEAAAAvCUABAN/BNrJtJfcjkROSef/9UACZOzxrg20kSU5ev4tJFoRB/klganH3apd1JMlKnuLyTR5ERsTu7s7OfyCK49Z4/xudI7G7h4xRZePD9qQg3KcIcDotI4YxrDwLv/uRfDBMIQv3zi3thNjKGkzf6YApLqH1hbvfftnBzEoQlB6Gyy+gA4ignTE8XlJIl6y4ivwZhofcb5MJ4yJy4a4wcvilr2U+EtHMwKn82osnoT2YfvFVawAMAwAsmh2ybdt2Ef0PLBC8TDGKJHKaTrOQVNFvuI/j2YFvmX1dZElX5e+3zU10TWXcpuExjMt63mAHAA==",
+                "lcpi": "/assets/cosmetologia-small-lcpi.webp",
+                "original": "/assets/cosmetologia.webp"
             },
             "categoria": "Carrera Técnica",
             "colorCategoria": "rgb(18, 193, 2)",
@@ -182,21 +174,13 @@
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 23,
-                        "Acreditacion" : "Titulo del MINEDU",
+                        "Duracion": 23,
+                        "Acreditacion": "Titulo del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 600
                     },
@@ -209,8 +193,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 23,
-                        "Acreditacion" : "Titulo del MINEDU",
+                        "Duracion": 23,
+                        "Acreditacion": "Titulo del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 600
                     },
@@ -227,10 +211,10 @@
             "texto": "Aprenderás las habilidades fundamentales de programación, administración de sistemas y seguridad informática, capacitándote para navegar con confianza en el mundo digital y destacarte en un campo en constante evolución.",
             "precio": "120",
             "imagen": "/assets/computacion.webp",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRuIAAABXRUJQVlA4TNUAAAAvCQABAI/BOJJsJbvvK+5RUORfJPRvOCdPg1EkSYp6mffodQbI9RljD4xsAgBMMneHCFSgfwg+Lgq4O/MfQ1suC44vodxPOFAq7FEUPwoXYSmi+eeHpSnikfs3CuVIcyymB3JDKwT6I99L/45+OL6MtwTi6hWniHsJFKWICJ4ExCkIQMigyEpVyI1d5dovqGpT39oxmz7vWnYdeYWscfpfWE99UwDDAADKJrObbZsR/Y82PoxO/Z2qYayWNcvDpp67ybMOeZKgRxF/P3lhUEDB/vN2yw0A",
-                "lcpi" : "/assets/computacion-small-lcpi.webp",
-                "original" : "/assets/computacion.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRuIAAABXRUJQVlA4TNUAAAAvCQABAI/BOJJsJbvvK+5RUORfJPRvOCdPg1EkSYp6mffodQbI9RljD4xsAgBMMneHCFSgfwg+Lgq4O/MfQ1suC44vodxPOFAq7FEUPwoXYSmi+eeHpSnikfs3CuVIcyymB3JDKwT6I99L/45+OL6MtwTi6hWniHsJFKWICJ4ExCkIQMigyEpVyI1d5dovqGpT39oxmz7vWnYdeYWscfpfWE99UwDDAADKJrObbZsR/Y82PoxO/Z2qYayWNcvDpp67ybMOeZKgRxF/P3lhUEDB/vN2yw0A",
+                "lcpi": "/assets/computacion-small-lcpi.webp",
+                "original": "/assets/computacion.webp"
             },
             "categoria": "Especialidad Técnica",
             "colorCategoria": "blue",
@@ -286,21 +270,13 @@
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 23,
-                        "Acreditacion" : "Titulo del MINEDU",
+                        "Duracion": 23,
+                        "Acreditacion": "Titulo del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 600
                     },
@@ -312,8 +288,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 23,
-                        "Acreditacion" : "Titulo del MINEDU",
+                        "Duracion": 23,
+                        "Acreditacion": "Titulo del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 600
                     },
@@ -329,10 +305,10 @@
             "texto": "Aprenderás las estrategias clave para una gestión eficiente de inventarios, transporte y distribución, preparándote para ser un profesional indispensable en la optimización de procesos logísticos y el flujo de productos.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/retrato-trabajador-almacen-exitoso-o-supervisor-brazos-cruzados-pie-gran-area-distribucion-almacenamiento_342744-1521.jpg?t=st=1711036693~exp=1711040293~hmac=74697ac91ec5f1e132b8a8a1e5b6ccbcac3148295fa996032a159c3bfa09d092&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRnYBAABXRUJQVlA4TGkBAAAvCUACAN/iqrZtVdnPBfc8BKA7g18L4C5Xzt413AYAmzaSw1huT+jEeG1vY6YwJ5Lj2rZT5cYz+zhMrXKKoBAaYOTu8iSZ/xDXAiAUCYGoIhWBGAiYFCTGwkAthMKEkUmWhCHVAILLf6wUiC1kRLIyYZgOUSH6qLIq/uEDIsgleHLGRoHBNEUksbSy1CgACu0pdMU1BdfclIFRFIFhiwPivZ/QiKTZc6ykfgVsk4iSHhlpUHhW80mK3lixdLzDHsHZ1Vs4eGsuzwwh+tkABWAGlaiuT+dfstZf3rSyMERlGhE+fhGZ9vuy1k86EgbVaz+CD+lZjc39iJOl7fiJDKvD3LLaO+5m4ECSJNNWNM+29W3btu0f0f+gWbAas8Nz91L7rcXgv71Mj+v7bTn8bq6nfaVY/rUno/PnXUrEernx/NG0V/VqIV+LSwBp3zMZTkYxXDd4BARNoQgn6wKIKgmQ6XRDQSoZDUcAAA==",
-                "lcpi" : "/assets/logistica-almacenes-small-lcpi.webp",
-                "original" : "/assets/logistica-almacenes-large.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRnYBAABXRUJQVlA4TGkBAAAvCUACAN/iqrZtVdnPBfc8BKA7g18L4C5Xzt413AYAmzaSw1huT+jEeG1vY6YwJ5Lj2rZT5cYz+zhMrXKKoBAaYOTu8iSZ/xDXAiAUCYGoIhWBGAiYFCTGwkAthMKEkUmWhCHVAILLf6wUiC1kRLIyYZgOUSH6qLIq/uEDIsgleHLGRoHBNEUksbSy1CgACu0pdMU1BdfclIFRFIFhiwPivZ/QiKTZc6ykfgVsk4iSHhlpUHhW80mK3lixdLzDHsHZ1Vs4eGsuzwwh+tkABWAGlaiuT+dfstZf3rSyMERlGhE+fhGZ9vuy1k86EgbVaz+CD+lZjc39iJOl7fiJDKvD3LLaO+5m4ECSJNNWNM+29W3btu0f0f+gWbAas8Nz91L7rcXgv71Mj+v7bTn8bq6nfaVY/rUno/PnXUrEernx/NG0V/VqIV+LSwBp3zMZTkYxXDd4BARNoQgn6wKIKgmQ6XRDQSoZDUcAAA==",
+                "lcpi": "/assets/logistica-almacenes-small-lcpi.webp",
+                "original": "/assets/logistica-almacenes-large.webp"
             },
             "categoria": "Especialidad Técnica",
             "colorCategoria": "blue",
@@ -389,21 +365,13 @@
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 23,
-                        "Acreditacion" : "Titulo del MINEDU",
+                        "Duracion": 23,
+                        "Acreditacion": "Titulo del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 600
                     },
@@ -415,8 +383,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 23,
-                        "Acreditacion" : "Titulo del MINEDU",
+                        "Duracion": 23,
+                        "Acreditacion": "Titulo del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 600
                     },
@@ -432,10 +400,10 @@
             "texto": "Aprenderás sobre de planificación, organización y liderazgo empresarial, dotándote de las habilidades necesarias para impulsar el éxito y el crecimiento de cualquier organización.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/mujer-tiro-medio-trabajando-computadora-portatil_23-2149300643.jpg?t=st=1711036751~exp=1711040351~hmac=7b23209cacb9f495a675ff5e5a5c1efc9fa91f8348635ce34be4fc6ecac9df2f&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
-                "lcpi" : "/assets/administracion-small-lcpi.webp",
-                "original" : "/assets/administracion.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
+                "lcpi": "/assets/administracion-small-lcpi.webp",
+                "original": "/assets/administracion.webp"
             },
             "categoria": "Especialidad Auxiliar",
             "colorCategoria": "orange",
@@ -485,21 +453,13 @@
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 17,
-                        "Acreditacion" : "Titulo de IISEP",
+                        "Duracion": 17,
+                        "Acreditacion": "Titulo de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -511,8 +471,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 17,
-                        "Acreditacion" : "Titulo de IISEP",
+                        "Duracion": 17,
+                        "Acreditacion": "Titulo de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -528,10 +488,10 @@
             "texto": "Aprenderás las habilidades cruciales de manejo de transacciones financieras, atención al cliente y cumplimiento normativo, convirtiéndote en un activo valioso para instituciones financieras con tu capacidad para ofrecer un servicio excepcional y seguro.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/cajero-tienda-positivo-feliz-hablando-cliente-riendose-caja-tiro-medio-concepto-compras_74855-11828.jpg?t=st=1711036928~exp=1711040528~hmac=ab165edfbeab8133f55686045657420c2f4177d49a293aaf9ca70606e09dc117&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRh4BAABXRUJQVlA4TBIBAAAvCYABAC/CILJtJRd3d+oQmyROA3d9NRzEtq0q99z73d0/cUhKDcIQwF2eMI4kW8nzLzhkQCZETUJ25vqN+Q9sofbcpUfBXD2xGoWzwxojNzPezwS3ABWyHfwpMeDRJxBDpQFR5PAWcCZiBTGSAegEktjwDpEE8SSIFSA4+bFUgYUEAkY/AGwClUChl3+syWZividEYZxSh8eIBQdk48cQurmg2PmUkTRQggZq9pqf8ibWEMmbRbk/ddmn/z6uH3pupDeX4/vK+FAcNvnuAQcBAJBteLZt28bNiP5Hmlvmcu28PtzqYcwiJ4jtS9J8b5MoaWrBGTrBl65Mz9CLxFEQgDGfer4ZVmgV5PO4V+t+Hr8/",
-                "lcpi" : "/assets/cajero-bancario-small-lcpi.webp",
-                "original" : "/assets/cajero-bancario.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRh4BAABXRUJQVlA4TBIBAAAvCYABAC/CILJtJRd3d+oQmyROA3d9NRzEtq0q99z73d0/cUhKDcIQwF2eMI4kW8nzLzhkQCZETUJ25vqN+Q9sofbcpUfBXD2xGoWzwxojNzPezwS3ABWyHfwpMeDRJxBDpQFR5PAWcCZiBTGSAegEktjwDpEE8SSIFSA4+bFUgYUEAkY/AGwClUChl3+syWZividEYZxSh8eIBQdk48cQurmg2PmUkTRQggZq9pqf8ibWEMmbRbk/ddmn/z6uH3pupDeX4/vK+FAcNvnuAQcBAJBteLZt28bNiP5Hmlvmcu28PtzqYcwiJ4jtS9J8b5MoaWrBGTrBl65Mz9CLxFEQgDGfer4ZVmgV5PO4V+t+Hr8/",
+                "lcpi": "/assets/cajero-bancario-small-lcpi.webp",
+                "original": "/assets/cajero-bancario.webp"
             },
             "categoria": "Especialidad Auxiliar",
             "colorCategoria": "orange",
@@ -581,21 +541,13 @@
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 17,
-                        "Acreditacion" : "Titulo de IISEP",
+                        "Duracion": 17,
+                        "Acreditacion": "Titulo de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -607,8 +559,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 17,
-                        "Acreditacion" : "Titulo de IISEP",
+                        "Duracion": 17,
+                        "Acreditacion": "Titulo de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -624,74 +576,30 @@
             "texto": "Aprenderás las habilidades comunicativas esenciales para prosperar en un mundo globalizado, potenciando tu confianza y apertura a oportunidades profesionales y personales a nivel internacional.",
             "precio": "100",
             "imagen": "https://img.freepik.com/foto-gratis/profesor-vista-lateral-mirando-ninos_23-2149455191.jpg?t=st=1711037097~exp=1711040697~hmac=00783d5605a51e5d873926522b30e10c73771940a0a3cf7cfe45a6b41c2045dc&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
-                "lcpi" : "/assets/administracion-small-lcpi.webp",
-                "original" : "/assets/administracion.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
+                "lcpi": "/assets/administracion-small-lcpi.webp",
+                "original": "/assets/administracion.webp"
             },
             "categoria": "Especialidad Auxiliar",
             "colorCategoria": "orange",
             "malla": {
                 "modulo1": {
-                    "nombre": "Ofimatica",
+                    "nombre": "Ingles Americano",
                     "temario": [
-                        "Microsoft Windows",
-                        "Microsoft Word",
-                        "Microsoft Power Point",
-                        "Microsoft Excel"
-                    ]
-                },
-                "modulo2": {
-                    "nombre": "INTRODUCCION AL SISTEMA FINANCIERO",
-                    "temario": [
-                        "Productos y servicios en la gestión bancaria",
-                        "Matemática para la gestión",
-                        "Análisis y Operación y transacciones bancarias y financieras",
-                        "Calidad de servicios y atención al cliente"
-                    ]
-                },
-                "modulo3": {
-                    "nombre": "CONTABILIDAD Y GESTION BANCARIA",
-                    "temario": [
-                        "Operaciones y transacciones en la atención de ventanilla",
-                        "Bases legales para la gestión bancaria y financiera",
-                        "Contabilidad Empresarial",
-                        "Matemática Financiera para la gestión empresarial"
-                    ]
-                },
-                "modulo4": {
-                    "nombre": "ANALISIS Y COSTOS FINANCIEROS",
-                    "temario": [
-                        "Costos y Presupuestos para la gestión empresarial",
-                        "Análisis de estados financieros empresariales",
-                        "Estrategias de administración financiera",
-                        "Estrategias de cobranza y recuperación"
-                    ]
-                },
-                "modulo5": {
-                    "nombre": " MARKETING BANCARIO Y FINANCIERO",
-                    "temario": [
-                        "Marketing Bancario y Financiero",
-                        "Control interno y auditoria bancaria y financiera",
-                        "Desarrollo de Productos y servicios bancarios y financieros"
+                        "Ingles Basico",
+                        "Ingles Intermedio",
+                        "Ingles Avanzado"
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 11,
-                        "Acreditacion" : "Certificado de IISEP",
+                        "Duracion": 11,
+                        "Acreditacion": "Certificado de IISEP",
                         "Mensualidad": 100,
                         "AcreditacionCosto": 100
                     },
@@ -703,8 +611,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 11,
-                        "Acreditacion" : "Certificado de IISEP",
+                        "Duracion": 11,
+                        "Acreditacion": "Certificado de IISEP",
                         "Mensualidad": 100,
                         "AcreditacionCosto": 100
                     },
@@ -720,43 +628,102 @@
             "texto": "Aprenderás a crear contenido visual impactante utilizando herramientas digitales como Photoshop e Illustrator, desarrollando tu creatividad y habilidades para comunicar ideas de manera efectiva.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/concepto-estrategia-planificacion-estrategia-marketing_53876-42950.jpg?t=st=1711037370~exp=1711040970~hmac=363ae7d186cc5985e26f7c5e13a45bb8a0144735b6350bce292653d0fdd39315&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRjwBAABXRUJQVlA4TC8BAAAvCcABAH/CNpJdJ0/S974EUmL674gMIie14SAA2LQJJ2M6GCAb9y+GGeMwkmRV+e/ku7vglg8REDNpuDvcm/8A9K5RAB9INFFTZkeo/1gA/4gl0zTID5CdQDdeF8sXqlsk/hRCBkg+JgGgCHwqxBrRn/09QszzB+RF4cvw7zn/XBfk2SOjZbInqMb4xkKMn7ywFMB9905l374xIzfaFwnhRIkpfn277yh9Q2MJ8EcEgN/IAH2shTAwfRB6+EP0JlL7QnHk/mPESoyUNzZ7i73XttUSkqX6KZmyb1e8oWN3A4cBAJBpfLZtm9m2i+h/NP/68f6cOD6YLJ73cnQ8Ly/r2+s6PewH/UpS4jTpcll1UNIWtNaaZ1uCDk2R/Y2ZCgMBw0eiWeHh0JdyYX23GQIA",
-                "lcpi" : "/assets/diseño-grafico-small-lcpi.webp",
-                "original" : "/assets/diseño-grafico.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRjwBAABXRUJQVlA4TC8BAAAvCcABAH/CNpJdJ0/S974EUmL674gMIie14SAA2LQJJ2M6GCAb9y+GGeMwkmRV+e/ku7vglg8REDNpuDvcm/8A9K5RAB9INFFTZkeo/1gA/4gl0zTID5CdQDdeF8sXqlsk/hRCBkg+JgGgCHwqxBrRn/09QszzB+RF4cvw7zn/XBfk2SOjZbInqMb4xkKMn7ywFMB9905l374xIzfaFwnhRIkpfn277yh9Q2MJ8EcEgN/IAH2shTAwfRB6+EP0JlL7QnHk/mPESoyUNzZ7i73XttUSkqX6KZmyb1e8oWN3A4cBAJBpfLZtm9m2i+h/NP/68f6cOD6YLJ73cnQ8Ly/r2+s6PewH/UpS4jTpcll1UNIWtNaaZ1uCDk2R/Y2ZCgMBw0eiWeHh0JdyYX23GQIA",
+                "lcpi": "/assets/diseño-grafico-small-lcpi.webp",
+                "original": "/assets/diseño-grafico.webp"
             },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
             "malla": {
                 "modulo1": {
-                    "nombre": "PRESENTACIONES GRÁFICAS",
+                    "nombre": "Core Draw",
                     "temario": [
-                        "Core Draw",
-                        "Adobe Ilustrador",
-                        "Adobe Photoshop",
-                        "Adobe Animate",
-                        "Adobe InDesign",
-                        "Adobe Dreamweaver",
-                        "CCS Hoja de estilos",
-                        "Taller de paginas web con WordPress"
+                        "Introducción a Core Draw",
+                        "Herramientas básicas de Core Draw",
+                        "Diseño vectorial con Core Draw",
+                        "Edición avanzada en Core Draw",
+                        "Exportación de proyectos en Core Draw"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "Adobe Ilustrador",
+                    "temario": [
+                        "Conceptos básicos de Adobe Ilustrador",
+                        "Dibujo y pintura digital en Adobe Ilustrador",
+                        "Creación de ilustraciones vectoriales",
+                        "Manipulación avanzada de formas y trazos",
+                        "Exportación de archivos en Adobe Ilustrador"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "Adobe Photoshop",
+                    "temario": [
+                        "Introducción a Adobe Photoshop",
+                        "Edición y retoque de imágenes en Photoshop",
+                        "Creación y manipulación de capas",
+                        "Uso de herramientas avanzadas en Photoshop",
+                        "Optimización de imágenes para web y impresión"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "Adobe Animate",
+                    "temario": [
+                        "Fundamentos de animación en Adobe Animate",
+                        "Creación de animaciones básicas",
+                        "Interactividad y efectos en animaciones",
+                        "Exportación de animaciones en diferentes formatos",
+                        "Uso de componentes en Adobe Animate"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": "Adobe InDesign",
+                    "temario": [
+                        "Introducción a Adobe InDesign",
+                        "Maquetación de documentos en InDesign",
+                        "Gestión de textos y estilos",
+                        "Creación de documentos interactivos",
+                        "Preparación de archivos para impresión"
+                    ]
+                },
+                "modulo6": {
+                    "nombre": "Adobe Dreamweaver",
+                    "temario": [
+                        "Conceptos básicos de Adobe Dreamweaver",
+                        "Diseño y estructura de sitios web",
+                        "Integración de contenido multimedia",
+                        "Gestión de sitios web en Dreamweaver",
+                        "Pruebas y publicación de sitios web"
+                    ]
+                },
+                "modulo7": {
+                    "nombre": "CCS Hoja de estilos",
+                    "temario": [
+                        "Introducción a CCS",
+                        "Sintaxis y estructura de CCS",
+                        "Estilización de elementos HTML con CCS",
+                        "Diseño responsivo con CCS",
+                        "Optimización y buenas prácticas en CCS"
+                    ]
+                },
+                "modulo8": {
+                    "nombre": "Taller de páginas web con WordPress",
+                    "temario": [
+                        "Instalación y configuración de WordPress",
+                        "Diseño de páginas con WordPress",
+                        "Gestión de contenido y usuarios",
+                        "Personalización de temas en WordPress",
+                        "Optimización y seguridad en WordPress"
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 7,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 7,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -769,8 +736,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 7,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 7,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -787,41 +754,94 @@
             "texto": "Aprenderás a dominar las herramientas de software de oficina como Word, Excel y PowerPoint, mejorando tu eficiencia en tareas administrativas y comunicación profesional.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/empresarios-que-trabajan-finanzas-contabilidad-analizan-financi_74952-1411.jpg?t=st=1711037179~exp=1711040779~hmac=f0603208fb3f0f80ae43f590dac323a2add72ed8c0413b36635c95f0fcf75f39&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRkYBAABXRUJQVlA4TDoBAAAvCcABAH/COJJtUxfvfXunwH785ta4Lw22kW0ruV9xl5CYHojovwYvgMj55jiSbaW6F3eHnTuERcrsyIDvrk/mP6pumLel0AMYOixliYo/AaGpjD0EhHoBDF7EJiKPI2ewGZAUMeWsiOJAhPizHSNUh1A9QLHQ6BDpiMKQcKwNBCICUCuMUoDlfkfYTCdO4xBw3hJ60PNQn7i5rEjsG2kBWrSrN7llx2VSN7OpC3M+UL/6YyLjP678osRiyUZzHLXTRquP5/obd189zBwigdeVjgvBS5akFCRogV0zrzmK9YSZCnxgQwSCeC4NHAYAQKbx2bZtZtsuov+xnC9Ubbrd0fhz5Xx/D8+uj7fz9fP+p3lbZS/BsDb9BCKSO0PJ6xkLkLofNWaIYCN+HChifNlzRXk6DEHJhQcdCg==",
-                "lcpi" : "/assets/ofimatica-small-lcpi.webp",
-                "original" : "/assets/ofimatica.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRkYBAABXRUJQVlA4TDoBAAAvCcABAH/COJJtUxfvfXunwH785ta4Lw22kW0ruV9xl5CYHojovwYvgMj55jiSbaW6F3eHnTuERcrsyIDvrk/mP6pumLel0AMYOixliYo/AaGpjD0EhHoBDF7EJiKPI2ewGZAUMeWsiOJAhPizHSNUh1A9QLHQ6BDpiMKQcKwNBCICUCuMUoDlfkfYTCdO4xBw3hJ60PNQn7i5rEjsG2kBWrSrN7llx2VSN7OpC3M+UL/6YyLjP678osRiyUZzHLXTRquP5/obd189zBwigdeVjgvBS5akFCRogV0zrzmK9YSZCnxgQwSCeC4NHAYAQKbx2bZtZtsuov+xnC9Ubbrd0fhz5Xx/D8+uj7fz9fP+p3lbZS/BsDb9BCKSO0PJ6xkLkLofNWaIYCN+HChifNlzRXk6DEHJhQcdCg==",
+                "lcpi": "/assets/ofimatica-small-lcpi.webp",
+                "original": "/assets/ofimatica.webp"
             },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
             "malla": {
                 "modulo1": {
-                    "nombre": "Ofimatica",
+                    "nombre": "Sistemas Operativos",
                     "temario": [
-                        "Sistemas Operativos",
-                        "Microsoft Word",
-                        "Microsoft Excel I",
-                        "Microsoft Excel II",
-                        "Microsoft Power Point",
-                        "Integración Office"
+                        "Introducción a los sistemas operativos",
+                        "Tipos de sistemas operativos",
+                        "Instalación y configuración de sistemas operativos",
+                        "Administración de usuarios y permisos",
+                        "Gestión de archivos y carpetas",
+                        "Optimización del sistema operativo",
+                        "Seguridad y mantenimiento del sistema"
+                    ]
+                },
+                "modulo2": {
+                    "nombre": "Microsoft Word",
+                    "temario": [
+                        "Introducción a Microsoft Word",
+                        "Formato de texto y párrafos",
+                        "Tablas y gráficos en Word",
+                        "Herramientas de revisión y corrección",
+                        "Estilos y formatos avanzados",
+                        "Plantillas y automatización en Word",
+                        "Integración de contenido multimedia"
+                    ]
+                },
+                "modulo3": {
+                    "nombre": "Microsoft Excel I",
+                    "temario": [
+                        "Introducción a Microsoft Excel",
+                        "Formato de celdas y hojas de cálculo",
+                        "Funciones básicas en Excel",
+                        "Creación y manejo de gráficos",
+                        "Fórmulas y referencias",
+                        "Análisis de datos con tablas dinámicas",
+                        "Automatización de tareas en Excel"
+                    ]
+                },
+                "modulo4": {
+                    "nombre": "Microsoft Excel II",
+                    "temario": [
+                        "Funciones avanzadas en Excel",
+                        "Manejo de bases de datos en Excel",
+                        "Análisis y visualización de datos",
+                        "Integración de Excel con otras herramientas",
+                        "Macros y programación en VBA",
+                        "Seguridad y protección de datos en Excel",
+                        "Optimización de procesos con Excel"
+                    ]
+                },
+                "modulo5": {
+                    "nombre": "Microsoft Power Point",
+                    "temario": [
+                        "Introducción a Microsoft PowerPoint",
+                        "Creación y edición de diapositivas",
+                        "Diseño de presentaciones efectivas",
+                        "Animaciones y transiciones en PowerPoint",
+                        "Incorporación de multimedia en presentaciones",
+                        "Colaboración y trabajo en equipo",
+                        "Exportación y entrega de presentaciones"
+                    ]
+                },
+                "modulo6": {
+                    "nombre": "Integración Office",
+                    "temario": [
+                        "Microsoft Visio: Creación de diagramas y flujos de trabajo",
+                        "Microsoft Publisher: Diseño y maquetación de publicaciones",
+                        "Integración de Office 365 con otras plataformas",
+                        "Automatización de tareas entre aplicaciones de Office",
+                        "Optimización de flujos de trabajo en Office",
+                        "Colaboración y compartición de documentos",
+                        "Seguridad y gestión de permisos en Office"
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 5,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 5,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -834,8 +854,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 5,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 5,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -852,74 +872,34 @@
             "texto": "Aprenderás las habilidades necesarias para construir y configurar computadoras personalizadas, convirtiéndote en un experto en hardware informático y satisfaciendo las necesidades específicas de los usuarios.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/necesito-arreglar-joven-usando-destornillador-mirar-dentro-computadora-cpu-rota-antes-repararla-tienda_662251-115.jpg?t=st=1711037336~exp=1711040936~hmac=ee203c6ac73c652ad962df2791291da13bfab19b39b72bfee1738aff1ff3d637&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRjoBAABXRUJQVlA4TC0BAAAvCcABAH/CJpJkVZ8ZMvKv5mv4MWYMxzYYR5Lc5ORdCOSfCnHAk6fnnCTGAQAYyTafvZq+LRrobM5/jN932iE4bvIHyrnzZIAV0AyI5yP3TsUdgU7tt5FxRMNz0XA152DmjQF2TYxjmopN5IHE0xHryKgRBKalDEq+tH7f0MJRlsAx2rQiGBI8TsB9tALs2ZZRlMK+8yHn54LFRASZfhGkSPQytX85sItsQ33C9S0NHveEl7V8GG7sZMWz2olSyq1KViK4kf0t8Eu91FClxAaxNTbKNM8M5TGsP/SOqxYcBgBApvHZtm1m2y6i/3E9P0fj4eRtmEcAfFwgBBY2t9O9Ouy3TL2zlJDtHJWz9anIr1e05s6kl9z0OBH8Bn6elMsFhXn/b5oVcfRB5y0JAA==",
-                "lcpi" : "/assets/ensamblaje-pcs-small-lcpi.webp",
-                "original" : "/assets/ensamblaje-pcs.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRjoBAABXRUJQVlA4TC0BAAAvCcABAH/CJpJkVZ8ZMvKv5mv4MWYMxzYYR5Lc5ORdCOSfCnHAk6fnnCTGAQAYyTafvZq+LRrobM5/jN932iE4bvIHyrnzZIAV0AyI5yP3TsUdgU7tt5FxRMNz0XA152DmjQF2TYxjmopN5IHE0xHryKgRBKalDEq+tH7f0MJRlsAx2rQiGBI8TsB9tALs2ZZRlMK+8yHn54LFRASZfhGkSPQytX85sItsQ33C9S0NHveEl7V8GG7sZMWz2olSyq1KViK4kf0t8Eu91FClxAaxNTbKNM8M5TGsP/SOqxYcBgBApvHZtm1m2y6i/3E9P0fj4eRtmEcAfFwgBBY2t9O9Ouy3TL2zlJDtHJWz9anIr1e05s6kl9z0OBH8Bn6elMsFhXn/b5oVcfRB5y0JAA==",
+                "lcpi": "/assets/ensamblaje-pcs-small-lcpi.webp",
+                "original": "/assets/ensamblaje-pcs.webp"
             },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
             "malla": {
                 "modulo1": {
-                    "nombre": "Ofimatica",
+                    "nombre": "Ensamblaje de PCs",
                     "temario": [
-                        "Microsoft Windows",
-                        "Microsoft Word",
-                        "Microsoft Power Point",
-                        "Microsoft Excel"
-                    ]
-                },
-                "modulo2": {
-                    "nombre": "INTRODUCCION AL SISTEMA FINANCIERO",
-                    "temario": [
-                        "Productos y servicios en la gestión bancaria",
-                        "Matemática para la gestión",
-                        "Análisis y Operación y transacciones bancarias y financieras",
-                        "Calidad de servicios y atención al cliente"
-                    ]
-                },
-                "modulo3": {
-                    "nombre": "CONTABILIDAD Y GESTION BANCARIA",
-                    "temario": [
-                        "Operaciones y transacciones en la atención de ventanilla",
-                        "Bases legales para la gestión bancaria y financiera",
-                        "Contabilidad Empresarial",
-                        "Matemática Financiera para la gestión empresarial"
-                    ]
-                },
-                "modulo4": {
-                    "nombre": "ANALISIS Y COSTOS FINANCIEROS",
-                    "temario": [
-                        "Costos y Presupuestos para la gestión empresarial",
-                        "Análisis de estados financieros empresariales",
-                        "Estrategias de administración financiera",
-                        "Estrategias de cobranza y recuperación"
-                    ]
-                },
-                "modulo5": {
-                    "nombre": " MARKETING BANCARIO Y FINANCIERO",
-                    "temario": [
-                        "Marketing Bancario y Financiero",
-                        "Control interno y auditoria bancaria y financiera",
-                        "Desarrollo de Productos y servicios bancarios y financieros"
+                        "Ensamblaje de Pcs",
+                        "Instalación de Software",
+                        "Redes y Conectividad",
+                        "Cableado Estructurado",
+                        "Redes Wifi",
+                        "Diagnostico y Configuracion de Pcs"
                     ]
                 }
+                
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 5,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 5,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -932,8 +912,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 5,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 5,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -950,10 +930,10 @@
             "texto": "Aprenderás las técnicas artesanales para crear delicias dulces, perfeccionando tus habilidades en decoración y presentación de postres que deleitarán a tus clientes.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/cerrar-cocinero-preparando-postre_23-2148972039.jpg?t=st=1711037530~exp=1711041130~hmac=0286fdc2ac49b73d063130b201562be8fcebaf991e6fba442dbefab75c771acc&w=826",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRgQBAABXRUJQVlA4TPcAAAAvCUABANfBNpIkNfskZpapoJS/y8ychutItpXo3ou7uxMAnxTxEwQBkIE7u4wiSVI0tHvMv/NyEs6/BWbm+Q8AhA+cBNAxlRg3q41Q9lJZJWHv0j4TrhGt2bUUy4oEw89JQsgHCRwQECOD/hIFwHcbvkP7L23/JivdnNrgguW9NVwfThtheMCbbp4xjhBkH4fciTFEBGz0h+gjrndl6QnKIdDv//9++L3cTSWb4G4/eiQUlT0arlYxFPIuRxkABgEAlo1Ot23bZkT/g5UjpxmSY/8YSorN0KrTHwO3P7dlnS4CON64u3FuaaRo+hOong3FNy+rrPAFAA==",
-                "lcpi" : "/assets/pasteleria-reposteria-small-lcpi.webp",
-                "original" : "/assets/pasteleria-reposteria.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRgQBAABXRUJQVlA4TPcAAAAvCUABANfBNpIkNfskZpapoJS/y8ychutItpXo3ou7uxMAnxTxEwQBkIE7u4wiSVI0tHvMv/NyEs6/BWbm+Q8AhA+cBNAxlRg3q41Q9lJZJWHv0j4TrhGt2bUUy4oEw89JQsgHCRwQECOD/hIFwHcbvkP7L23/JivdnNrgguW9NVwfThtheMCbbp4xjhBkH4fciTFEBGz0h+gjrndl6QnKIdDv//9++L3cTSWb4G4/eiQUlT0arlYxFPIuRxkABgEAlo1Ot23bZkT/g5UjpxmSY/8YSorN0KrTHwO3P7dlnS4CON64u3FuaaRo+hOong3FNy+rrPAFAA==",
+                "lcpi": "/assets/pasteleria-reposteria-small-lcpi.webp",
+                "original": "/assets/pasteleria-reposteria.webp"
             },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
@@ -967,21 +947,13 @@
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 2,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 2,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 130,
                         "AcreditacionCosto": 100
                     },
@@ -994,8 +966,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 2,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 2,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 130,
                         "AcreditacionCosto": 100
                     },
@@ -1012,10 +984,10 @@
             "texto": "Aprenderás las habilidades de preparación de cócteles y servicio de bebidas, convirtiéndote en un profesional versátil capaz de crear experiencias memorables en el mundo de la hospitalidad.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/barman-brutal-elegante-camisa-delantal-hace-coctel-fondo-mostrador-bar_613910-20097.jpg?t=st=1711037568~exp=1711041168~hmac=6b058dc25b63cc285fb050fbb8c92789c55b10911a1766b0bfd32bc38ba0dabc&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRk4BAABXRUJQVlA4TEIBAAAvCcABAH/CKAAAM+fZyLAK6v93gD1tqwbjSLKV1MPdJQCunEiMREnE3eWt28i21eb/B2IugKEQZapfkSH0OBYzzH94eRqxhNMHkAUIcgPx+LrCgyXUyLSRZJ1kubCywioTvgdVL5vyoLIGCR50Ayxc/gtAn8ns+Ez0ACgioaKEP3R/gOPVrRw+dyUIBgCdTYdTdGkm2DggSjYkSkgVCAF8Ppiiew3C2S9CFYrvv+ca0RVt3Jl/zb/v6AHOsFfet+lZ/MtIROkdBAbikk05W3ITKDrbtP1AaTd+mqh08UUD3YueF6ve+bYTwKGqe/dOfGOmZBU4DACATOOzbdvMtl1E/4PUVUYy8qJK6sZhbTNr05839GU+Lt3d4P7nhPnsejouun4/mp636w06Pkys5/JC4IgS3h6itqJhKArer88Xo0AA",
-                "lcpi" : "/assets/bartender-small-lcpi.webp",
-                "original" : "/assets/bartender.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRk4BAABXRUJQVlA4TEIBAAAvCcABAH/CKAAAM+fZyLAK6v93gD1tqwbjSLKV1MPdJQCunEiMREnE3eWt28i21eb/B2IugKEQZapfkSH0OBYzzH94eRqxhNMHkAUIcgPx+LrCgyXUyLSRZJ1kubCywioTvgdVL5vyoLIGCR50Ayxc/gtAn8ns+Ez0ACgioaKEP3R/gOPVrRw+dyUIBgCdTYdTdGkm2DggSjYkSkgVCAF8Ppiiew3C2S9CFYrvv+ca0RVt3Jl/zb/v6AHOsFfet+lZ/MtIROkdBAbikk05W3ITKDrbtP1AaTd+mqh08UUD3YueF6ve+bYTwKGqe/dOfGOmZBU4DACATOOzbdvMtl1E/4PUVUYy8qJK6sZhbTNr05839GU+Lt3d4P7nhPnsejouun4/mp636w06Pkys5/JC4IgS3h6itqJhKArer88Xo0AA",
+                "lcpi": "/assets/bartender-small-lcpi.webp",
+                "original": "/assets/bartender.webp"
             },
             "categoria": "Curso",
             "colorCategoria": "#ff450c",
@@ -1029,21 +1001,13 @@
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 2,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 2,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 130,
                         "AcreditacionCosto": 100
                     },
@@ -1055,8 +1019,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 2,
-                        "Acreditacion" : "Certificado del MINEDU",
+                        "Duracion": 2,
+                        "Acreditacion": "Certificado del MINEDU",
                         "Mensualidad": 130,
                         "AcreditacionCosto": 100
                     },
@@ -1072,10 +1036,10 @@
             "texto": "Aprenderás a diagnosticar y solucionar problemas comunes en dispositivos móviles, convirtiéndote en un técnico experto en la era digital.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/master-utiliza-herramientas-especiales-desmontar-dispositivos-electronicos-cuidado-pinzas-destornillador_346278-1780.jpg?t=st=1711037642~exp=1711041242~hmac=6f56a3a4da21f56871cde99e8866586f64a48ee98052853efb85dfc8e24c6110&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRjwBAABXRUJQVlA4TC8BAAAvCcABAH/CKJIkRT2zzL9Tcf6F8Otc7DHZYBBJkpPL5KgCHcjEGjo+/4Pb2raV6L3/BIfMHZqg/xhCqmDcfeY/ABBc0o2195txA7cSiT/mDNmfuZloigCIVkJA2NBZSToRlSeRXz46k9w4N3G0Dz85GmNmMJgsHAh9qApxrAyy39AjhikHio1vfiopR50DRdnBAQYs4P8vrCoGF5Dc8EMz8g0IRgDfm8FfHU/9uOqLnTaO/yDIB2jH2+gjg8Gm5IXoD/jDiPARQkQohALJ7P/F6lZv+zhcbH5nyzDpnqv1WsBhAABkGp9t22a27SL6H6/nftN+ysn03Zxu98euK+YzcnE8X+Ovno8R9nBxuL+QVTC4WgNSCvl9tJQT0xrwzPanUKLhhp49xAgaxVUtGNUA",
-                "lcpi" : "/assets/reparacion-celulares-small-lcpi.webp",
-                "original" : "/assets/reparacion-celulares.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRjwBAABXRUJQVlA4TC8BAAAvCcABAH/CKJIkRT2zzL9Tcf6F8Otc7DHZYBBJkpPL5KgCHcjEGjo+/4Pb2raV6L3/BIfMHZqg/xhCqmDcfeY/ABBc0o2195txA7cSiT/mDNmfuZloigCIVkJA2NBZSToRlSeRXz46k9w4N3G0Dz85GmNmMJgsHAh9qApxrAyy39AjhikHio1vfiopR50DRdnBAQYs4P8vrCoGF5Dc8EMz8g0IRgDfm8FfHU/9uOqLnTaO/yDIB2jH2+gjg8Gm5IXoD/jDiPARQkQohALJ7P/F6lZv+zhcbH5nyzDpnqv1WsBhAABkGp9t22a27SL6H6/nftN+ysn03Zxu98euK+YzcnE8X+Ovno8R9nBxuL+QVTC4WgNSCvl9tJQT0xrwzPanUKLhhp49xAgaxVUtGNUA",
+                "lcpi": "/assets/reparacion-celulares-small-lcpi.webp",
+                "original": "/assets/reparacion-celulares.webp"
             },
             "categoria": "Taller",
             "colorCategoria": "#e057ff",
@@ -1123,21 +1087,13 @@
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 3,
-                        "Acreditacion" : "Certificado de IISEP",
+                        "Duracion": 3,
+                        "Acreditacion": "Certificado de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -1149,8 +1105,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 3,
-                        "Acreditacion" : "Certificado de IISEP",
+                        "Duracion": 3,
+                        "Acreditacion": "Certificado de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -1166,48 +1122,46 @@
             "texto": "Aprenderás a dominar las funciones y herramientas avanzadas de esta poderosa aplicación de hojas de cálculo, mejorando tu eficiencia en análisis de datos y toma de decisiones en entornos profesionales.",
             "precio": "120",
             "imagen": "https://www.ilen.edu.pe/wp-content/uploads/2022/05/1366_2000.jpg",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRjQBAABXRUJQVlA4TCgBAAAvCcABAGfCILJtJfe9L7g76clAF3K4aw3GkeQ4Wem8h/zzIABy4c3Pg+Q2tm2lev5wJySl/4hiXCpwvt575z8A9ldizZwBhq1lREPAMJpHQfnIMgK6npPfd9pUiEKAZAgjZgIBRD8PAeP5ohgjjUG58wEvx4wiOO7w8Z/BklbyGfICgJEUJER5yceswSJW41HuEsMKEntigGjL4fzYEFCsmUb7vcT8JuKLQmIJyq+l7fuqDZKkEQuvk5ICTHOAqzEJu3z8Uy4XJmmKgtSfrXZd8TFolka+Md2+gcMAAMs2ntq2bc62EdH/kJQuTPrX6ZOt/XkZDM/Hcblq2sn7MN1vXZvyfpvbdZw5l3MkA7H+IgL0Z2OChGkeu++KhW4awKoAyFONwVFOBQ==",
-                "lcpi" : "/assets/excel-small-lcpi.webp",
-                "original" : "/assets/excel.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRjQBAABXRUJQVlA4TCgBAAAvCcABAGfCILJtJfe9L7g76clAF3K4aw3GkeQ4Wem8h/zzIABy4c3Pg+Q2tm2lev5wJySl/4hiXCpwvt575z8A9ldizZwBhq1lREPAMJpHQfnIMgK6npPfd9pUiEKAZAgjZgIBRD8PAeP5ohgjjUG58wEvx4wiOO7w8Z/BklbyGfICgJEUJER5yceswSJW41HuEsMKEntigGjL4fzYEFCsmUb7vcT8JuKLQmIJyq+l7fuqDZKkEQuvk5ICTHOAqzEJu3z8Uy4XJmmKgtSfrXZd8TFolka+Md2+gcMAAMs2ntq2bc62EdH/kJQuTPrX6ZOt/XkZDM/Hcblq2sn7MN1vXZvyfpvbdZw5l3MkA7H+IgL0Z2OChGkeu++KhW4awKoAyFONwVFOBQ==",
+                "lcpi": "/assets/excel-small-lcpi.webp",
+                "original": "/assets/excel.webp"
             },
             "categoria": "Taller",
             "colorCategoria": "#e057ff",
             "malla": {
                 "modulo1": {
-                    "nombre": "Ofimatica",
+                    "nombre": "Microsoft Excel I",
                     "temario": [
-                        "Microsoft Windows",
-                        "Microsoft Word",
-                        "Microsoft Power Point",
-                        "Microsoft Excel"
+                        "Introducción a Microsoft Excel",
+                        "Formato de celdas y hojas de cálculo",
+                        "Funciones básicas en Excel",
+                        "Creación y manejo de gráficos",
+                        "Fórmulas y referencias",
+                        "Análisis de datos con tablas dinámicas",
+                        "Automatización de tareas en Excel"
                     ]
                 },
                 "modulo2": {
-                    "nombre": "Ofimatica2",
+                    "nombre": "Microsoft Excel II",
                     "temario": [
-                        "Microsoft Windows",
-                        "Microsoft Word",
-                        "Microsoft Power Point",
-                        "Microsoft Excel"
+                      "Funciones avanzadas en Excel",
+                      "Manejo de bases de datos en Excel",
+                      "Análisis y visualización de datos",
+                      "Integración de Excel con otras herramientas",
+                      "Macros y programación en VBA",
+                      "Seguridad y protección de datos en Excel",
+                      "Optimización de procesos con Excel"
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 1,
-                        "Acreditacion" : "Certificado de IISEP",
+                        "Duracion": 1,
+                        "Acreditacion": "Certificado de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -1219,8 +1173,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 1,
-                        "Acreditacion" : "Certificado de IISEP",
+                        "Duracion": 1,
+                        "Acreditacion": "Certificado de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -1236,66 +1190,46 @@
             "texto": "Aprenderás las técnicas para diseñar e implementar sistemas de vigilancia efectivos, contribuyendo a la seguridad y protección de espacios comerciales y residenciales.",
             "precio": "120",
             "imagen": "https://img.freepik.com/foto-gratis/tecnologia-seguridad-cctv-icono-candado-remezcla-digital_53876-104935.jpg?t=st=1711037749~exp=1711041349~hmac=a5f9d5412f9062631a86b42a3db809f14db0a82c74cb5df57186c85cd9ff5562&w=740",
-            "imagenes" : {
-                "base64" : "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
-                "lcpi" : "/assets/administracion-small-lcpi.webp",
-                "original" : "/assets/administracion.webp"
+            "imagenes": {
+                "base64": "data:image/webp;base64,UklGRj4BAABXRUJQVlA4TDEBAAAvCcABAH/iOJJtpTr3nXtxXZF/EGSiOfgOvt402Ea2reS7OxH9p7RDB4ROpI/HOLatJvDJGfovwwbsw7V7ojnMf5DYXR+lzsi0Z5IScVDGiSWUvxKigAmJAiapH5UKQUFijgIJQU7cD4LPqsLD9QAruD60gPEmGC1HifJDhjm9BbyAXhL4BUL9ZfIBDRTwfqEjYhS+H4D/5JSKFFD+AzgREmZOGj6xNvgxAoJKi4IRtrL/tzy//JI+lYqmhZJToCcz3j4TjsPrBsM4W9dm23Zv6gmh+mFyntk1Vy/Y/fBBczKJwGEAAGQan23bZrbtIvofr9lwe9jvTpfr8z09nqPYunHzz3eQaxQCC1Ja1rqiYiQuPtjNSr6bAeg2TmEQ4cgDEptH6e7/67OxDzHtYjlZVwA=",
+                "lcpi": "/assets/administracion-small-lcpi.webp",
+                "original": "/assets/administracion.webp"
             },
             "categoria": "Taller",
             "colorCategoria": "#e057ff",
             "malla": {
                 "modulo1": {
-                    "nombre": "Ofimatica",
+                    "nombre": "Sistema de Video CCTV (Analógica)",
                     "temario": [
-                        "Microsoft Windows",
-                        "Microsoft Word",
-                        "Microsoft Power Point",
-                        "Microsoft Excel"
+                        "DVR (Servidor de video)",
+                        "Cam Internas / Externas",
+                        "Cam Moviles / Fijas",
+                        "Conexion remota"
                     ]
                 },
                 "modulo2": {
-                    "nombre": "INTRODUCCION AL SISTEMA FINANCIERO",
+                    "nombre": "Sistema de Video IP",
                     "temario": [
-                        "Productos y servicios en la gestión bancaria",
-                        "Matemática para la gestión",
-                        "Análisis y Operación y transacciones bancarias y financieras",
-                        "Calidad de servicios y atención al cliente"
+                        "NVR",
+                        "HVR"
                     ]
                 },
                 "modulo3": {
-                    "nombre": "CONTABILIDAD Y GESTION BANCARIA",
+                    "nombre": "Seguridad Electrónica",
                     "temario": [
-                        "Operaciones y transacciones en la atención de ventanilla",
-                        "Bases legales para la gestión bancaria y financiera",
-                        "Contabilidad Empresarial",
-                        "Matemática Financiera para la gestión empresarial"
-                    ]
-                },
-                "modulo4": {
-                    "nombre": "ANALISIS Y COSTOS FINANCIEROS",
-                    "temario": [
-                        "Costos y Presupuestos para la gestión empresarial",
-                        "Análisis de estados financieros empresariales",
-                        "Estrategias de administración financiera",
-                        "Estrategias de cobranza y recuperación"
+                        "Sistema de Alarmas",
+                        "Inteligencia Artificial",
+                        "Sensores de Movimiento / Apertura"
                     ]
                 }
             },
-            "galeria": [
-                "",
-                "",
-                "",
-                "",
-                "",
-                ""
-            ],
             "costos": [
                 {
                     "inversion": {
                         "Promo": "Individual",
                         "PriCuota": "25% Adicional",
-                        "Duracion" : 3,
-                        "Acreditacion" : "Certificado de IISEP",
+                        "Duracion": 3,
+                        "Acreditacion": "Certificado de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },
@@ -1307,8 +1241,8 @@
                     "inversion": {
                         "Promo": "Grupal",
                         "PriCuota": "40% Adicional",
-                        "Duracion" : 3,
-                        "Acreditacion" : "Certificado de IISEP",
+                        "Duracion": 3,
+                        "Acreditacion": "Certificado de IISEP",
                         "Mensualidad": 120,
                         "AcreditacionCosto": 100
                     },

@@ -2,68 +2,14 @@
 interface Props {
     itemsProgramas: string[];
 }
-
+import Form from "./Form.jsx";
+import { Icon } from "astro-icon/components";
 const {itemsProgramas} = Astro.props;
 ---
 
 
-<form action="">
-    <label for="nombre">Nombre</label>
-    <input name="nombre" id="nombre" required />
-    <label for="apellido">Apellido</label>
-    <input name="apellido" id="apellido" required />
-    <label for="email">Correo</label>
-    <input name="email" type="email" id="email" required />
-    <label for="programasLabel">Seleccione el programa de estudio</label>
-    <select name="" id="programas">
-        {
-            itemsProgramas.map( ( programa  ) => {
-                return <option value={programa}>{programa}</option>
-            })
-        }
-    </select>
-    <label for="observacion">Alguna observacion</label>
-    <textarea name="observacion" id="observacion"></textarea>
-    <button>Solicitar Informacion</button>
-</form>
+<Form client:load itemsProgramas={itemsProgramas}>
+    <Icon name="CheckIcon" size={50} color="#12CB54" slot="iconCheck">
+</Form>
 
-<style>
-    form {
-        width: min(100%, 700px);
-        display: flex;
-        flex-direction: column;
-        gap: 0.7rem;
-        /* background-color: aliceblue; */
-    }
-    label{
-        width: fit-content;
-    }
-    input,
-    textarea,
-    select {
-        padding: 0.5rem;
-        outline: none;
-        border-radius: 0.2rem;
-        border: 2px solid rgb(230, 230, 230);
 
-        &:focus {
-            border: 2px solid rgb(108, 136, 249);
-        }
-    }
-
-    textarea {
-        resize: none;
-        height: 35vmin;
-    }
-
-    button {
-        border: none;
-        padding: 1rem 1.5rem;
-        margin-top: 0.5rem;
-        /* width: 90%; */
-        /* align-self: center; */
-        background-color: var(--color-Primary);
-        border-radius: 100vh;
-        color: white;
-    }
-</style>

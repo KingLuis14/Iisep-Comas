@@ -52,13 +52,13 @@ const {base64, lcpi , original} = imagenes;
             <CardUbicacion />
         </div>
     </section>
-    <section>
+    <section class="sectionColor2">
         <div class="wrapper">
             <h2 class="titleSection">Costos</h2>
             <div class="CardCosto-Container">
                 {
                     costos.map( ({inversion , beneficios}) =>{
-                        return <CardCostos inversion={inversion} beneficios={beneficios} categoria={categoria}, programaEstudio={titulo}/>
+                        return <CardCostos inversion={inversion} beneficios={beneficios} categoria={categoria} programaEstudio={titulo}/>
                     })
                 }
             

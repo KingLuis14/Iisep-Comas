@@ -12,7 +12,8 @@ const { title, description, img, base64,  imgDirection = "left" } = arrayInfo;
             alt={`${title} - IISEP`} />
     </div>
     <div class="contenido">
-        <h3>{index + 1}. {title}</h3>
+        <span class="contenido__number">{index + 1}</span>
+        <h3>{title}</h3>
         <p>{description}</p>
     </div>
 </article>
@@ -30,7 +31,7 @@ const { title, description, img, base64,  imgDirection = "left" } = arrayInfo;
             "imagen";
         content-visibility: auto;
 
-        @media (width > 640px) {
+        @media (width > 768px) {
             grid-template-columns: 1fr 1fr;
             grid-template-areas: "contenido imagen";
 
@@ -46,17 +47,25 @@ const { title, description, img, base64,  imgDirection = "left" } = arrayInfo;
         align-content: center;
         text-align: left;
         gap: 1rem;
+
+        &__number{
+            background-color: var(--color-Secondary);
+            justify-self: start;
+            padding: .5rem 1rem;
+            border-radius: 50%;
+            color: white;
+            font-weight: 700;
+        }
     }
 
     .Split__Imagen {
-        content-visibility: auto;
         filter: saturate(0.8);
         transition:
             transform 0.7s,
             filter 0.7s;
         aspect-ratio: 16/9;
 
-        @media (min-width: 640px) {
+        @media (min-width: 768px) {
             aspect-ratio: 1/1;
         }
 
@@ -71,7 +80,7 @@ const { title, description, img, base64,  imgDirection = "left" } = arrayInfo;
     document.addEventListener("astro:page-load", function () {
         const images = document.querySelectorAll(".Split__Imagen");
 
-        const imgOptions = {};
+        const imgOptions = {rootMargin: `0px 0px 300px 0px`,};
         const imgObserver = new IntersectionObserver((entries, imgObserver) => {
             entries.forEach((entry) => {
                 if (!entry.isIntersecting) return;

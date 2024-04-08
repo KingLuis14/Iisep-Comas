@@ -1,16 +1,14 @@
 <div class=`Card` data-categoria="Sede Comas">
     <a href="" style="overflow: hidden; display: block;">
         <img 
-            decoding="async"
-            class="Card__imagen" 
-            src="https://larepublica.cronosmedia.glr.pe/original/2023/04/20/6441413ff34626416b327c66.jpg" 
+            class="Card__imagenUbicacion" 
+            src="/assets/sede.webp" 
             alt="iisep direccion comas"
-            fetchpriority="low" 
             />
     </a>
     <div class="Card__Contenido">
         <h3 class="Card__titulo">Ubicacion Comas</h3>
-        <p class="Card__texto">Av. Túpac Amaru 3850, Callao 15326</p>
+        <p class="Card__texto">Av. Túpac Amaru 3850, Comas Pascana <strong class="small">(Al lado de Plaza Vea)</strong></p>
         <a href="https://maps.app.goo.gl/PmnRKM6YWpfBH7mt6" rel="noreferrer" target="_blank"class="Card__Boton small">Ver Mapa</a>
     </div>
 </div>
@@ -28,13 +26,14 @@
         position: sticky;
         top: 4rem;
         
-        &__imagen {
-            aspect-ratio: 16/9;
+        &__imagenUbicacion {
+            aspect-ratio: 3/2;
+            object-position: top;
             transform: scale(1.02);
             transition: transform .7s;
 
             &:hover {
-                transform: scale(1.3);
+                transform: scale(1.15);
             }
         }
 

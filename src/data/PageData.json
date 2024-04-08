@@ -23,7 +23,7 @@
     },
     "programasEstudio": {
         "titulo": "Programas de Estudio",
-        "description": "Brindamos carreras, cursos, especialidades y talleres que brindamos a nombre del MINEDU",
+        "description": "Brindamos carreras, cursos, especialidades y talleres que brindamos \na nombre del MINEDU",
         "imagenesBanner": {
             "base64": "data:image/webp;base64,UklGRtIAAABXRUJQVlA4TMUAAAAvB0ABAH/BKJIkRb1Mrk7+mbgvM2PbUBvJVvL/xzN6oP8qKIVQMzemAQAmmTtO4v8TeIhGn/v8R+7fRfjdneBurtepn+FEYhfqZT1s8AkI4v9EwIS6edYgTLOcCHU6PiB7BewUYEAAe5Anu77yAUQuJTH8TDAcMtiRMQ19/gkY1uyy+NEzzWJ8cA0vIIZJlk8vcZnblfYGhgEAFk3ORrbtIvofebvGWEuTVds8jbZPqEt3T7oj+NnHUX0tIQSRas7nLUUx3AA=",
             "smallLcpi": "/assets/conferencia-cosmetologia-small-lcpi.webp",

@@ -22,22 +22,20 @@ interface Props {
 const { inversion, beneficios, categoria, programaEstudio } = Astro.props;
 const {Acreditacion , Duracion, Mensualidad, PriCuota, Promo, AcreditacionCosto} = inversion;
 
-const colorIcono = "white";
+const colorIcono = "#12CB54";
 
 const textCategoria = categoria.includes("Carrera") || categoria.includes("Especialidad") ? "la " + categoria : "el " + categoria;
 
 ---
 
-<article class:list={['Card-Costo',{Modoblue: Promo === "Individual" ? true : false}, {Mododark: Promo === "Grupal" ? true : false}]}>
-    <header class="Card-Costo__Titulo">
-        <h2>{Promo}</h2>
-    </header>
+
+<article class:list={['Card-Costo']} data-promo=`${Promo}`>
     <div class="Card-Costo__Inversion">
         <h3 class="Card-Costo__SubTitulo">Inversión</h3>
         <ul class="Card__lista">
             <ItemInversion propiedad="Matricula :" valor={"Gratis"} colorValor="#e61c4b"  colorIcono={colorIcono}/>
             <ItemInversion propiedad="Inscripción :" valor={"Gratis"} colorValor="#e61c4b" colorIcono={colorIcono}/>
-            <ItemInversion propiedad="1° Cuota :" valor={PriCuota} colorValor="rgb(16, 180, 1)" colorIcono={colorIcono}/>
+            <ItemInversion propiedad="1° Cuota :" valor={PriCuota} colorValor="#12CB54" colorIcono={colorIcono}/>
             <ItemAcordeon tema={`Mensualidades (${Duracion}) : S/${Mensualidad}`} colorIcono={colorIcono} />
             <ItemAcordeon tema={`${Acreditacion} : S/${AcreditacionCosto}`} colorIcono={colorIcono}/>
         </ul>
@@ -68,9 +66,15 @@ const textCategoria = categoria.includes("Carrera") || categoria.includes("Espec
         flex-basis: calc((100% - (var(--filas) - 1) * 2rem) / var(--filas));
         display: grid;
         gap: 1.7rem;
-        padding: 1rem;
-        box-shadow: 0 0 7px 4px rgba(0, 0, 0, 0.333);
+        padding: 2.7rem 1rem 1rem 1rem;
+        box-shadow: 0 2px 15px #00000026;
         border-radius: 1rem;
+        background-color: #fff;
+        transition: transform .7s;
+        position: relative;
+        margin-top: 1rem;
+        
+
 
         &.Modoblue{
             background-color:#25239a;
@@ -98,16 +102,42 @@ const textCategoria = categoria.includes("Carrera") || categoria.includes("Espec
         > a {
             justify-self: center;
             width: 90%;
-            background-color: #e61c4b;
+            background-color: var(--color-Secondary);
             text-align: center;
+            font-weight: 700;
+            border-radius: .35rem;
         }
 
         @media (width > 768px) {
+            margin-top: 0;
+
             --filas: 2;
         }
         @media (width > 1024px) {
             --filas: 3;
+            &:hover{
+            transform: scale(1.03);     
         }
+        }
+
+        &::after{
+            content: attr(data-promo);
+            font-size: var(--step-1);
+            text-align: center;
+            width: 60%;
+            font-weight: 800;
+            position: absolute;
+            background-color: orange;
+            padding: .5rem 1rem;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 100vh;
+            color: #fff;
+
+        }
+
+        
     }
 
     .Card__lista {
@@ -116,7 +146,7 @@ const textCategoria = categoria.includes("Carrera") || categoria.includes("Espec
         gap: 0.5rem;
 
         > li {
-            color: rgb(224, 224, 224);
+            // color: rgb(224, 224, 224);
         }
     }
 

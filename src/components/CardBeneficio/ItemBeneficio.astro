@@ -5,11 +5,11 @@ import { Icon } from "astro-icon/components";
 
 <div class="container">
     {
-        array.map(({ icono, texto }) => {
+        array.map(({ icono, texto, bg, color }) => {
             return (
                 <article class="contenido">
-                    <span class="Icon">
-                        <Icon name={icono} size={35} />
+                    <span class="Icon" style={`--bgIcon: ${bg}`}>
+                        <Icon name={icono} size={35} color={color}/>
                     </span>
                     <p class="parrafo"> {texto}</p>
                 </article>
@@ -26,6 +26,7 @@ import { Icon } from "astro-icon/components";
         justify-content: center;
         width: min(90%, 700px);
         margin-inline: auto;
+
     }
 
     .contenido {
@@ -44,16 +45,20 @@ import { Icon } from "astro-icon/components";
     }
 
     .Icon {
-        background-color: rgb(255, 255, 255);
+        background-color: var(--bgIcon);
+        // background-color: rgb(255, 172, 18);
         color: black;
         padding: 0.7rem;
         border-radius: 50%;
         display: grid;
+
+        
     }
 
     .parrafo {
         text-align: center;
         white-space: pre-line;
-        color: #dadada;
+        color: #232323;
+        font-weight: 600;
     }
 </style>
